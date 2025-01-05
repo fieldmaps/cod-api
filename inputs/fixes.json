@@ -1,0 +1,278 @@
+{
+  "ABW": {
+    "date": "1986-01-01",
+    "update": "2020-04-14"
+  },
+  "AFG": {
+    "rename": {
+      "ADM0_DA": "ADM0_FA",
+      "ADM1_DA": "ADM1_FA",
+      "ADM2_DA": "ADM2_FA"
+    }
+  },
+  "AGO": {
+    "rename": {
+      "ADM0_EN": "ADM0_PT",
+      "ADM1_EN": "ADM1_PT",
+      "ADM2_EN": "ADM2_PT",
+      "ADM3_EN": "ADM3_PT"
+    }
+  },
+  "AZE": {
+    "date": "2020-11-24",
+    "update": "2023-10-17"
+  },
+  "BDI": {
+    "date": "2015-09-13"
+  },
+  "BES": {
+    "drop": ["ADM1_PCODE"],
+    "rename": {
+      "ADM1_NL": "ADM1_EN"
+    }
+  },
+  "BHR": {
+    "date": "2008-12-31",
+    "update": "2017-03-29"
+  },
+  "CAF": {
+    "level": 3
+  },
+  "CHN": {
+    "replace": {
+      "ADM2_EN": {
+        "Tarbaĝatay Prefecture": "Tarbagatay Prefecture"
+      }
+    }
+  },
+  "CMR": {
+    "drop": ["ADM2_EN", "ADM3_EN"]
+  },
+  "COM": {
+    "rename": {
+      "ADM0_EN": "ADM0_FR",
+      "ADM1_EN": "ADM1_FR",
+      "ADM2_EN": "ADM2_FR",
+      "ADM3_EN": "ADM3_FR"
+    }
+  },
+  "DJI": {
+    "rename": {
+      "ADM0_EN": "ADM0_FR",
+      "ADM1_EN": "ADM1_FR",
+      "ADM2_EN": "ADM2_FR"
+    }
+  },
+  "DMA": {
+    "rename": {
+      "NAME": "ADM1_EN",
+      "PCode": "ADM1_PCODE"
+    }
+  },
+  "DZA": {
+    "replace": {
+      "ADM2_EN": {
+        "Ait R_Zine": "Ait R'Zine"
+      }
+    }
+  },
+  "ECU": {
+    "date": "2017-05-30",
+    "update": "2024-12-18"
+  },
+  "EGY": {
+    "level": 2,
+    "replace": {
+      "ADM2_EN": {
+        "Shubra Khît": "Shubra Khit"
+      }
+    }
+  },
+  "FJI": {
+    "rename": {
+      "ADM0_NAME": "ADM0_EN",
+      "ADM1_NAME": "ADM1_EN",
+      "ADM2_NAME": "ADM2_EN"
+    },
+    "replace": {
+      "ADM2_EN": {
+        "Nadroga_Navosa": "Nadroga-Navosa"
+      }
+    }
+  },
+  "FSM": {
+    "date": "2019-06-17",
+    "update": "2023-10-03",
+    "rename": {
+      "ADM1NAME": "ADM1_EN",
+      "ADM2_NAME": "ADM2_EN"
+    }
+  },
+  "GAB": {
+    "drop": ["ADM2_EN"],
+    "rename": {
+      "ADM1_NAME": "ADM1_FR",
+      "ADM1_CODE": "ADM1_PCODE"
+    }
+  },
+  "GNQ": {
+    "rename": {
+      "ADM0_EN": "ADM0_ES",
+      "ADM1_EN": "ADM1_ES",
+      "ADM2_EN": "ADM2_ES"
+    }
+  },
+  "GTM": {
+    "date": "2018-09-25",
+    "update": "2019-02-07"
+  },
+  "IDN": {
+    "replace": {
+      "ADM4_EN": {
+        "Titirií Popolion": "Titiri'i Popolion"
+      }
+    }
+  },
+  "KHM": {
+    "replace": {
+      "ADM3_EN": {
+        "Chamb├ók": "Chambok",
+        "PreaΓÇïek Chrey": "Preaek Chrey"
+      }
+    }
+  },
+  "MMR": {
+    "level": 3
+  },
+  "MNG": {
+    "title": ["ADM0_MN"]
+  },
+  "MRT": {
+    "rename": {
+      "ADM0_EN": "ADM0_FR",
+      "ADM1_EN": "ADM1_FR",
+      "ADM2_EN": "ADM2_FR",
+      "ADM3_EN": "ADM3_FR"
+    }
+  },
+  "MUS": {
+    "replace": {
+      "ADM1_FR": {
+        "Agalйga Islands": "Agaléga Islands",
+        "Riviиre du Rempart": "Rivière du Rempart",
+        "Riviиre Noire": "Rivière Noire",
+        "Оle Rodrigues": "Ole Rodrigues"
+      }
+    }
+  },
+  "MWI": {
+    "date": "2023-03-29",
+    "update": "2023-04-05"
+  },
+  "MYS": {
+    "date": "2020-12-02",
+    "update": "2021-02-11"
+  },
+  "NGA": {
+    "date": "2017-03-31"
+  },
+  "NIC": {
+    "date": "2020-01-01",
+    "update": "2023-11-27"
+  },
+  "PRY": {
+    "replace": {
+      "ADM2_ES": {
+        "TTE. 1° MANUEL IRALA FERNÁNDEZ": "TTE. 1RO. MANUEL IRALA FERNÁNDEZ",
+        "ZANJA PYTÃ": "ZANJA PYTÁ"
+      }
+    },
+    "title": ["ADM1_ES", "ADM2_ES"]
+  },
+  "RWA": {
+    "level": 3
+  },
+  "SLE": {
+    "date": "2021-07-01",
+    "update": "2023-12-15"
+  },
+  "TCD": {
+    "update": "2017-06-15",
+    "replace": {
+      "ADM2_FR": {
+        "Bahr-Köh": "Bahr-Kôh"
+      }
+    }
+  },
+  "TLS": {
+    "rename": {
+      "ADM0_EN": "ADM0_PT",
+      "ADM1_EN": "ADM1_PT",
+      "ADM2_EN": "ADM2_PT",
+      "ADM3_EN": "ADM3_PT"
+    }
+  },
+  "TTO": {
+    "date": "2017-09-08",
+    "update": "2019-05-29"
+  },
+  "TUN": {
+    "rename": {
+      "ADM0_EN": "ADM0_FR",
+      "ADM1_EN": "ADM1_FR",
+      "ADM2_EN": "ADM2_FR",
+      "ADM3_EN": "ADM3_FR",
+      "ADM4_EN": "ADM4_FR"
+    }
+  },
+  "UKR": {
+    "rename": {
+      "ADM0_UA": "ADM0_UK",
+      "ADM1_UA": "ADM1_UK",
+      "ADM2_UA": "ADM2_UK",
+      "ADM3_UA": "ADM3_UK",
+      "ADM4_UA": "ADM4_UK"
+    },
+    "replace": {
+      "ADM3_RU": {
+        "Карповcкая": "Карповская",
+        "Лосиновcкая": "Лосиновская",
+        "Печиніжинская": "Печинежинская"
+      }
+    }
+  },
+  "TUR": {
+    "title": ["ADM0_EN", "ADM0_TR", "ADM1_EN", "ADM1_TR", "ADM2_EN", "ADM2_TR"]
+  },
+  "URY": {
+    "title": ["ADM2_ES"]
+  },
+  "UZB": {
+    "replace": {
+      "ADM1_UZ": {
+        "Toshkent ш.": "Toshkent sh."
+      },
+      "ADM2_EN": {
+        "Rаmitan": "Ramitan",
+        "Zaаmin": "Zaamin"
+      },
+      "ADM2_RU": {
+        "Улугноpский": "Улугнорский",
+        "Жондоpский": "Жондорский",
+        "г.Заpафшан": "г.Зарафшан",
+        "г.Шиpин": "г.Ширин",
+        "г.Янгиеp": "г.Янгиер",
+        "г.Чиpчик": "г.Чирчик",
+        "г.Маpгилан": "г.Маргилан"
+      }
+    }
+  },
+  "VNM": {
+    "replace": {
+      "ADM2_EN": {
+        "Ninh Bình": "Ninh Binh",
+        "Nam Định": "Nam Dinh"
+      }
+    }
+  }
+}
