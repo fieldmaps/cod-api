@@ -122,14 +122,46 @@
       "ADM2_EN": "ADM2_ES"
     }
   },
+  "GRC": {
+    "rename": {
+      "NAMA0": "ADM0_EN",
+      "NAMA1": "ADM1_EN",
+      "NAMA2": "ADM2_EN",
+      "SHN0": "ADM0_PCODE",
+      "SHN1": "ADM1_PCODE",
+      "SHN2": "ADM2_PCODE"
+    }
+  },
   "GTM": {
     "date": "2018-09-25",
     "update": "2019-02-07"
+  },
+  "HTI": {
+    "drop": ["ADM2_EN", "ADM2_HT", "ADM3_EN", "ADM3_HT"],
+    "replace": {
+      "ADM3_FR": {
+        "1re Section Beaumont1re  Section Beaumont": "1re Section Beaumont",
+        "1re Section Plaine Céleste1re  Section Plaine C": "1re Section Plaine Céleste"
+      }
+    }
   },
   "IDN": {
     "replace": {
       "ADM4_EN": {
         "Titirií Popolion": "Titiri'i Popolion"
+      }
+    }
+  },
+  "KAZ": {
+    "rename": {
+      "ADM0_EN": "ADM0_PCODE"
+    },
+    "replace": {
+      "ADM1_EN": {
+        " Region": ""
+      },
+      "ADM2_EN": {
+        " District": ""
       }
     }
   },
@@ -141,8 +173,31 @@
       }
     }
   },
+  "LKA": {
+    "drop": ["ADM4_TA"]
+  },
+  "MKD": {
+    "rename": {
+      "Name012_E": "ADM0_EN",
+      "Name012_L": "ADM0_MK",
+      "Name3_E": "ADM3_EN",
+      "Name3_L": "ADM3_MK",
+      "Name4_E": "ADM4_EN",
+      "Name4_L": "ADM4_MK",
+      "SHN0": "ADM0_PCODE",
+      "SHN1": "ADM1_PCODE",
+      "SHN2": "ADM2_PCODE",
+      "SHN3": "ADM3_PCODE",
+      "SHN4": "ADM4_PCODE"
+    }
+  },
   "MMR": {
-    "level": 3
+    "level": 3,
+    "replace": {
+      "ADM0_MY": {
+        "": "မြန်မာနိုင်ငံ"
+      }
+    }
   },
   "MNG": {
     "title": ["ADM0_MN"]
@@ -180,6 +235,13 @@
     "date": "2020-01-01",
     "update": "2023-11-27"
   },
+  "PHL": {
+    "replace": {
+      "ADM4_EN": {
+        "*": ""
+      }
+    }
+  },
   "PRY": {
     "replace": {
       "ADM2_ES": {
@@ -190,7 +252,15 @@
     "title": ["ADM1_ES", "ADM2_ES"]
   },
   "RWA": {
-    "level": 3
+    "level": 3,
+    "drop": ["ADM0_SW"]
+  },
+  "SLB": {
+    "rename": {
+      "ADM1_NAME": "ADM1_EN",
+      "ADM2_NAME": "ADM2_EN",
+      "COUNTRY": "ADM0_EN"
+    }
   },
   "SLE": {
     "date": "2021-07-01",
