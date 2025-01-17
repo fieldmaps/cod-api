@@ -4,18 +4,18 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-    gdal-bin python3-poetry \
+    gdal-bin python3-pip \
     && rm -rf /var/lib/apt/lists/*
+
+RUN python3 -m venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
 
 WORKDIR /usr/src/app
 
-COPY poetry.lock ./
-COPY poetry.toml ./
-COPY pyproject.toml ./
-RUN poetry install --no-root --no-dev --no-cache
-ENV PATH="/usr/src/app/.venv/bin:$PATH"
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
 
-COPY inputs/.gitignore ./inputs/.gitignore
+COPY inputs/fix.json ./inputs/fix.json
 COPY outputs/.gitignore ./outputs/.gitignore
 COPY app ./app
 

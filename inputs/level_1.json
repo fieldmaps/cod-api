@@ -1,4 +1,9 @@
 {
+  "AIA": {
+    "rename": {
+      "NAME_LOCAL": "ADM0_EN"
+    }
+  },
   "ABW": {
     "date": "1986-01-01",
     "update": "2020-04-14"
@@ -26,7 +31,7 @@
     "date": "2015-09-13"
   },
   "BES": {
-    "drop": ["ADM1_PCODE"],
+    "drop": ["ADM1_EN"],
     "rename": {
       "ADM1_NL": "ADM1_EN"
     }
@@ -34,6 +39,10 @@
   "BHR": {
     "date": "2008-12-31",
     "update": "2017-03-29"
+  },
+  "BOL": {
+    "date": "2013-01-01",
+    "update": "2024-09-16"
   },
   "CAF": {
     "level": 3
@@ -64,6 +73,7 @@
     }
   },
   "DMA": {
+    "drop": ["ADM1_EN", "ADM1_PCODE"],
     "rename": {
       "NAME": "ADM1_EN",
       "PCode": "ADM1_PCODE"
@@ -78,9 +88,15 @@
   },
   "ECU": {
     "date": "2017-05-30",
-    "update": "2024-12-18"
+    "update": "2024-12-18",
+    "replace": {
+      "ADM3_ES": {
+        "enokanqui": "Enokanqui"
+      }
+    }
   },
   "EGY": {
+    "level": 2,
     "replace": {
       "ADM2_EN": {
         "Shubra Khît": "Shubra Khit"
@@ -122,6 +138,7 @@
     }
   },
   "GRC": {
+    "drop": ["ADM2_EN", "ADM2_PCODE"],
     "rename": {
       "NAMA0": "ADM0_EN",
       "NAMA1": "ADM1_EN",
@@ -139,8 +156,8 @@
     "drop": ["ADM2_EN", "ADM2_HT", "ADM3_EN", "ADM3_HT"],
     "replace": {
       "ADM3_FR": {
-        "1re Section Beaumont1re  Section Beaumont": "1re Section Beaumont",
-        "1re Section Plaine Céleste1re  Section Plaine C": "1re Section Plaine Céleste"
+        "1re  Section Beaumont": "",
+        "1re  Section Plaine C": ""
       }
     }
   },
@@ -152,6 +169,7 @@
     }
   },
   "KAZ": {
+    "drop": ["ADM0_PCODE"],
     "rename": {
       "ADM0_EN": "ADM0_PCODE"
     },
@@ -172,13 +190,49 @@
       }
     }
   },
+  "LBN": {
+    "replace": {
+      "ADM4_AR": {
+        "*": ""
+      }
+    }
+  },
   "LKA": {
-    "drop": ["ADM4_TA"]
+    "drop": ["ADM4_TA"],
+    "replace": {
+      "ADM4_EN": {
+        "_": " ",
+        "[unknown]": "",
+        "Hindawewa┬Á": "Hindawewa",
+        "Pahala Kosgama West┬Á┬Á┬Á┬Á┬Á": "Pahala Kosgama West",
+        "Pan├¡Ippulam": "Panippulam",
+        "Sammanthurai Td": "Sammanthurai TD",
+        "Valaichchenai 5Muslim South": "Valaichchenai 5 Muslim South"
+      },
+      "ADM4_SI": {
+        "[unknown]": "",
+        "4 ½ කණුව": "4 1/2 කණුව",
+        "අළුත්වත්ත SOUTH": "අළුත්වත්ත දකු",
+        "කල්මුණේ 01A": "කල්මුණේ 01 A",
+        "නිකවැව Left": "නිකවැව වම"
+      }
+    }
+  },
+  "MHL": {
+    "date": "2018-07-18",
+    "update": "2024-11-19"
   },
   "MKD": {
+    "drop": ["ADM4_EN", "ADM4_PCODE"],
+    "duplicate": {
+      "ADM0_EN": "Name012_E",
+      "ADM0_MK": "Name012_L",
+      "ADM1_EN": "Name012_E",
+      "ADM1_MK": "Name012_L",
+      "ADM2_EN": "Name012_E",
+      "ADM2_MK": "Name012_L"
+    },
     "rename": {
-      "Name012_E": "ADM0_EN",
-      "Name012_L": "ADM0_MK",
       "Name3_E": "ADM3_EN",
       "Name3_L": "ADM3_MK",
       "Name4_E": "ADM4_EN",
@@ -242,19 +296,26 @@
     }
   },
   "PRY": {
+    "title": ["ADM1_ES", "ADM2_ES"],
     "replace": {
       "ADM2_ES": {
-        "TTE. 1° MANUEL IRALA FERNÁNDEZ": "TTE. 1RO. MANUEL IRALA FERNÁNDEZ",
-        "ZANJA PYTÃ": "ZANJA PYTÁ"
+        " De ": " de ",
+        " Del ": " del ",
+        " la ": " la ",
+        " Las ": " las ",
+        " Los ": " los ",
+        " Y ": " y ",
+        "Tte. 1° Manuel Irala Fernández": "Teniente Primero Manuel Irala Fernández",
+        "Zanja Pytã": "Zanja Pytá"
       }
-    },
-    "title": ["ADM1_ES", "ADM2_ES"]
+    }
   },
   "RWA": {
     "level": 3,
     "drop": ["ADM0_SW"]
   },
   "SLB": {
+    "drop": ["ADM0_EN", "ADM1_EN", "ADM2_EN"],
     "rename": {
       "ADM1_NAME": "ADM1_EN",
       "ADM2_NAME": "ADM2_EN",
@@ -281,6 +342,17 @@
       "ADM3_EN": "ADM3_PT"
     }
   },
+  "TON": {
+    "date": "2018-02-05",
+    "update": "2018-02-05",
+    "rename": {
+      "ADM0_NAME": "ADM0_EN",
+      "ADM1_NAME": "ADM1_EN",
+      "ADM2_NAME": "ADM2_EN",
+      "ADM3_NAME": "ADM3_EN",
+      "PCODE_ADM0": "ADM0_PCODE"
+    }
+  },
   "TTO": {
     "date": "2017-09-08",
     "update": "2019-05-29"
@@ -295,12 +367,12 @@
     }
   },
   "UKR": {
+    "level": 3,
     "rename": {
       "ADM0_UA": "ADM0_UK",
       "ADM1_UA": "ADM1_UK",
       "ADM2_UA": "ADM2_UK",
-      "ADM3_UA": "ADM3_UK",
-      "ADM4_UA": "ADM4_UK"
+      "ADM3_UA": "ADM3_UK"
     },
     "replace": {
       "ADM3_RU": {
@@ -312,9 +384,6 @@
   },
   "TUR": {
     "title": ["ADM0_EN", "ADM0_TR", "ADM1_EN", "ADM1_TR", "ADM2_EN", "ADM2_TR"]
-  },
-  "URY": {
-    "title": ["ADM2_ES"]
   },
   "UZB": {
     "replace": {
@@ -343,5 +412,21 @@
         "Nam Định": "Nam Dinh"
       }
     }
+  },
+  "YEM": {
+    "rename": {
+      "date_": "date"
+    },
+    "replace": {
+      "ADM3_EN": {
+        "Al Abisah + Al Abadilah": "Al Abisah - Al Abadilah"
+      },
+      "ADM3_AR": {
+        "العبيسة+العبادله": "العبيسة - العبادله"
+      }
+    }
+  },
+  "ZAF": {
+    "drop": ["ADM1_ID", "ADM2_ID", "ADM3_ID"]
   }
 }

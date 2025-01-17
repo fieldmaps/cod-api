@@ -1,6 +1,7 @@
 services:
-  cod-ab-data-quality:
+  cod-api:
     build: .
-    env_file: .env
     volumes:
-      - ./data:/usr/src/app/data
+      - ./app:/usr/src/app/app
+      - ./inputs:/usr/src/app/inputs
+      - ./outputs:/usr/src/app/outputs

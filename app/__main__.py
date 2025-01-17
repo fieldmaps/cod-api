@@ -1,10 +1,10 @@
-from . import gdal, stac
+from . import level_0, level_1
 
 
 def main() -> None:
     """Main function, runs all modules in sequence."""
-    gdal.main()
-    stac.main()
+    level_0.main()
+    level_1.main()
 
 
 if __name__ == "__main__":
