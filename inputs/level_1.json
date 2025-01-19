@@ -80,6 +80,7 @@
     }
   },
   "DZA": {
+    "drop": ["ADM2_AR"],
     "replace": {
       "ADM2_EN": {
         "Ait R_Zine": "Ait R'Zine"

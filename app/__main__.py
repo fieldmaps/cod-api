@@ -1,10 +1,11 @@
-from . import level_0, level_1
+from . import level_0, level_1, pmtiles
 
 
 def main() -> None:
     """Main function, runs all modules in sequence."""
     level_0.main()
     level_1.main()
+    pmtiles.main()
 
 
 if __name__ == "__main__":

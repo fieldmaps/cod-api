@@ -1,7 +1,11 @@
 services:
   cod-api:
     build: .
+    ports:
+      - 8000:8000
     volumes:
+      - ./api:/usr/src/app/api
       - ./app:/usr/src/app/app
       - ./inputs:/usr/src/app/inputs
       - ./outputs:/usr/src/app/outputs
+    command: fastapi dev api --host 0.0.0.0
