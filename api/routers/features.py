@@ -12,6 +12,7 @@ from httpx import AsyncClient, codes
 S3_ASSETS_URL = getenv("S3_ASSETS_URL", "")
 S3_CACHE_URL = getenv("S3_CACHE_URL", "")
 S3_CACHE_BUCKET = getenv("S3_CACHE_BUCKET", "")
+S3_CHUNK_SIZE = getenv("S3_CHUNK_SIZE", "")
 
 router = APIRouter()
 
@@ -104,6 +105,12 @@ async def features(  # noqa: PLR0913
         if output.is_dir():
             make_archive(str(output), "zip", output)
             output = output.with_suffix(f".{f}.zip")
-        rclone = await create_subprocess_exec("rclone", "copyto", output, cache_bucket)
+        rclone = await create_subprocess_exec(
+            "rclone",
+            "copyto",
+            *["--s3-chunk-size", S3_CHUNK_SIZE],
+            output,
+            cache_bucket,
+        )
         await rclone.wait()
     return cache_url
