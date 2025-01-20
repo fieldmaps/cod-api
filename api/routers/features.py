@@ -38,14 +38,14 @@ def get_options(output_format: str) -> list[str]:
     description="Get vector in any GDAL/OGR supported format",
     tags=["vectors"],
 )
-async def features(  # noqa: PLR0913
+async def features(  # noqa: ANN201, PLR0913
     processing_level: int,
     iso3: str,
     admin_level: int,
     f: str = "geojson",
     simplify: str | None = None,
     lco: Annotated[list[str] | None, Query()] = None,
-) -> FileResponse | RedirectResponse:
+):
     """Convert features to other file format.
 
     Returns:
@@ -53,9 +53,9 @@ async def features(  # noqa: PLR0913
     """
     layer = f"{iso3}_adm{admin_level}".lower()
     asset_url = f"{ASSETS_URL}/level-{processing_level}/{layer}.parquet"
-    cache_url = f"{ASSETS_URL}/level-{processing_level}/{layer}.parquet"
     if f == "parquet":
         return RedirectResponse(asset_url)
+    cache_url = f"{ASSETS_URL}/level-{processing_level}/{layer}.{f}"
     async with AsyncClient() as client:
         response = await client.head(cache_url)
     if response.status_code == codes.OK:
