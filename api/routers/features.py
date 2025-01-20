@@ -59,7 +59,7 @@ async def features(  # noqa: PLR0913
     async with AsyncClient() as client:
         response = await client.head(cache_url)
     if response.status_code == codes.OK:
-        return RedirectResponse(asset_url)
+        return RedirectResponse(cache_url)
     f = f if f != "shp" else "shp.zip"
     options = get_options(f)
     lco_options = [("-lco", x) for x in lco] if lco is not None else []
