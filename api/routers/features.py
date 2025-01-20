@@ -1,12 +1,11 @@
 from asyncio import create_subprocess_exec
-from http import HTTPStatus
 from os import getenv
 from pathlib import Path
 from shutil import make_archive
 from tempfile import TemporaryDirectory
 from typing import Annotated
 
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, HTTPException, Query, status
 from fastapi.responses import RedirectResponse
 from httpx import AsyncClient, codes
 
@@ -29,8 +28,6 @@ def get_options(output_format: str) -> list[str]:
     match output_format:
         case "shp.zip":
             return ["-lco", "ENCODING=UTF-8"]
-        case "geojson":
-            return ["-lco", "RFC7946=YES"]
         case _:
             return []
 
@@ -54,7 +51,7 @@ def get_format(output_format: str) -> str:
     description="Get vector in any GDAL/OGR supported format",
     tags=["vectors"],
     response_class=RedirectResponse,
-    status_code=HTTPStatus.PERMANENT_REDIRECT,
+    status_code=status.HTTP_308_PERMANENT_REDIRECT,
 )
 async def features(  # noqa: PLR0913
     processing_level: int,
@@ -80,12 +77,12 @@ async def features(  # noqa: PLR0913
         response = await client.head(cache_url)
     if response.status_code == codes.OK:
         return cache_url
-    f = f if f != "shp" else "shp.zip"
-    options = get_options(f)
+    of = f if f != "shp" else "shp.zip"
+    options = get_options(of)
     lco_options = [("-lco", x) for x in lco] if lco is not None else []
     simplify_options = ["-simplify", simplify] if simplify is not None else []
-    with TemporaryDirectory(delete=False) as tmp:
-        output = Path(tmp) / f"{layer}.{f}"
+    with TemporaryDirectory() as tmp:
+        output = Path(tmp) / f"{layer}.{of}"
         ogr2ogr = await create_subprocess_exec(
             "ogr2ogr",
             "-overwrite",
@@ -99,9 +96,14 @@ async def features(  # noqa: PLR0913
             asset_url,
         )
         await ogr2ogr.wait()
+        if output.stat().st_size == 0:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Cannot process file",
+            )
         if output.is_dir():
             make_archive(str(output), "zip", output)
             output = output.with_suffix(f".{f}.zip")
         rclone = await create_subprocess_exec("rclone", "copyto", output, cache_bucket)
         await rclone.wait()
-        return cache_url
+    return cache_url
