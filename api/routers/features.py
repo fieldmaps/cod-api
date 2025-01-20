@@ -1,4 +1,5 @@
 from asyncio import create_subprocess_exec
+from http import HTTPStatus
 from os import getenv
 from pathlib import Path
 from shutil import make_archive
@@ -52,6 +53,8 @@ def get_format(output_format: str) -> str:
     "/{processing_level}/{iso3}/{admin_level}/features",
     description="Get vector in any GDAL/OGR supported format",
     tags=["vectors"],
+    response_class=RedirectResponse,
+    status_code=HTTPStatus.PERMANENT_REDIRECT,
 )
 async def features(  # noqa: PLR0913
     processing_level: int,
@@ -60,7 +63,7 @@ async def features(  # noqa: PLR0913
     f: str = "geojson",
     simplify: str | None = None,
     lco: Annotated[list[str] | None, Query()] = None,
-) -> RedirectResponse:
+) -> str:
     """Convert features to other file format.
 
     Returns:
@@ -70,13 +73,13 @@ async def features(  # noqa: PLR0913
     layer = f"{iso3}_adm{admin_level}".lower()
     asset_url = f"{S3_ASSETS_URL}/level-{processing_level}/{layer}.parquet"
     if f == "parquet":
-        return RedirectResponse(asset_url)
+        return asset_url
     cache_url = f"{S3_CACHE_URL}/level-{processing_level}/{layer}.{get_format(f)}"
     cache_bucket = f"{S3_CACHE_BUCKET}/level-{processing_level}/{layer}.{get_format(f)}"
     async with AsyncClient() as client:
         response = await client.head(cache_url)
     if response.status_code == codes.OK:
-        return RedirectResponse(cache_url)
+        return cache_url
     f = f if f != "shp" else "shp.zip"
     options = get_options(f)
     lco_options = [("-lco", x) for x in lco] if lco is not None else []
@@ -101,4 +104,4 @@ async def features(  # noqa: PLR0913
             output = output.with_suffix(f".{f}.zip")
         rclone = await create_subprocess_exec("rclone", "copyto", output, cache_bucket)
         await rclone.wait()
-        return RedirectResponse(cache_url)
+        return cache_url
