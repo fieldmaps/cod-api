@@ -1,7 +1,7 @@
 import mimetypes
+from asyncio import create_subprocess_exec
 from pathlib import Path
 from shutil import make_archive
-from subprocess import DEVNULL, run
 from tempfile import TemporaryDirectory
 from typing import Annotated
 
@@ -11,11 +11,17 @@ from fastapi.responses import FileResponse
 DATA_URL = "https://cod-data.fieldmaps.io/assets"
 
 router = APIRouter()
-mimetypes.add_type("application/geo+json", ".geojson")
-mimetypes.add_type("application/geopackage+sqlite3", ".gpkg")
 
 
-def get_options(output_format: str):
+def get_options(output_format: str) -> list[str]:
+    """Get recommended options for output formats.
+
+    Args:
+        output_format: suffix of the output file
+
+    Returns:
+        List of layer creation options for each file type
+    """
     match output_format:
         case "shp.zip":
             return ["-lco", "ENCODING=UTF-8"]
@@ -30,7 +36,7 @@ def get_options(output_format: str):
     description="Get vector in any GDAL/OGR supported format",
     tags=["vectors"],
 )
-def features(
+async def features(  # noqa: PLR0913
     processing_level: int,
     iso3: str,
     admin_level: int,
@@ -51,9 +57,9 @@ def features(
     simplify_options = ["-simplify", simplify] if simplify is not None else []
     with TemporaryDirectory(delete=False) as tmp:
         output = Path(tmp) / f"{layer}.{f}"
-        run(
-            [
-                "ogr2ogr",
+        process = await create_subprocess_exec(
+            "ogr2ogr",
+            *[
                 "-overwrite",
                 *["-nln", layer],
                 *simplify_options,
@@ -62,9 +68,8 @@ def features(
                 output,
                 asset_url,
             ],
-            stderr=DEVNULL,
-            check=False,
         )
+        await process.wait()
         if output.is_dir():
             make_archive(str(output), "zip", output)
             output = output.with_suffix(f".{f}.zip")
