@@ -6,9 +6,11 @@ from tempfile import TemporaryDirectory
 from typing import Annotated
 
 from fastapi import APIRouter, Query
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, RedirectResponse
+from httpx import AsyncClient, codes
 
-DATA_URL = "https://cod-data.fieldmaps.io/assets"
+ASSETS_URL = "https://cod-data.fieldmaps.io/assets"
+CACHE_URL = "https://cod-data.fieldmaps.io/cache"
 
 router = APIRouter()
 
@@ -43,14 +45,21 @@ async def features(  # noqa: PLR0913
     f: str = "geojson",
     simplify: str | None = None,
     lco: Annotated[list[str] | None, Query()] = None,
-) -> FileResponse:
+) -> FileResponse | RedirectResponse:
     """Convert features to other file format.
 
     Returns:
         Converted File.
     """
     layer = f"{iso3}_adm{admin_level}".lower()
-    asset_url = f"{DATA_URL}/level-{processing_level}/{layer}.parquet"
+    asset_url = f"{ASSETS_URL}/level-{processing_level}/{layer}.parquet"
+    cache_url = f"{ASSETS_URL}/level-{processing_level}/{layer}.parquet"
+    if f == "parquet":
+        return RedirectResponse(asset_url)
+    async with AsyncClient() as client:
+        response = await client.head(cache_url)
+    if response.status_code == codes.OK:
+        return RedirectResponse(asset_url)
     f = f if f != "shp" else "shp.zip"
     options = get_options(f)
     lco_options = [("-lco", x) for x in lco] if lco is not None else []
