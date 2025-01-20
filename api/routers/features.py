@@ -1,16 +1,17 @@
-import mimetypes
 from asyncio import create_subprocess_exec
+from os import getenv
 from pathlib import Path
 from shutil import make_archive
 from tempfile import TemporaryDirectory
 from typing import Annotated
 
 from fastapi import APIRouter, Query
-from fastapi.responses import FileResponse, RedirectResponse
+from fastapi.responses import RedirectResponse
 from httpx import AsyncClient, codes
 
-ASSETS_URL = "https://cod-data.fieldmaps.io/assets"
-CACHE_URL = "https://cod-data.fieldmaps.io/cache"
+S3_ASSETS_URL = getenv("S3_ASSETS_URL", "")
+S3_CACHE_URL = getenv("S3_CACHE_URL", "")
+S3_CACHE_BUCKET = getenv("S3_CACHE_BUCKET", "")
 
 router = APIRouter()
 
@@ -33,29 +34,45 @@ def get_options(output_format: str) -> list[str]:
             return []
 
 
+def get_format(output_format: str) -> str:
+    """Add .zip to formats outputing to directory.
+
+    Args:
+        output_format: suffix of the output file
+
+    Returns:
+        List of layer creation options for each file type
+    """
+    if output_format in ["shp", "gdb"]:
+        return f"{output_format}.zip"
+    return output_format
+
+
 @router.get(
     "/{processing_level}/{iso3}/{admin_level}/features",
     description="Get vector in any GDAL/OGR supported format",
     tags=["vectors"],
 )
-async def features(  # noqa: ANN201, PLR0913
+async def features(  # noqa: PLR0913
     processing_level: int,
     iso3: str,
     admin_level: int,
     f: str = "geojson",
     simplify: str | None = None,
     lco: Annotated[list[str] | None, Query()] = None,
-):
+) -> RedirectResponse:
     """Convert features to other file format.
 
     Returns:
         Converted File.
     """
+    f = f.lower()
     layer = f"{iso3}_adm{admin_level}".lower()
-    asset_url = f"{ASSETS_URL}/level-{processing_level}/{layer}.parquet"
+    asset_url = f"{S3_ASSETS_URL}/level-{processing_level}/{layer}.parquet"
     if f == "parquet":
         return RedirectResponse(asset_url)
-    cache_url = f"{ASSETS_URL}/level-{processing_level}/{layer}.{f}"
+    cache_url = f"{S3_CACHE_URL}/level-{processing_level}/{layer}.{get_format(f)}"
+    cache_bucket = f"{S3_CACHE_BUCKET}/level-{processing_level}/{layer}.{get_format(f)}"
     async with AsyncClient() as client:
         response = await client.head(cache_url)
     if response.status_code == codes.OK:
@@ -66,23 +83,22 @@ async def features(  # noqa: ANN201, PLR0913
     simplify_options = ["-simplify", simplify] if simplify is not None else []
     with TemporaryDirectory(delete=False) as tmp:
         output = Path(tmp) / f"{layer}.{f}"
-        process = await create_subprocess_exec(
+        ogr2ogr = await create_subprocess_exec(
             "ogr2ogr",
-            *[
-                "-overwrite",
-                *["--config", "GDAL_NUM_THREADS", "ALL_CPUS"],
-                *["--config", "OGR_GEOJSON_MAX_OBJ_SIZE", "0"],
-                *["-nln", layer],
-                *simplify_options,
-                *[x for y in lco_options for x in y],
-                *options,
-                output,
-                asset_url,
-            ],
+            "-overwrite",
+            *["--config", "GDAL_NUM_THREADS", "ALL_CPUS"],
+            *["--config", "OGR_GEOJSON_MAX_OBJ_SIZE", "0"],
+            *["-nln", layer],
+            *simplify_options,
+            *[x for y in lco_options for x in y],
+            *options,
+            output,
+            asset_url,
         )
-        await process.wait()
+        await ogr2ogr.wait()
         if output.is_dir():
             make_archive(str(output), "zip", output)
             output = output.with_suffix(f".{f}.zip")
-        media_type, _ = mimetypes.guess_type(output)
-        return FileResponse(output, filename=output.name, media_type=media_type)
+        rclone = await create_subprocess_exec("rclone", "copyto", output, cache_bucket)
+        await rclone.wait()
+        return RedirectResponse(cache_url)
