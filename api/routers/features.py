@@ -61,6 +61,8 @@ async def features(  # noqa: PLR0913
             "ogr2ogr",
             *[
                 "-overwrite",
+                *["--config", "GDAL_NUM_THREADS", "ALL_CPUS"],
+                *["--config", "OGR_GEOJSON_MAX_OBJ_SIZE", "0"],
                 *["-nln", layer],
                 *simplify_options,
                 *[x for y in lco_options for x in y],
