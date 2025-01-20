@@ -98,8 +98,8 @@ async def features(  # noqa: PLR0913
         await ogr2ogr.wait()
         if output.stat().st_size == 0:
             raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Cannot process file",
+                status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+                detail="Unprocessable Content",
             )
         if output.is_dir():
             make_archive(str(output), "zip", output)
