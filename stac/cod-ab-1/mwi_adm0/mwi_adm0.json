@@ -1,0 +1,344 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "mwi_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          35.09902664200007,
+          -17.12974811999993
+        ],
+        [
+          35.09036802900005,
+          -17.122177335999936
+        ],
+        [
+          35.07860770600007,
+          -17.108543492999956
+        ],
+        [
+          34.42920303000005,
+          -16.259077115999958
+        ],
+        [
+          34.420637174000035,
+          -16.246805735999942
+        ],
+        [
+          32.77053992800006,
+          -13.781888335999952
+        ],
+        [
+          32.67205712300006,
+          -13.620881901999951
+        ],
+        [
+          32.67172429900006,
+          -13.620257554999966
+        ],
+        [
+          32.67163657900005,
+          -13.619552151999926
+        ],
+        [
+          32.942417093000074,
+          -9.421242588999974
+        ],
+        [
+          32.942503094000074,
+          -9.421025524999948
+        ],
+        [
+          32.94282510800008,
+          -9.420573332999936
+        ],
+        [
+          32.959157548000064,
+          -9.400622541999951
+        ],
+        [
+          32.96006591200006,
+          -9.399772423999934
+        ],
+        [
+          32.96028965600004,
+          -9.399582505999945
+        ],
+        [
+          32.99618022400006,
+          -9.370007825999949
+        ],
+        [
+          32.99668484000006,
+          -9.369636988999957
+        ],
+        [
+          32.99691992800007,
+          -9.369465137999953
+        ],
+        [
+          32.99714277800007,
+          -9.369302330999972
+        ],
+        [
+          32.99758847700008,
+          -9.368985761999966
+        ],
+        [
+          32.99845625000006,
+          -9.368379755999968
+        ],
+        [
+          32.998843032000025,
+          -9.36812649999996
+        ],
+        [
+          32.99928787500005,
+          -9.36784610799998
+        ],
+        [
+          32.99997833200007,
+          -9.367430041999967
+        ],
+        [
+          33.00012887200006,
+          -9.367345880999949
+        ],
+        [
+          33.002456841000026,
+          -9.367961462999972
+        ],
+        [
+          33.77365490300008,
+          -9.586394859999928
+        ],
+        [
+          33.80172818900007,
+          -9.606292549999978
+        ],
+        [
+          33.93314102800008,
+          -9.709628795999947
+        ],
+        [
+          33.933324879000054,
+          -9.70982928999996
+        ],
+        [
+          33.93981301600007,
+          -9.718640935999929
+        ],
+        [
+          34.24521948000006,
+          -10.369781425999975
+        ],
+        [
+          34.25535317200007,
+          -10.396214939999936
+        ],
+        [
+          35.87188083600006,
+          -14.676953311999966
+        ],
+        [
+          35.91847524800005,
+          -14.895946133999928
+        ],
+        [
+          35.81884797400005,
+          -16.019070993999946
+        ],
+        [
+          35.81879723700007,
+          -16.019636171999935
+        ],
+        [
+          35.818766082000025,
+          -16.019836699999928
+        ],
+        [
+          35.81737140700005,
+          -16.027444585999945
+        ],
+        [
+          35.30897521300005,
+          -17.123603939999953
+        ],
+        [
+          35.308693978000065,
+          -17.123977611999976
+        ],
+        [
+          35.308338183000046,
+          -17.124352132999945
+        ],
+        [
+          35.308071340000026,
+          -17.124507190999964
+        ],
+        [
+          35.30749908000007,
+          -17.124839720999944
+        ],
+        [
+          35.30627371800006,
+          -17.125248059999933
+        ],
+        [
+          35.30513474600008,
+          -17.12560760399998
+        ],
+        [
+          35.295345836000024,
+          -17.128523461999976
+        ],
+        [
+          35.09902664200007,
+          -17.12974811999993
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    32.67163657900005,
+    -17.12974811999993,
+    35.91847524800005,
+    -9.367345880999949
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "MWI",
+    "iso2": "MW",
+    "name": "Malawi",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/MWI_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-mwi",
+    "hdx_date": "2018-10-22",
+    "hdx_update": "2023-04-11",
+    "hdx_source_1": "National Statistics Office of Malawi",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2023-03-29T00:00:00Z",
+    "end_datetime": "2023-04-05T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-04-05T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mwi_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mwi/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mwi/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mwi/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mwi/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mwi/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mwi/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mwi/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/mwi_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mwi_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mwi_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

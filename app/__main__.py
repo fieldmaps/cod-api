@@ -1,4 +1,4 @@
-from . import level_0, level_1, pmtiles, stac
+from . import images, level_0, level_1, pmtiles, stac
 
 
 def main() -> None:
@@ -7,6 +7,7 @@ def main() -> None:
         level_0.main()
         level_1.main()
         pmtiles.main()
+        images.main()
     stac.main()
 
 

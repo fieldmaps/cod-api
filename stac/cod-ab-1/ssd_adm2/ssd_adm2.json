@@ -1,0 +1,396 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "ssd_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          30.852818590000027,
+          3.487840075000065
+        ],
+        [
+          28.380636665000054,
+          4.28336887200004
+        ],
+        [
+          28.206063038000025,
+          4.351857247000055
+        ],
+        [
+          28.078917790000048,
+          4.417924747000029
+        ],
+        [
+          27.861612415000025,
+          4.560940123000023
+        ],
+        [
+          27.796821040000054,
+          4.611234748000072
+        ],
+        [
+          24.17952203400006,
+          8.326332251000053
+        ],
+        [
+          24.15464338000004,
+          8.373708369000042
+        ],
+        [
+          24.152155505000053,
+          8.382593618000044
+        ],
+        [
+          24.15072456300004,
+          8.396414139000058
+        ],
+        [
+          24.150733784000067,
+          8.399653251000075
+        ],
+        [
+          24.16317312900003,
+          8.478198869000039
+        ],
+        [
+          24.223142498000072,
+          8.640727869000045
+        ],
+        [
+          24.223800210000036,
+          8.642262539000058
+        ],
+        [
+          24.226554623000027,
+          8.648688994000054
+        ],
+        [
+          24.740709329000026,
+          9.729794500000025
+        ],
+        [
+          25.061870592000048,
+          10.270155905000024
+        ],
+        [
+          25.08419420000007,
+          10.303511618000073
+        ],
+        [
+          25.085031526000023,
+          10.30473708900007
+        ],
+        [
+          25.087741868000023,
+          10.308544157000028
+        ],
+        [
+          25.08890344300005,
+          10.309576033000042
+        ],
+        [
+          25.098871248000023,
+          10.316995619000068
+        ],
+        [
+          25.143131272000062,
+          10.336221693000027
+        ],
+        [
+          25.21342279000004,
+          10.35938358200002
+        ],
+        [
+          32.730537543000025,
+          12.23635187900004
+        ],
+        [
+          33.02130050300008,
+          12.226782471000035
+        ],
+        [
+          33.031909908000046,
+          12.226260614000068
+        ],
+        [
+          33.041049256000065,
+          12.225781853000058
+        ],
+        [
+          33.05000004500005,
+          12.225309027000037
+        ],
+        [
+          33.05895080300007,
+          12.224835910000024
+        ],
+        [
+          33.06790152800005,
+          12.22436250100003
+        ],
+        [
+          33.07685222200007,
+          12.223888801000044
+        ],
+        [
+          33.08580288300004,
+          12.223414810000065
+        ],
+        [
+          33.09475351300006,
+          12.222940527000048
+        ],
+        [
+          33.10370411100007,
+          12.222465954000029
+        ],
+        [
+          33.11265467700008,
+          12.221991089000028
+        ],
+        [
+          33.12160521100003,
+          12.221515933000035
+        ],
+        [
+          33.12197182700004,
+          12.221496459000036
+        ],
+        [
+          33.130555713000035,
+          12.22104048600005
+        ],
+        [
+          33.13950618300004,
+          12.220564747000026
+        ],
+        [
+          33.14845662100004,
+          12.220088718000056
+        ],
+        [
+          33.15740702700003,
+          12.219612397000049
+        ],
+        [
+          33.16635740100003,
+          12.219135786000038
+        ],
+        [
+          33.175307743000076,
+          12.218658883000046
+        ],
+        [
+          33.184258053000065,
+          12.218181689000062
+        ],
+        [
+          33.19320833100005,
+          12.217704204000029
+        ],
+        [
+          33.202158577000034,
+          12.21722642800006
+        ],
+        [
+          33.211108790000026,
+          12.216748361000043
+        ],
+        [
+          33.22005897200006,
+          12.216270003000034
+        ],
+        [
+          33.22900912100005,
+          12.215791354000032
+        ],
+        [
+          33.23795923800003,
+          12.215312414000039
+        ],
+        [
+          33.24690932300007,
+          12.214833183000053
+        ],
+        [
+          33.255859376000046,
+          12.214353661000075
+        ],
+        [
+          33.29773712200006,
+          12.211974244000032
+        ],
+        [
+          35.86256408700007,
+          5.320854664000024
+        ],
+        [
+          35.86518096800006,
+          5.311694146000036
+        ],
+        [
+          35.95192367100003,
+          4.632158122000021
+        ],
+        [
+          35.95099154600007,
+          4.628243372000043
+        ],
+        [
+          33.51181604400006,
+          3.749111244000062
+        ],
+        [
+          32.20157918900003,
+          3.5043926010000632
+        ],
+        [
+          30.852818590000027,
+          3.487840075000065
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    24.15072456300004,
+    3.487840075000065,
+    35.95192367100003,
+    12.23635187900004
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "SSD",
+    "iso2": "SS",
+    "name": "South Sudan",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/SSD_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-ssd",
+    "hdx_date": "2020-11-01",
+    "hdx_update": "2023-09-01",
+    "hdx_source_1": "South Sudan Information Management Working Group (IMWG), National Bureau of Statistics (NBS), International Organization for Migration (IOM) and OCHA",
+    "hdx_source_2": "OCHA South Sudan",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The ADM3 layer and lines files will be provided shortly.",
+    "start_datetime": "2023-08-29T00:00:00Z",
+    "end_datetime": "2023-08-29T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-08-29T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/ssd_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ssd/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ssd/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ssd/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ssd/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ssd/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ssd/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ssd/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/ssd_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/ssd_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/ssd_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

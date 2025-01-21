@@ -1,0 +1,301 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "gin_adm3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -9.104450420999967,
+          7.1935523630000375
+        ],
+        [
+          -13.307630539999934,
+          9.037538529000074
+        ],
+        [
+          -13.834637642999951,
+          9.44921398100007
+        ],
+        [
+          -15.032019615999957,
+          10.79052353000003
+        ],
+        [
+          -15.078563690999943,
+          10.845146181000075
+        ],
+        [
+          -15.084515572999976,
+          10.855422973000032
+        ],
+        [
+          -15.08625602799998,
+          10.863911629000029
+        ],
+        [
+          -15.084904671999936,
+          10.869412422000039
+        ],
+        [
+          -15.082058906999976,
+          10.880987167000058
+        ],
+        [
+          -15.077990531999944,
+          10.890240670000026
+        ],
+        [
+          -14.779773399999954,
+          11.35339334200006
+        ],
+        [
+          -14.761878861999946,
+          11.379392093000035
+        ],
+        [
+          -14.750047860999928,
+          11.396387883000045
+        ],
+        [
+          -14.735771328999931,
+          11.415888250000023
+        ],
+        [
+          -14.701287628999978,
+          11.46212034000007
+        ],
+        [
+          -13.708273132999977,
+          12.676212773000032
+        ],
+        [
+          -13.578739999999982,
+          12.674980000000062
+        ],
+        [
+          -9.25332934599993,
+          12.502629886000022
+        ],
+        [
+          -9.251924155999973,
+          12.50238623100006
+        ],
+        [
+          -9.249121999999943,
+          12.501900000000035
+        ],
+        [
+          -9.161709999999971,
+          12.48622000000006
+        ],
+        [
+          -9.154459999999972,
+          12.484080000000063
+        ],
+        [
+          -9.034279999999967,
+          12.423070001000042
+        ],
+        [
+          -9.024999999999977,
+          12.412870000000055
+        ],
+        [
+          -8.968899999999962,
+          12.34845000000007
+        ],
+        [
+          -8.37588999999997,
+          11.367480000000057
+        ],
+        [
+          -7.960950999999966,
+          10.294890000000066
+        ],
+        [
+          -7.948703999999964,
+          10.251500000000021
+        ],
+        [
+          -7.736525999999969,
+          9.078054000000066
+        ],
+        [
+          -7.641071532999945,
+          8.377431856000044
+        ],
+        [
+          -8.19357999999994,
+          7.5450100000000475
+        ],
+        [
+          -8.20503999999994,
+          7.535750000000064
+        ],
+        [
+          -8.848071999999945,
+          7.263333000000046
+        ],
+        [
+          -8.86351099999996,
+          7.258125000000064
+        ],
+        [
+          -9.06599989199998,
+          7.200960082000051
+        ],
+        [
+          -9.104450420999967,
+          7.1935523630000375
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -15.08625602799998,
+    7.1935523630000375,
+    -7.641071532999945,
+    12.676212773000032
+  ],
+  "properties": {
+    "admin_level": "3",
+    "languages_admin_self": [
+      "fr"
+    ],
+    "languages_admin_all": [
+      "fr"
+    ],
+    "iso3": "GIN",
+    "iso2": "GN",
+    "name": "Guinea",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/GIN_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 1.0,
+    "itos_index_1": 2.0,
+    "itos_index_2": 3.0,
+    "itos_index_3": 4.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-gin",
+    "hdx_date": "2017-08-03",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "World Food Programme",
+    "hdx_source_2": "OCHA West and Central Africa (ROWCA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The edge-matched layers are subject to the following potential limitations:\r\n\r\n- Where countries border each other, one or even both boundaries may be less accurate than the original, definitive boundaries.  The UN Geospatial Hub boundary is generally of lower quality than the definitive COD-AB layers.\r\n\r\n- Peripheral polygon feature shapes and the relationship of their areas to those of their internal neighbouring features may be distorted, while internal features are untouched.\r\n\r\n- Peripheral polygon features may artificially appear to touch different, incorrect features belonging the same country.\r\n\r\n- *In theory, peripheral polygon features may be eliminated.  This is monitored and will be specially treated if it occurs.\r\n",
+    "start_datetime": "2016-01-14T00:00:00Z",
+    "end_datetime": "2016-03-04T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2016-03-04T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/gin_adm3/gin_adm3.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/gin_adm3.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gin/3?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gin/3?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gin/3?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gin/3?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gin/3?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gin/3?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gin/3?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/gin_adm3.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/gin_adm3.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/gin_adm3.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

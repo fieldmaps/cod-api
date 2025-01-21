@@ -1,0 +1,381 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "phl_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          119.4663852320001,
+          4.587294497000073
+        ],
+        [
+          119.46623064200003,
+          4.58730141500007
+        ],
+        [
+          119.46611617500002,
+          4.587323244000061
+        ],
+        [
+          119.03178004000006,
+          4.708451702000048
+        ],
+        [
+          119.03173207500004,
+          4.70847079400005
+        ],
+        [
+          119.0316937020001,
+          4.7084898920000455
+        ],
+        [
+          119.03162654100004,
+          4.708537652000075
+        ],
+        [
+          119.03148261500007,
+          4.708661839000058
+        ],
+        [
+          119.03139625300003,
+          4.708747822000021
+        ],
+        [
+          119.03128108400006,
+          4.708900700000072
+        ],
+        [
+          114.27790168600006,
+          11.05063427600004
+        ],
+        [
+          114.277892253,
+          11.050726852000025
+        ],
+        [
+          114.27803374000007,
+          11.050967547000027
+        ],
+        [
+          121.94550793700012,
+          21.121844271000043
+        ],
+        [
+          121.94552560600005,
+          21.121860754000068
+        ],
+        [
+          121.94554680800002,
+          21.121875588000023
+        ],
+        [
+          121.94556800900011,
+          21.12188383000006
+        ],
+        [
+          121.94558037800005,
+          21.12188547900007
+        ],
+        [
+          121.9469832850001,
+          21.12174049400005
+        ],
+        [
+          121.94699565300004,
+          21.121738847000074
+        ],
+        [
+          121.94723241700001,
+          21.121679522000022
+        ],
+        [
+          121.94728365800006,
+          21.121661393000068
+        ],
+        [
+          121.94758949300001,
+          21.121532306000063
+        ],
+        [
+          121.95094374700011,
+          21.11985844800006
+        ],
+        [
+          121.95222034300002,
+          21.119063408000045
+        ],
+        [
+          121.95561209000005,
+          21.113611538000043
+        ],
+        [
+          121.95561915600001,
+          21.113598353000043
+        ],
+        [
+          125.5679588480001,
+          12.10525782600007
+        ],
+        [
+          125.5684864960001,
+          12.103849513000057
+        ],
+        [
+          125.96914553500005,
+          10.753982379000036
+        ],
+        [
+          126.16870416100005,
+          9.81002654200006
+        ],
+        [
+          126.57027347300004,
+          7.718502492000027
+        ],
+        [
+          126.57027966500004,
+          7.718461009000066
+        ],
+        [
+          126.59849813400001,
+          7.507820792000075
+        ],
+        [
+          126.59882317400002,
+          7.504763634000028
+        ],
+        [
+          126.5990588630001,
+          7.502022934000024
+        ],
+        [
+          126.59913626600007,
+          7.500240265000059
+        ],
+        [
+          126.60496559600006,
+          7.288605727000061
+        ],
+        [
+          126.60496442700003,
+          7.288588645000061
+        ],
+        [
+          126.60495742800003,
+          7.288554668000074
+        ],
+        [
+          126.59969397100008,
+          7.272346191000054
+        ],
+        [
+          126.20400125600008,
+          6.287498352000057
+        ],
+        [
+          126.20399211400002,
+          6.287480179000056
+        ],
+        [
+          126.19316341500007,
+          6.269411003000073
+        ],
+        [
+          126.19314634800003,
+          6.269386498000074
+        ],
+        [
+          125.4786281370001,
+          5.393231818000061
+        ],
+        [
+          125.47860548200003,
+          5.393207528000062
+        ],
+        [
+          125.47837544700008,
+          5.392980239000053
+        ],
+        [
+          125.47835802000009,
+          5.3929646230000685
+        ],
+        [
+          125.4744885660001,
+          5.390837479000027
+        ],
+        [
+          125.47184483600006,
+          5.389436701000022
+        ],
+        [
+          125.4718384680001,
+          5.389433386000064
+        ],
+        [
+          125.42010071800007,
+          5.365525178000041
+        ],
+        [
+          125.42006359700008,
+          5.365508881000039
+        ],
+        [
+          125.42005131400003,
+          5.365505540000072
+        ],
+        [
+          119.4663852320001,
+          4.587294497000073
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    114.277892253,
+    4.587294497000073,
+    126.60496559600006,
+    21.12188547900007
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "PHL",
+    "iso2": "PH",
+    "name": "Philippines",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/PHL_pcode/FeatureServer",
+    "itos_update": "2023-11-10",
+    "itos_service": "COD_External",
+    "itos_level": 4.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": 4.0,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-phl",
+    "hdx_date": "2018-02-09",
+    "hdx_update": "2023-11-09",
+    "hdx_source_1": "National Mapping and Resource Information Authority (NAMRIA), Philippines Statistics Authority (PSA)",
+    "hdx_source_2": "OCHA Philippines",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Prepared by OCHA\r\n\r\nThe two administrative level 2 features that were previously represented as comprising the ‘Negros Island Region’ administrative level 1 features [then coded PH1800000000] have been restored to administrative level 1 features PH060000000 and PH070000000. (Negros Island Region officially existed only from 29 May 2015 to 9 August 2017.) This adjustment has been propagated to administrative levels 2 and 3.\r\n\r\nITOS have prepared three versions of the administrative 0 layer to assist mapping:\r\n• phl_admbnda_adm0_psa_namria_itos_20200529 with one part, as usual,\r\n• phl_admbnda_adm0_3part_psa_namria_20180130 with three multipart sections covering the North, middle and South portions of the country, and\r\n• phl_admbnda_adm0_singlepart_psa_namria_20180130 with all 3,656 polygons represented as separate features.",
+    "start_datetime": "2022-11-09T00:00:00Z",
+    "end_datetime": "2023-11-06T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-11-06T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/phl_adm0/phl_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/phl_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/phl/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/phl/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/phl/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/phl/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/phl/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/phl/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/phl/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/phl_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/phl_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/phl_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

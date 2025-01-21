@@ -1,0 +1,314 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "omn_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          53.08232116700003,
+          16.642362595000066
+        ],
+        [
+          53.07863235500008,
+          16.645875931000035
+        ],
+        [
+          52.947917938000046,
+          16.80068206800007
+        ],
+        [
+          52.71257400500008,
+          17.080316544000027
+        ],
+        [
+          52.00000000000006,
+          18.999998093000045
+        ],
+        [
+          52.00070571900005,
+          19.002332687000035
+        ],
+        [
+          56.10263824500004,
+          26.088472366000076
+        ],
+        [
+          56.186527252000076,
+          26.23013877900007
+        ],
+        [
+          56.20541763300008,
+          26.25208282500006
+        ],
+        [
+          56.20597076400003,
+          26.252639771000077
+        ],
+        [
+          56.20791626000005,
+          26.254583359000037
+        ],
+        [
+          56.35208511400003,
+          26.375139236000052
+        ],
+        [
+          56.51235961900005,
+          26.506805420000035
+        ],
+        [
+          56.51291656500007,
+          26.506805420000035
+        ],
+        [
+          56.52930450400004,
+          26.49875068700004
+        ],
+        [
+          56.529861450000055,
+          26.49847221400006
+        ],
+        [
+          56.53041839600007,
+          26.497915268000042
+        ],
+        [
+          59.79763793900008,
+          22.536806107000075
+        ],
+        [
+          59.79847335800008,
+          22.535139084000036
+        ],
+        [
+          59.82680511500007,
+          22.474861145000034
+        ],
+        [
+          59.83097076400003,
+          22.460138321000045
+        ],
+        [
+          59.83930587800006,
+          22.425140381000062
+        ],
+        [
+          59.83930587800006,
+          22.422639847000028
+        ],
+        [
+          59.82430648800005,
+          22.292640686000027
+        ],
+        [
+          59.82402801500007,
+          22.291248322000058
+        ],
+        [
+          59.810138702000074,
+          22.225973129000067
+        ],
+        [
+          58.96291732800006,
+          20.51597023000005
+        ],
+        [
+          58.94708252000004,
+          20.494304657000043
+        ],
+        [
+          57.84763717700008,
+          19.001527786000054
+        ],
+        [
+          56.35208511400003,
+          17.49708366400006
+        ],
+        [
+          56.35180664100005,
+          17.496805191000078
+        ],
+        [
+          56.351249695000035,
+          17.496250153000062
+        ],
+        [
+          56.34541702300004,
+          17.49152565000003
+        ],
+        [
+          56.34458160400004,
+          17.490972519000024
+        ],
+        [
+          55.02013778700007,
+          16.999305725000056
+        ],
+        [
+          54.89819335900006,
+          16.962360382000043
+        ],
+        [
+          54.79708480800008,
+          16.935138702000074
+        ],
+        [
+          53.08263778700007,
+          16.642362595000066
+        ],
+        [
+          53.08232116700003,
+          16.642362595000066
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    52.00000000000006,
+    16.642362595000066,
+    59.83930587800006,
+    26.506805420000035
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en",
+      "ar"
+    ],
+    "iso3": "OMN",
+    "iso2": "OM",
+    "name": "Oman",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/OMN_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-omn",
+    "hdx_date": "2021-06-04",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "www.gadm.org",
+    "hdx_source_2": "OCHA Middle East and North Africa (ROMENA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2015-11-30T00:00:00Z",
+    "end_datetime": "2021-06-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2021-06-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/omn_adm2/omn_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/omn_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/omn/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/omn/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/omn/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/omn/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/omn/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/omn/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/omn/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/omn_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/omn_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/omn_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

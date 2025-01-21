@@ -1,0 +1,269 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "slv_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -87.91236114499998,
+          13.15264034300003
+        ],
+        [
+          -88.22513580299994,
+          13.158750534000035
+        ],
+        [
+          -88.42375183099995,
+          13.165972710000062
+        ],
+        [
+          -88.47152709999995,
+          13.171249390000071
+        ],
+        [
+          -88.47597503699996,
+          13.17180538200006
+        ],
+        [
+          -88.47763824499998,
+          13.17208385500004
+        ],
+        [
+          -88.73347473099994,
+          13.225418091000051
+        ],
+        [
+          -88.73458099399994,
+          13.22569561000006
+        ],
+        [
+          -88.73764038099995,
+          13.226528168000073
+        ],
+        [
+          -89.80930328399995,
+          13.518193245000077
+        ],
+        [
+          -90.12486267099996,
+          13.74155998200007
+        ],
+        [
+          -90.10961914099994,
+          13.83500671400003
+        ],
+        [
+          -90.07936096199995,
+          13.875994682000055
+        ],
+        [
+          -90.02671050999999,
+          13.936685562000036
+        ],
+        [
+          -89.56771087599998,
+          14.420190811000055
+        ],
+        [
+          -89.38591003399995,
+          14.450551033000067
+        ],
+        [
+          -89.08761596699998,
+          14.345874786000024
+        ],
+        [
+          -87.79987335199996,
+          13.889175415000068
+        ],
+        [
+          -87.75403594999995,
+          13.861404419000053
+        ],
+        [
+          -87.75031280499996,
+          13.858527184000025
+        ],
+        [
+          -87.71027374299996,
+          13.810763359000077
+        ],
+        [
+          -87.70886993399995,
+          13.802029610000034
+        ],
+        [
+          -87.68374633799993,
+          13.167361259000074
+        ],
+        [
+          -87.68374633799993,
+          13.16597080200006
+        ],
+        [
+          -87.68402862499994,
+          13.165695190000065
+        ],
+        [
+          -87.70652770999999,
+          13.16125106800007
+        ],
+        [
+          -87.89902496299999,
+          13.15264034300003
+        ],
+        [
+          -87.91236114499998,
+          13.15264034300003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -90.12486267099996,
+    13.15264034300003,
+    -87.68374633799993,
+    14.450551033000067
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "es"
+    ],
+    "languages_admin_all": [
+      "es"
+    ],
+    "iso3": "SLV",
+    "iso2": "SV",
+    "name": "El Salvador",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/SLV_pcode/FeatureServer",
+    "itos_update": "2024-08-27",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-slv",
+    "hdx_date": "2020-05-29",
+    "hdx_update": "2024-08-29",
+    "hdx_source_1": "www.gadm.org",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2024-08-14T00:00:00Z",
+    "end_datetime": "2024-08-19T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2024-08-19T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/slv_adm0/slv_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/slv_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/slv/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/slv/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/slv/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/slv/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/slv/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/slv/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/slv/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/slv_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/slv_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/slv_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

@@ -1,0 +1,257 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "pak_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          68.13713073700006,
+          23.694683075000057
+        ],
+        [
+          68.13090515100004,
+          23.69500541700006
+        ],
+        [
+          68.03601837200006,
+          23.705539703000056
+        ],
+        [
+          61.74884033200004,
+          25.034711838000078
+        ],
+        [
+          61.73934555100004,
+          25.03743743900003
+        ],
+        [
+          61.727947235000045,
+          25.044332504000067
+        ],
+        [
+          61.61045455900006,
+          25.194952011000055
+        ],
+        [
+          60.87859740400006,
+          29.861780320000037
+        ],
+        [
+          71.63595544000003,
+          36.47205414800004
+        ],
+        [
+          72.24136442500003,
+          36.75348291100005
+        ],
+        [
+          72.63159787100005,
+          36.84842780500003
+        ],
+        [
+          74.69955095600005,
+          37.089423898000064
+        ],
+        [
+          75.14496726800007,
+          37.02617981800006
+        ],
+        [
+          75.40072336900005,
+          36.95744493600006
+        ],
+        [
+          75.41028070400006,
+          36.95473064000004
+        ],
+        [
+          77.81405343900008,
+          35.519473746000074
+        ],
+        [
+          77.81918735500005,
+          35.515511987000025
+        ],
+        [
+          77.82738263000005,
+          35.50817782100006
+        ],
+        [
+          77.83396708800007,
+          35.50214254700006
+        ],
+        [
+          71.12440394600003,
+          24.409365559000037
+        ],
+        [
+          71.11160189900005,
+          24.39871792300005
+        ],
+        [
+          70.89410460200008,
+          24.257096497000077
+        ],
+        [
+          70.81624523000005,
+          24.225045832000035
+        ],
+        [
+          70.80576392400008,
+          24.22272414500003
+        ],
+        [
+          68.13713073700006,
+          23.694683075000057
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    60.87859740400006,
+    23.694683075000057,
+    77.83396708800007,
+    37.089423898000064
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "PAK",
+    "iso2": "PK",
+    "name": "Pakistan",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/PAK_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-pak",
+    "hdx_date": "2022-09-02",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "World Food Programme SDI",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2022-09-02T00:00:00Z",
+    "end_datetime": "2022-09-09T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2022-09-09T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/pak_adm1/pak_adm1.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/pak_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pak/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pak/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pak/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pak/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pak/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pak/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pak/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/pak_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/pak_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/pak_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

@@ -1,0 +1,221 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "mrt_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -12.050958604999948,
+          14.716956984000035
+        ],
+        [
+          -12.251290137999945,
+          14.761004378000052
+        ],
+        [
+          -16.513557160999937,
+          16.02285560000007
+        ],
+        [
+          -17.072465412999975,
+          20.83503534400006
+        ],
+        [
+          -17.07392169999997,
+          20.90168260400003
+        ],
+        [
+          -17.042236412999955,
+          21.04356365900003
+        ],
+        [
+          -16.947832065999933,
+          21.334170511000025
+        ],
+        [
+          -12.000450120999972,
+          25.999819415000047
+        ],
+        [
+          -8.667359997999938,
+          27.289754250000044
+        ],
+        [
+          -6.996267879999948,
+          26.325511320000032
+        ],
+        [
+          -6.056519323999964,
+          25.76449593500007
+        ],
+        [
+          -4.806245520999937,
+          24.99989689000006
+        ],
+        [
+          -5.33630809899995,
+          16.333173085000055
+        ],
+        [
+          -5.433262063999962,
+          15.834241641000062
+        ],
+        [
+          -5.500249439999948,
+          15.500565615000028
+        ],
+        [
+          -12.050958604999948,
+          14.716956984000035
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -17.07392169999997,
+    14.716956984000035,
+    -4.806245520999937,
+    27.289754250000044
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "fr"
+    ],
+    "languages_admin_all": [
+      "fr"
+    ],
+    "iso3": "MRT",
+    "iso2": "MR",
+    "name": "Mauritania",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/MRT_pcode/FeatureServer",
+    "itos_update": "2024-03-29",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-mrt",
+    "hdx_date": "2024-03-06",
+    "hdx_update": "2024-04-02",
+    "hdx_source_1": "Agence Nationale de la Statistique, de l’Analyse Démographique et Economique (ANSADE)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Several topology errors exist, and are particularly obvious at administrative level 0.  These will be fixed shortly.",
+    "start_datetime": "2024-03-06T00:00:00Z",
+    "end_datetime": "2024-03-27T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2024-03-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/mrt_adm0/mrt_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mrt_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mrt/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mrt/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mrt/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mrt/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mrt/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mrt/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mrt/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/mrt_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mrt_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mrt_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

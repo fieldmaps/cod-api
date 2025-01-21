@@ -1,0 +1,297 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "bmu_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.83694458032807,
+          32.246665954570176
+        ],
+        [
+          -64.85972595189111,
+          32.24722290021674
+        ],
+        [
+          -64.861114501533,
+          32.24750137348963
+        ],
+        [
+          -64.86222076387713,
+          32.24777603183844
+        ],
+        [
+          -64.86944580118274,
+          32.25138855004161
+        ],
+        [
+          -64.87277984611296,
+          32.25416564932533
+        ],
+        [
+          -64.87666320774082,
+          32.25777816752844
+        ],
+        [
+          -64.87777709993316,
+          32.25888824479671
+        ],
+        [
+          -64.87833404557972,
+          32.25972366371616
+        ],
+        [
+          -64.87860870392848,
+          32.26027679443854
+        ],
+        [
+          -64.87944793687274,
+          32.262222289726935
+        ],
+        [
+          -64.88777923562321,
+          32.28166580233494
+        ],
+        [
+          -64.8836135866976,
+          32.305831909515064
+        ],
+        [
+          -64.76971435513332,
+          32.47607421855042
+        ],
+        [
+          -64.76910400414641,
+          32.476684570436646
+        ],
+        [
+          -64.76860809368856,
+          32.47694396998827
+        ],
+        [
+          -64.76806640593986,
+          32.47722625728602
+        ],
+        [
+          -64.64944457980346,
+          32.372222899966914
+        ],
+        [
+          -64.64915466265751,
+          32.371891021353576
+        ],
+        [
+          -64.64717102082591,
+          32.36864089935807
+        ],
+        [
+          -64.64695739766574,
+          32.3680725098385
+        ],
+        [
+          -64.64691162127428,
+          32.3674926755466
+        ],
+        [
+          -64.64623260525047,
+          32.35032653773959
+        ],
+        [
+          -64.6462020876562,
+          32.34930419922944
+        ],
+        [
+          -64.64709472684012,
+          32.347717285224576
+        ],
+        [
+          -64.6481552127928,
+          32.346153258965785
+        ],
+        [
+          -64.64920043904897,
+          32.345386505083184
+        ],
+        [
+          -64.7805557246669,
+          32.270000457754975
+        ],
+        [
+          -64.7822189326576,
+          32.269165038835524
+        ],
+        [
+          -64.81916809063483,
+          32.25138855004161
+        ],
+        [
+          -64.82360839880852,
+          32.249443053853895
+        ],
+        [
+          -64.82805633503182,
+          32.24777603183844
+        ],
+        [
+          -64.82888793902714,
+          32.24750137348963
+        ],
+        [
+          -64.83444213849384,
+          32.246665954570176
+        ],
+        [
+          -64.83694458032807,
+          32.246665954570176
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -64.88777923562321,
+    32.246665954570176,
+    -64.6462020876562,
+    32.47722625728602
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "BMU",
+    "iso2": "BM",
+    "name": "Bermuda",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/BMU_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-bmu",
+    "hdx_date": "2017-09-21",
+    "hdx_update": "2019-05-22",
+    "hdx_source_1": "www.gadm.org",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "*Administrative level 2 is not generally recognized but enables mapping of and linkage to population statistics for Bermuda's two municipalities, Hamilton and St. George's, which comprise parts of Pembroke and St. George's parishes respectively.\r\n\r\nUsers are reminded that the City of Hamilton is not within and not associated with Hamilton parish.",
+    "start_datetime": "2019-05-22T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/bmu_adm2/bmu_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bmu_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bmu/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bmu/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bmu/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bmu/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bmu/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bmu/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bmu/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/bmu_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bmu_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bmu_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

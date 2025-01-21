@@ -1,0 +1,276 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "rus_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          47.75320000007997,
+          41.1889000003348
+        ],
+        [
+          47.54190000008498,
+          41.206299999645296
+        ],
+        [
+          -179.99999999990004,
+          64.95680000041972
+        ],
+        [
+          -179.99999999990004,
+          71.39239999976024
+        ],
+        [
+          -179.99790000018484,
+          71.52919999958038
+        ],
+        [
+          -179.09739999961027,
+          76.16610000041476
+        ],
+        [
+          -179.0957999995703,
+          76.16670000020491
+        ],
+        [
+          58.77710000016492,
+          81.85419999963034
+        ],
+        [
+          58.91039999956041,
+          81.85620000012995
+        ],
+        [
+          58.96459999979021,
+          81.85620000012995
+        ],
+        [
+          59.15619999963036,
+          81.85419999963034
+        ],
+        [
+          95.88119999998008,
+          81.2728999998352
+        ],
+        [
+          95.96040000015995,
+          81.26879999962034
+        ],
+        [
+          96.05629999974525,
+          81.26249999957537
+        ],
+        [
+          149.48329999959537,
+          76.75419999993011
+        ],
+        [
+          179.9979000003848,
+          71.52919999958038
+        ],
+        [
+          179.99950000042475,
+          71.39009999981522
+        ],
+        [
+          180.00000000010004,
+          68.94999999990011
+        ],
+        [
+          180.00000000010004,
+          65.97710000016491
+        ],
+        [
+          179.9979000003848,
+          65.02710000026485
+        ],
+        [
+          179.62920000027987,
+          62.68749999982521
+        ],
+        [
+          179.62290000023484,
+          62.66249999987514
+        ],
+        [
+          179.62239999966027,
+          62.66089999983518
+        ],
+        [
+          179.59529999999506,
+          62.623399999910134
+        ],
+        [
+          179.1557000002549,
+          62.285899999685284
+        ],
+        [
+          168.10019999983024,
+          54.49770000005503
+        ],
+        [
+          146.1587000004048,
+          43.40840000035979
+        ],
+        [
+          146.00600000029988,
+          43.360299999945084
+        ],
+        [
+          146.0048999999351,
+          43.36019999983017
+        ],
+        [
+          130.6750999998652,
+          42.28460000038979
+        ],
+        [
+          47.75320000007997,
+          41.1889000003348
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.99999999990004,
+    41.1889000003348,
+    180.00000000010004,
+    81.85620000012995
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "RUS",
+    "iso2": "RU",
+    "name": "Russian Federation",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/RUS_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-rus",
+    "hdx_date": "2022-03-09",
+    "hdx_update": "2023-10-23",
+    "hdx_source_1": "www.gadm.org",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2022-03-21T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/rus_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rus/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rus/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rus/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rus/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rus/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rus/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rus/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/rus_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/rus_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/rus_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

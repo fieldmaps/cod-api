@@ -1,0 +1,269 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "caf_adm3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          16.195231000000035,
+          2.223446000000024
+        ],
+        [
+          16.19081600000004,
+          2.2234860000000367
+        ],
+        [
+          16.16481200000004,
+          2.2454340000000457
+        ],
+        [
+          15.057734000000039,
+          3.9971910000000435
+        ],
+        [
+          14.732002000000023,
+          4.609288000000049
+        ],
+        [
+          14.527871000000061,
+          5.278010000000052
+        ],
+        [
+          14.42009500000006,
+          6.038488000000029
+        ],
+        [
+          14.425702000000058,
+          6.084911000000034
+        ],
+        [
+          15.224746000000039,
+          7.239704000000074
+        ],
+        [
+          15.249240000000043,
+          7.271544000000063
+        ],
+        [
+          15.251778000000058,
+          7.274518000000057
+        ],
+        [
+          15.502784000000077,
+          7.525111000000038
+        ],
+        [
+          21.880784000000062,
+          10.869940000000042
+        ],
+        [
+          22.468584000000078,
+          10.999209000000064
+        ],
+        [
+          22.509036000000037,
+          11.007268000000067
+        ],
+        [
+          22.52067500000004,
+          11.007562000000064
+        ],
+        [
+          22.612271000000078,
+          10.997041000000024
+        ],
+        [
+          22.734312000000045,
+          10.974491000000057
+        ],
+        [
+          22.881335000000036,
+          10.930895000000021
+        ],
+        [
+          23.29615700000005,
+          10.50758600000006
+        ],
+        [
+          27.160438000000056,
+          5.767361000000051
+        ],
+        [
+          27.207989000000055,
+          5.7016250000000355
+        ],
+        [
+          27.21759000000003,
+          5.687788000000069
+        ],
+        [
+          27.283386000000064,
+          5.587006000000031
+        ],
+        [
+          27.45528500000006,
+          5.071804000000043
+        ],
+        [
+          27.456635000000063,
+          5.06466400000005
+        ],
+        [
+          27.463423000000034,
+          5.016146000000049
+        ],
+        [
+          16.195231000000035,
+          2.223446000000024
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    14.42009500000006,
+    2.223446000000024,
+    27.463423000000034,
+    11.007562000000064
+  ],
+  "properties": {
+    "admin_level": "3",
+    "languages_admin_self": [
+      "fr"
+    ],
+    "languages_admin_all": [
+      "fr"
+    ],
+    "iso3": "CAF",
+    "iso2": "CF",
+    "name": "Central African Republic",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/CAF_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 4.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": 4.0,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-caf",
+    "hdx_date": "2020-12-31",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": " Agency for Technical Cooperation and Development(ACTED)",
+    "hdx_source_2": "OCHA Central African Republic",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Administrative boundaries have been officially changed to 20 prefectures and 84 sub-prefectures.  However, the ICASEES (Institut Centrafricain des Statistiques et des Etudes Economiques et Sociales, Central African Institute for Statistics and Economic and Social Studies) has not yet implemented the changes and the humanitarian community continues to use the existing structure.",
+    "start_datetime": "2014-08-02T00:00:00Z",
+    "end_datetime": "2015-06-15T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2015-06-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/caf_adm3/caf_adm3.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/caf_adm3.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/caf/3?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/caf/3?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/caf/3?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/caf/3?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/caf/3?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/caf/3?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/caf/3?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/caf_adm3.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/caf_adm3.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/caf_adm3.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

@@ -1,0 +1,296 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "glp_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -61.58625030480766,
+          15.831526755955053
+        ],
+        [
+          -61.60874938997233,
+          15.83375167869707
+        ],
+        [
+          -61.63402938844547,
+          15.839584350537393
+        ],
+        [
+          -61.639305114639285,
+          15.841527939263017
+        ],
+        [
+          -61.649307251228606,
+          15.846249580553774
+        ],
+        [
+          -61.65041732759755,
+          15.846805572918925
+        ],
+        [
+          -61.650695800870494,
+          15.847084999473225
+        ],
+        [
+          -61.746528625595545,
+          16.010137557902
+        ],
+        [
+          -61.76874923748727,
+          16.055416107167673
+        ],
+        [
+          -61.77069473277567,
+          16.060972214096466
+        ],
+        [
+          -61.77097320514923,
+          16.061805724654505
+        ],
+        [
+          -61.792362213045635,
+          16.167083740322425
+        ],
+        [
+          -61.810138702738925,
+          16.27236175509097
+        ],
+        [
+          -61.810138702738925,
+          16.273195266548385
+        ],
+        [
+          -61.80180740398845,
+          16.31374931377985
+        ],
+        [
+          -61.80152893071556,
+          16.314861297610832
+        ],
+        [
+          -61.782360076456314,
+          16.37097167999906
+        ],
+        [
+          -61.465137481609474,
+          16.51486206073554
+        ],
+        [
+          -61.464305877614095,
+          16.51486206073554
+        ],
+        [
+          -61.00708389260751,
+          16.35041618356007
+        ],
+        [
+          -61.00458145167261,
+          16.345693588088693
+        ],
+        [
+          -61.000972747494245,
+          16.338750838980104
+        ],
+        [
+          -61.000137329474114,
+          16.33486366242812
+        ],
+        [
+          -61.000137329474114,
+          16.33430480931952
+        ],
+        [
+          -61.000972747494245,
+          16.33235931403118
+        ],
+        [
+          -61.20236206026084,
+          15.902918816050544
+        ],
+        [
+          -61.20402908317561,
+          15.900972366581527
+        ],
+        [
+          -61.20430374152443,
+          15.900693893308585
+        ],
+        [
+          -61.22847366362862,
+          15.883193016144844
+        ],
+        [
+          -61.233749389822435,
+          15.879583358685124
+        ],
+        [
+          -61.2418060302241,
+          15.874582290840124
+        ],
+        [
+          -61.242916107492306,
+          15.874028205937009
+        ],
+        [
+          -61.24902725260557,
+          15.87208366392997
+        ],
+        [
+          -61.2681961059655,
+          15.867637634269443
+        ],
+        [
+          -61.585693359161155,
+          15.831526755955053
+        ],
+        [
+          -61.58625030480766,
+          15.831526755955053
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -61.810138702738925,
+    15.831526755955053,
+    -61.000137329474114,
+    16.51486206073554
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "fr"
+    ],
+    "languages_admin_all": [
+      "fr"
+    ],
+    "iso3": "GLP",
+    "iso2": "GP",
+    "name": "Guadeloupe",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/GLP_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-glp",
+    "hdx_date": "2017-09-07",
+    "hdx_update": "2019-12-10",
+    "hdx_source_1": "www.gadm.org",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2019-12-10T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/glp_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/glp/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/glp/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/glp/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/glp/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/glp/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/glp/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/glp/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/glp_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/glp_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/glp_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

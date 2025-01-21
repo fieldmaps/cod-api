@@ -1,0 +1,280 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "eth_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          39.56027000000006,
+          3.4066700000000765
+        ],
+        [
+          39.51902000000007,
+          3.409310000000062
+        ],
+        [
+          38.121110000000044,
+          3.6116700000000606
+        ],
+        [
+          36.045300000000054,
+          4.447080000000028
+        ],
+        [
+          36.03104717300005,
+          4.458281953000039
+        ],
+        [
+          35.96518000000003,
+          4.510050000000035
+        ],
+        [
+          35.95111000000003,
+          4.5211100000000215
+        ],
+        [
+          33.052220000000034,
+          7.7906900000000405
+        ],
+        [
+          33.01497000000006,
+          7.846060000000023
+        ],
+        [
+          32.996830000000045,
+          7.88722000000007
+        ],
+        [
+          32.99180000000007,
+          7.926040000000057
+        ],
+        [
+          33.17125000000004,
+          8.399790000000053
+        ],
+        [
+          34.286110000000065,
+          10.554160000000024
+        ],
+        [
+          36.55273739800003,
+          14.278901204000022
+        ],
+        [
+          37.84945360900008,
+          14.812515420000068
+        ],
+        [
+          37.94029629100004,
+          14.845476907000034
+        ],
+        [
+          39.51578644400007,
+          14.677062298000067
+        ],
+        [
+          39.575182287000075,
+          14.669890578000036
+        ],
+        [
+          40.222589421000066,
+          14.478630022000061
+        ],
+        [
+          40.33094985500003,
+          14.424009685000044
+        ],
+        [
+          40.444510286000025,
+          14.363459338000041
+        ],
+        [
+          40.545590627000024,
+          14.301409044000025
+        ],
+        [
+          40.62798780700007,
+          14.244860054000071
+        ],
+        [
+          40.650530943000035,
+          14.229388753000023
+        ],
+        [
+          40.67135013600006,
+          14.213150194000036
+        ],
+        [
+          40.836741396000036,
+          14.084148277000054
+        ],
+        [
+          41.01559174700003,
+          13.93247784700003
+        ],
+        [
+          47.988240000000076,
+          8.004110000000026
+        ],
+        [
+          47.987220000000036,
+          8.00111000000004
+        ],
+        [
+          44.95083000000005,
+          4.902500000000032
+        ],
+        [
+          41.852069855000025,
+          3.9501869680000254
+        ],
+        [
+          39.56027000000006,
+          3.4066700000000765
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    32.99180000000007,
+    3.4066700000000765,
+    47.988240000000076,
+    14.845476907000034
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "ETH",
+    "iso2": "ET",
+    "name": "Ethiopia",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/ETH_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-eth",
+    "hdx_date": "2021-11-23",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "CSA (Central Statistics Agency) + Regional Bureau of Finance and Economic Development (BoFED)",
+    "hdx_source_2": "OCHA Ethiopia",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The Ethiopia - Subnational Administrative Boundaries dataset is due to be updated in October/November 2024. \r\n\r\nLake T’ana is not shown in administrative level 1 as it lies completely within the Amhara [ET03] kilil (region).  Similarly Lake Awasa is not shown in level 1 as it lies within (although bordering the edge of) SNNP (Southern Nations, Nationalities, and Peoples') [ET07] kilil.  Both lakes form holes in administrative levels 2 and 3.\r\n\r\n\r\nIn the administrative boundary dataset, two administrative level 3 units cannot be represented on maps because of their contested boundaries, but they are being used in all types of analysis. These are Dawe Serer (ET042199) in Oromia region and Quarsadula (ET050905) in Somali region. These two are included on HDX in other datasets, for example on the population statistics and humanitarian profile, and in the gazetteer provided with this dataset.",
+    "start_datetime": "2021-12-09T00:00:00Z",
+    "end_datetime": "2021-12-14T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2021-12-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/eth_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/eth/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/eth/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/eth/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/eth/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/eth/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/eth/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/eth/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/eth_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/eth_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/eth_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

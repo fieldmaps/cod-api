@@ -1,0 +1,292 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "bol_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.56831602699998,
+          -22.898048290999952
+        ],
+        [
+          -67.79920716599997,
+          -22.881107003999944
+        ],
+        [
+          -67.88224083699998,
+          -22.83387946199997
+        ],
+        [
+          -67.88292155699997,
+          -22.832652492999955
+        ],
+        [
+          -67.88339725499998,
+          -22.83179505399994
+        ],
+        [
+          -68.73874209199994,
+          -20.456789411999978
+        ],
+        [
+          -69.64488853899996,
+          -17.281788091999942
+        ],
+        [
+          -69.64493136999994,
+          -17.281566802999976
+        ],
+        [
+          -69.64493136899995,
+          -17.281381203999956
+        ],
+        [
+          -69.57474763899995,
+          -10.945140249999952
+        ],
+        [
+          -66.62400177399996,
+          -9.897036571999934
+        ],
+        [
+          -66.56460534999997,
+          -9.88086694499998
+        ],
+        [
+          -66.54773411099995,
+          -9.876431787999934
+        ],
+        [
+          -66.15024856299993,
+          -9.789411196999936
+        ],
+        [
+          -65.43821398599994,
+          -9.669633001999955
+        ],
+        [
+          -65.39498397399996,
+          -9.688200756999947
+        ],
+        [
+          -65.38761991299998,
+          -9.692394251999929
+        ],
+        [
+          -65.37323795399993,
+          -9.702225670999951
+        ],
+        [
+          -60.46767152299998,
+          -13.794565923999926
+        ],
+        [
+          -60.46677922499998,
+          -13.795577194999964
+        ],
+        [
+          -58.32198715399994,
+          -16.266001906999975
+        ],
+        [
+          -57.73745860699995,
+          -17.562785666999957
+        ],
+        [
+          -57.45443352799998,
+          -18.23102437199998
+        ],
+        [
+          -57.859103980999976,
+          -19.971745109999972
+        ],
+        [
+          -57.86515796899994,
+          -19.986594921999938
+        ],
+        [
+          -57.86785992299997,
+          -19.991084264999927
+        ],
+        [
+          -57.90222679599998,
+          -20.042811876999963
+        ],
+        [
+          -57.90288463799993,
+          -20.043495491999977
+        ],
+        [
+          -58.123941815999956,
+          -20.149381280999933
+        ],
+        [
+          -62.65463259799998,
+          -22.25066256499997
+        ],
+        [
+          -62.655371618999936,
+          -22.25094463099998
+        ],
+        [
+          -62.65622520599999,
+          -22.251270417999933
+        ],
+        [
+          -64.31158332599995,
+          -22.882083027999954
+        ],
+        [
+          -64.31575863399996,
+          -22.882827221999946
+        ],
+        [
+          -67.56831602699998,
+          -22.898048290999952
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -69.64493136999994,
+    -22.898048290999952,
+    -57.45443352799998,
+    -9.669633001999955
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "es"
+    ],
+    "languages_admin_all": [
+      "es"
+    ],
+    "iso3": "BOL",
+    "iso2": "BO",
+    "name": "Bolivia (Plurinational State of)",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/BOL_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-bol",
+    "hdx_date": "2013-01-01",
+    "hdx_update": "2024-09-16",
+    "hdx_source_1": "Ministerio de Desarrollo Rural y Tierras",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Administrative level 2 and 3 exclude seven hydrological features:\r\n\"Salar de Uyuni\", \"Salar de Coipasa\", \"Lago Uru Uru\", \"Lago Poopó\", \"Lago Titicaca\",  and two additional water bodies.  These are left as 'holes' in ADM2 and ADM3, but are enclosed within surrounding features in ADM1 and ADM0.",
+    "start_datetime": "2013-01-01T00:00:00Z",
+    "end_datetime": "2024-09-16T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2024-09-16T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bol_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bol/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bol/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bol/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bol/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bol/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bol/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bol/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/bol_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bol_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bol_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

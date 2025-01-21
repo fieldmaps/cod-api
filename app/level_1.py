@@ -1,7 +1,7 @@
 from re import match
 
 from geopandas import GeoDataFrame
-from pandas import NaT, Timestamp
+from pandas import NaT, Timestamp, to_datetime
 from pycountry import countries
 from tqdm import tqdm
 
@@ -76,10 +76,6 @@ def automatic_fixes(gdf: GeoDataFrame):
 
 
 def config_fixes(gdf: GeoDataFrame, country_config: dict):
-    if "date" in country_config:
-        gdf["date"] = Timestamp(country_config["date"]).date()
-    if "update" in country_config:
-        gdf["validOn"] = Timestamp(country_config["update"]).date()
     if "drop" in country_config:
         gdf = gdf.drop(columns=country_config["drop"])
     if "duplicate" in country_config:
@@ -97,6 +93,14 @@ def config_fixes(gdf: GeoDataFrame, country_config: dict):
                     gdf[column] = gdf[column].fillna(value)
                 else:
                     gdf[column] = gdf[column].str.replace(key, value)
+    if "date" in country_config:
+        gdf["date"] = Timestamp(country_config["date"]).date()
+    else:
+        gdf["date"] = to_datetime(gdf["date"]).dt.date
+    if "update" in country_config:
+        gdf["validOn"] = Timestamp(country_config["update"]).date()
+    else:
+        gdf["validOn"] = to_datetime(gdf["validOn"]).dt.date
     return gdf
 
 

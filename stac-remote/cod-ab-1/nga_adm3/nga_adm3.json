@@ -1,0 +1,329 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "nga_adm3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.09956264300007,
+          4.273007390000032
+        ],
+        [
+          6.087244515000066,
+          4.273785600000053
+        ],
+        [
+          6.083873276000077,
+          4.274044991000039
+        ],
+        [
+          5.976465234000045,
+          4.314446924000038
+        ],
+        [
+          2.7039804410000556,
+          6.372600470000066
+        ],
+        [
+          2.7034919180000543,
+          6.379598281000028
+        ],
+        [
+          2.7021598930000437,
+          6.4135340900000415
+        ],
+        [
+          2.6685335630000395,
+          7.8904323590000445
+        ],
+        [
+          2.6959643460000393,
+          8.345260543000052
+        ],
+        [
+          2.7296440560000406,
+          8.77385308700002
+        ],
+        [
+          2.779877896000073,
+          9.065064293000034
+        ],
+        [
+          3.6439258680000535,
+          12.521250889000044
+        ],
+        [
+          4.12940981600002,
+          13.472762502000023
+        ],
+        [
+          4.464818947000026,
+          13.702699149000068
+        ],
+        [
+          4.47838450200004,
+          13.707446491000042
+        ],
+        [
+          4.515011780000066,
+          13.715587141000071
+        ],
+        [
+          4.6221795300000394,
+          13.737291334000076
+        ],
+        [
+          4.797544076000065,
+          13.772494259000041
+        ],
+        [
+          5.488886412000056,
+          13.893893433000073
+        ],
+        [
+          5.514638016000049,
+          13.894419133000042
+        ],
+        [
+          13.631642854000063,
+          13.711722340000051
+        ],
+        [
+          13.646889177000048,
+          13.695949232000032
+        ],
+        [
+          13.652690171000074,
+          13.687820722000026
+        ],
+        [
+          13.763569838000024,
+          13.531959888000074
+        ],
+        [
+          14.082819857000061,
+          13.082490019000033
+        ],
+        [
+          14.673770026000057,
+          12.17480075800006
+        ],
+        [
+          14.678040542000076,
+          12.165261447000034
+        ],
+        [
+          14.678816234000067,
+          12.156727014000069
+        ],
+        [
+          14.678677833000052,
+          12.150778052000021
+        ],
+        [
+          14.647396215000072,
+          11.60201827700007
+        ],
+        [
+          14.640413030000047,
+          11.574089056000048
+        ],
+        [
+          14.631420508000076,
+          11.550950313000044
+        ],
+        [
+          14.624759571000027,
+          11.536149802000068
+        ],
+        [
+          11.843073039000046,
+          7.075403594000022
+        ],
+        [
+          11.521684766000021,
+          6.609344476000047
+        ],
+        [
+          11.42828967500003,
+          6.531515445000025
+        ],
+        [
+          8.279851060000055,
+          4.533409119000055
+        ],
+        [
+          8.278062629000033,
+          4.532579903000055
+        ],
+        [
+          7.197777408000036,
+          4.379091746000029
+        ],
+        [
+          6.639487638000048,
+          4.317063307000069
+        ],
+        [
+          6.191018098000029,
+          4.278234484000052
+        ],
+        [
+          6.147017963000053,
+          4.274693011000068
+        ],
+        [
+          6.09956264300007,
+          4.273007390000032
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.6685335630000395,
+    4.273007390000032,
+    14.678816234000067,
+    13.894419133000042
+  ],
+  "properties": {
+    "admin_level": "3",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "NGA",
+    "iso2": "NG",
+    "name": "Nigeria",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/NGA_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-nga",
+    "hdx_date": "1996-10-01",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Office for the Surveyor General of the Federation of Nigeria (OSGOF), Ehealth, United Nations Cartographic Section (UNCS)",
+    "hdx_source_2": "OCHA Nigeria",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "ADM2 feature \"Bakassi\" [NG009005] is not represented in the COD-PS, but is thought to be uninhabited. Any actual population will be incorporated in the \"Akpabuyo\" ]NG009003] COD-PS record.\r\n\r\nAdmin level 3 are developed for operational purposes only.\r\n \r\nTwo wards in the Administrative registry file (Sagir and Wurge) in Ngala, Borno State are not demarcated in the shapefile due to access constraint. \r\n\r\nThe COD replaces the following datasets: \r\n<br />\r\nhttps://data.humdata.org/dataset/nigeria-admin-level-0-1-and-2-administrative-boundaries\r\n<br />\r\nhttps://data.humdata.org/dataset/nigeria-borno-operational-boundaries-admin-1-3-state-lga-ward<br />\r\n",
+    "start_datetime": "2017-03-31T00:00:00Z",
+    "end_datetime": "2019-04-17T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2019-04-17T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/nga_adm3/nga_adm3.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/nga_adm3.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nga/3?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nga/3?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nga/3?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nga/3?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nga/3?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nga/3?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nga/3?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/nga_adm3.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/nga_adm3.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/nga_adm3.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

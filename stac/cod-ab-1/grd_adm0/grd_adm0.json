@@ -1,0 +1,360 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "grd_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -61.76153025999997,
+          11.986953923000044
+        ],
+        [
+          -61.76155939599994,
+          11.986958837000032
+        ],
+        [
+          -61.799014098999976,
+          12.00058825800005
+        ],
+        [
+          -61.80203261899999,
+          12.00171571900006
+        ],
+        [
+          -61.80205444599994,
+          12.001725381000028
+        ],
+        [
+          -61.80226299299994,
+          12.001824357000032
+        ],
+        [
+          -61.80232601399996,
+          12.001860510000029
+        ],
+        [
+          -61.80243991899994,
+          12.00193037200006
+        ],
+        [
+          -61.802461713999946,
+          12.001947211000072
+        ],
+        [
+          -61.80247620999995,
+          12.001966412000058
+        ],
+        [
+          -61.80247125499994,
+          12.001987921000023
+        ],
+        [
+          -61.74952103099997,
+          12.130170133000036
+        ],
+        [
+          -61.74406274199998,
+          12.141921185000058
+        ],
+        [
+          -61.72431653999996,
+          12.183555779000073
+        ],
+        [
+          -61.724296927999944,
+          12.183589179000023
+        ],
+        [
+          -61.49745880299997,
+          12.477847908000058
+        ],
+        [
+          -61.438028749999944,
+          12.530000760000064
+        ],
+        [
+          -61.43796586899998,
+          12.530041421000021
+        ],
+        [
+          -61.437937955999985,
+          12.53005356500006
+        ],
+        [
+          -61.437921244999984,
+          12.530054836000033
+        ],
+        [
+          -61.43790175799995,
+          12.530054723000035
+        ],
+        [
+          -61.384231229999955,
+          12.526799152000024
+        ],
+        [
+          -61.383378161999985,
+          12.526721412000029
+        ],
+        [
+          -61.383363687999974,
+          12.526718478000078
+        ],
+        [
+          -61.38125045199996,
+          12.52608073700003
+        ],
+        [
+          -61.38123747299994,
+          12.526070693000065
+        ],
+        [
+          -61.381146694999984,
+          12.525987569000051
+        ],
+        [
+          -61.38109770899996,
+          12.525941715000044
+        ],
+        [
+          -61.381047310999975,
+          12.525890157000049
+        ],
+        [
+          -61.38102285499997,
+          12.525861534000057
+        ],
+        [
+          -61.380949527999974,
+          12.525768549000077
+        ],
+        [
+          -61.38080587099995,
+          12.525566936000075
+        ],
+        [
+          -61.38079294499994,
+          12.525548350000065
+        ],
+        [
+          -61.380106711999986,
+          12.524281357000064
+        ],
+        [
+          -61.37958629599996,
+          12.523148957000046
+        ],
+        [
+          -61.37850811799996,
+          12.520678436000026
+        ],
+        [
+          -61.37849485399994,
+          12.520636593000063
+        ],
+        [
+          -61.37826588699994,
+          12.519864494000046
+        ],
+        [
+          -61.37825704399995,
+          12.51973345600004
+        ],
+        [
+          -61.37811504899997,
+          12.517101527000023
+        ],
+        [
+          -61.37867417899997,
+          12.513577815000076
+        ],
+        [
+          -61.378737876999935,
+          12.513278264000064
+        ],
+        [
+          -61.378749132999985,
+          12.513228870000034
+        ],
+        [
+          -61.37883634599996,
+          12.512876307000056
+        ],
+        [
+          -61.634746941999936,
+          12.044261727000048
+        ],
+        [
+          -61.63476232299996,
+          12.044244598000034
+        ],
+        [
+          -61.638412965999976,
+          12.040298747000065
+        ],
+        [
+          -61.64730684999995,
+          12.031677181000077
+        ],
+        [
+          -61.652972561999945,
+          12.026298617000066
+        ],
+        [
+          -61.65335697799998,
+          12.02605440700006
+        ],
+        [
+          -61.708748931999935,
+          11.993835924000052
+        ],
+        [
+          -61.76153025999997,
+          11.986953923000044
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -61.80247620999995,
+    11.986953923000044,
+    -61.37811504899997,
+    12.530054836000033
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "GRD",
+    "iso2": "GD",
+    "name": "Grenada",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/GRD_pcode/FeatureServer",
+    "itos_update": "2024-07-11",
+    "itos_service": "COD_External",
+    "itos_level": 1.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": null,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-grd",
+    "hdx_date": "2017-09-08",
+    "hdx_update": "2024-07-12",
+    "hdx_source_1": "Caribbean Disaster Emergency Management Agency  (CDEMA)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Grenada is formed of six parishes and one dependency (\"Carriacou and Petite Martinique\")",
+    "start_datetime": "2017-09-08T00:00:00Z",
+    "end_datetime": "2024-07-09T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2024-07-09T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/grd_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/grd/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/grd/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/grd/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/grd/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/grd/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/grd/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/grd/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/grd_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/grd_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/grd_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

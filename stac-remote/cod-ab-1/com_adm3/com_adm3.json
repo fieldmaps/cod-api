@@ -1,0 +1,337 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "com_adm3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          43.72297527000006,
+          -12.42277915099993
+        ],
+        [
+          43.671786834000045,
+          -12.422273134999955
+        ],
+        [
+          43.650643814000034,
+          -12.412831702999938
+        ],
+        [
+          43.65049848100006,
+          -12.41275890199995
+        ],
+        [
+          43.638263849000055,
+          -12.40401094799995
+        ],
+        [
+          43.238890000000026,
+          -11.779993999999931
+        ],
+        [
+          43.23194200000006,
+          -11.757526999999982
+        ],
+        [
+          43.23190200000005,
+          -11.757387999999935
+        ],
+        [
+          43.228556000000026,
+          -11.736350999999956
+        ],
+        [
+          43.22858700000006,
+          -11.735866999999928
+        ],
+        [
+          43.22900200000004,
+          -11.731982999999957
+        ],
+        [
+          43.26274600000005,
+          -11.44966599999998
+        ],
+        [
+          43.262762000000066,
+          -11.449533999999971
+        ],
+        [
+          43.27106800000007,
+          -11.413998999999933
+        ],
+        [
+          43.278031000000055,
+          -11.398763999999971
+        ],
+        [
+          43.279071000000044,
+          -11.397054999999966
+        ],
+        [
+          43.27962300000007,
+          -11.396309999999971
+        ],
+        [
+          43.28394600000007,
+          -11.392579999999953
+        ],
+        [
+          43.30244600000003,
+          -11.37860999999998
+        ],
+        [
+          43.302725000000066,
+          -11.378454999999974
+        ],
+        [
+          43.342621000000065,
+          -11.365275999999938
+        ],
+        [
+          43.342701000000034,
+          -11.365275999999938
+        ],
+        [
+          43.355962000000034,
+          -11.365839999999935
+        ],
+        [
+          43.38191800000004,
+          -11.371068999999977
+        ],
+        [
+          43.38749700000005,
+          -11.372352999999976
+        ],
+        [
+          43.39316400000007,
+          -11.37390899999997
+        ],
+        [
+          44.47340500000007,
+          -12.07058799999993
+        ],
+        [
+          44.47517300000004,
+          -12.07201299999997
+        ],
+        [
+          44.477666000000056,
+          -12.074295999999947
+        ],
+        [
+          44.481430000000046,
+          -12.078533999999934
+        ],
+        [
+          44.48189800000006,
+          -12.079207999999937
+        ],
+        [
+          44.48800700000004,
+          -12.088179999999966
+        ],
+        [
+          44.48829600000005,
+          -12.08864699999998
+        ],
+        [
+          44.49230200000005,
+          -12.095912999999939
+        ],
+        [
+          44.49287900000007,
+          -12.097193999999945
+        ],
+        [
+          44.54067200000003,
+          -12.25987299999997
+        ],
+        [
+          44.53722600000003,
+          -12.348271999999952
+        ],
+        [
+          44.531821000000036,
+          -12.36867099999995
+        ],
+        [
+          44.53007800000006,
+          -12.373256999999967
+        ],
+        [
+          44.52724600000005,
+          -12.38053599999995
+        ],
+        [
+          44.52717500000006,
+          -12.38067099999995
+        ],
+        [
+          44.52665900000005,
+          -12.381052999999952
+        ],
+        [
+          44.51905100000005,
+          -12.383517999999981
+        ],
+        [
+          44.515775000000076,
+          -12.384457999999938
+        ],
+        [
+          43.72297527000006,
+          -12.42277915099993
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    43.228556000000026,
+    -12.42277915099993,
+    44.54067200000003,
+    -11.365275999999938
+  ],
+  "properties": {
+    "admin_level": "3",
+    "languages_admin_self": [
+      "fr"
+    ],
+    "languages_admin_all": [
+      "fr"
+    ],
+    "iso3": "COM",
+    "iso2": "KM",
+    "name": "Comoros",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/COM_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-com",
+    "hdx_date": "2018-12-28",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Comoros National Disaster Management Agency (COSEP-Centre des secours et de la protection civil)",
+    "hdx_source_2": "OCHA Regional Office for Southern and Eastern Africa (ROSEA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Administrative level 2 feature Kartala (KM29) is an unpopulated active volcano.\r\n\r\nPopulation statistics are available for administrative levels 0, 1, 2, 4, and 5.  Administrative levels 4 (locality) and 5 (village) P-codes are not certain to be correct and the population data do not roll up to administrative level 3 (commune). Administrative level 3 data are unavailable.\r\n",
+    "start_datetime": "2018-12-28T00:00:00Z",
+    "end_datetime": "2019-12-05T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2019-12-05T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/com_adm3/com_adm3.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/com_adm3.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/com/3?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/com/3?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/com/3?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/com/3?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/com/3?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/com/3?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/com/3?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/com_adm3.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/com_adm3.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/com_adm3.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

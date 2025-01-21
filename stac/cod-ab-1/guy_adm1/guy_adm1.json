@@ -1,0 +1,264 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "guy_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.8213039996798,
+          1.1713979998178843
+        ],
+        [
+          -59.253249999887544,
+          1.3886219996056184
+        ],
+        [
+          -59.28297400005005,
+          1.4108450000967423
+        ],
+        [
+          -59.69019999973017,
+          1.7566799997821931
+        ],
+        [
+          -59.751589999678686,
+          1.8589039996199404
+        ],
+        [
+          -61.39386699996203,
+          5.955193000156896
+        ],
+        [
+          -61.24511700034924,
+          6.555706000131863
+        ],
+        [
+          -60.72433799999868,
+          7.561901999677616
+        ],
+        [
+          -60.57232199996031,
+          7.807754000346904
+        ],
+        [
+          -60.559204000264344,
+          7.828728999943451
+        ],
+        [
+          -59.99787100034632,
+          8.557561999886445
+        ],
+        [
+          -59.411486999925046,
+          8.211888000430918
+        ],
+        [
+          -59.299598000447304,
+          8.145271999603153
+        ],
+        [
+          -59.13995700041522,
+          8.043218000410434
+        ],
+        [
+          -59.12628899963761,
+          8.033596000055411
+        ],
+        [
+          -59.112667000081956,
+          8.021450000217385
+        ],
+        [
+          -58.672092000345515,
+          7.61023900022974
+        ],
+        [
+          -58.66248299969067,
+          7.6007549999433195
+        ],
+        [
+          -57.23629299982207,
+          6.184618999667123
+        ],
+        [
+          -57.21253200035147,
+          6.156023000261314
+        ],
+        [
+          -57.182040999892195,
+          6.111328000386948
+        ],
+        [
+          -57.17342700015587,
+          6.0911040003493895
+        ],
+        [
+          -57.16456199963653,
+          6.064468999644646
+        ],
+        [
+          -57.146224000237396,
+          5.999985000007769
+        ],
+        [
+          -56.480766000050835,
+          1.9450900000035176
+        ],
+        [
+          -56.57981400001603,
+          1.906390999644941
+        ],
+        [
+          -58.522967999673426,
+          1.258342000083303
+        ],
+        [
+          -58.8213039996798,
+          1.1713979998178843
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -61.39386699996203,
+    1.1713979998178843,
+    -56.480766000050835,
+    8.557561999886445
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "GUY",
+    "iso2": "GY",
+    "name": "Guyana",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/GUY_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-guy",
+    "hdx_date": "2021-06-23",
+    "hdx_update": "2021-06-23",
+    "hdx_source_1": "DEVInfo LAC project",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2021-06-23T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/guy_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guy/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guy/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guy/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guy/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guy/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guy/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guy/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/guy_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/guy_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/guy_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

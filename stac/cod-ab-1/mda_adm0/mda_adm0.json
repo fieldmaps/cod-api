@@ -1,0 +1,288 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "mda_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.21136000000007,
+          45.46727999900003
+        ],
+        [
+          28.208550500000058,
+          45.46795149900004
+        ],
+        [
+          28.187674000000072,
+          45.47335299900004
+        ],
+        [
+          28.186470000000043,
+          45.473857499000076
+        ],
+        [
+          28.18579150000005,
+          45.474481499000035
+        ],
+        [
+          28.162477000000024,
+          45.499926499000026
+        ],
+        [
+          28.162056000000064,
+          45.500473999000064
+        ],
+        [
+          28.091323000000045,
+          45.59937699900007
+        ],
+        [
+          28.089000500000054,
+          45.603402999000025
+        ],
+        [
+          26.616355000000055,
+          48.27444349900003
+        ],
+        [
+          26.70911200000006,
+          48.405398999000056
+        ],
+        [
+          26.715738000000044,
+          48.40894799900008
+        ],
+        [
+          26.720912000000055,
+          48.41074599900003
+        ],
+        [
+          26.722556500000053,
+          48.411162499000056
+        ],
+        [
+          26.72489550000006,
+          48.41175449900004
+        ],
+        [
+          26.77510200000006,
+          48.41840349900008
+        ],
+        [
+          27.587882500000035,
+          48.491498999000044
+        ],
+        [
+          27.59183950000005,
+          48.49137499900007
+        ],
+        [
+          27.596042000000068,
+          48.490855999000075
+        ],
+        [
+          27.75945850000005,
+          48.45580449900007
+        ],
+        [
+          27.762395000000026,
+          48.454983499000036
+        ],
+        [
+          28.833672000000035,
+          48.12855499900007
+        ],
+        [
+          29.175039000000027,
+          47.993749499000046
+        ],
+        [
+          29.280013500000052,
+          47.88940199900003
+        ],
+        [
+          29.281443500000023,
+          47.887717999000074
+        ],
+        [
+          29.97939850000006,
+          46.81941399900006
+        ],
+        [
+          30.160203000000024,
+          46.42659799900008
+        ],
+        [
+          30.16046650000004,
+          46.425594999000054
+        ],
+        [
+          30.16313850000006,
+          46.413372999000046
+        ],
+        [
+          30.09677000000005,
+          46.37535849900007
+        ],
+        [
+          28.514691000000028,
+          45.49957849900005
+        ],
+        [
+          28.51377800000006,
+          45.499347999000065
+        ],
+        [
+          28.434556000000043,
+          45.48604899900005
+        ],
+        [
+          28.21136000000007,
+          45.46727999900003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    26.616355000000055,
+    45.46727999900003,
+    30.16313850000006,
+    48.491498999000044
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "MDA",
+    "iso2": "MD",
+    "name": "Republic of Moldova",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/MDA_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 1.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": null,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-mda",
+    "hdx_date": "2022-05-13",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "UNHCR",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2019-09-06T00:00:00Z",
+    "end_datetime": "2022-05-10T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2022-05-10T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mda_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mda/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mda/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mda/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mda/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mda/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mda/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mda/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/mda_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mda_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mda_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

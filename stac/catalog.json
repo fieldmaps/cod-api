@@ -1,0 +1,18 @@
+{
+  "type": "Catalog",
+  "id": "cod-ab",
+  "stac_version": "1.0.0",
+  "description": "Catalog for Common Operational Datasets - Administrative Boundaries (COD-AB).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./cod-ab-1/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

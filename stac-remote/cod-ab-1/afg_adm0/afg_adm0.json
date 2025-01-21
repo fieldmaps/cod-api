@@ -1,0 +1,323 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "afg_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          64.11630806000005,
+          29.377065966000032
+        ],
+        [
+          62.46558545000005,
+          29.379339448000053
+        ],
+        [
+          60.884976195000036,
+          29.855081488000053
+        ],
+        [
+          60.87316702100003,
+          29.858701495000048
+        ],
+        [
+          60.471981311000036,
+          34.079365403000054
+        ],
+        [
+          60.471977233000075,
+          34.08021307000007
+        ],
+        [
+          60.47244527700008,
+          34.081229421000046
+        ],
+        [
+          61.091873305000036,
+          35.26313625200004
+        ],
+        [
+          61.27493000000004,
+          35.60420105400004
+        ],
+        [
+          61.28632286100003,
+          35.61450887900003
+        ],
+        [
+          65.70610784000007,
+          37.53855606600007
+        ],
+        [
+          65.70696990100004,
+          37.538780787000064
+        ],
+        [
+          65.76088276900003,
+          37.550961537000035
+        ],
+        [
+          70.77096505500003,
+          38.45608323300007
+        ],
+        [
+          70.98932343300004,
+          38.490842400000076
+        ],
+        [
+          70.99019907400003,
+          38.490690114000074
+        ],
+        [
+          74.68999573000008,
+          37.40591554200006
+        ],
+        [
+          74.80398262800003,
+          37.355183546000035
+        ],
+        [
+          74.83158994000007,
+          37.334264602000076
+        ],
+        [
+          74.83291812700008,
+          37.33260436900008
+        ],
+        [
+          74.87676015400007,
+          37.27494089800007
+        ],
+        [
+          74.87741238800004,
+          37.274051487000065
+        ],
+        [
+          74.88891543500006,
+          37.25608538700004
+        ],
+        [
+          74.88927119900006,
+          37.25401009500007
+        ],
+        [
+          74.88950837600004,
+          37.25134186300005
+        ],
+        [
+          74.88956179300004,
+          37.24787471600007
+        ],
+        [
+          74.88956179200005,
+          37.23390130400003
+        ],
+        [
+          74.88850039700003,
+          37.223962216000075
+        ],
+        [
+          74.88816227000007,
+          37.222891480000044
+        ],
+        [
+          74.88754237000006,
+          37.22204616100004
+        ],
+        [
+          69.11758728800004,
+          31.70146150900007
+        ],
+        [
+          69.11673068200008,
+          31.700719118000052
+        ],
+        [
+          69.02109538600007,
+          31.62889746700006
+        ],
+        [
+          66.26660746400006,
+          29.857658273000027
+        ],
+        [
+          66.25128968400003,
+          29.849211186000048
+        ],
+        [
+          65.93342343700004,
+          29.761409075000074
+        ],
+        [
+          65.92866451500004,
+          29.760159858000065
+        ],
+        [
+          65.92592813400006,
+          29.75944602000004
+        ],
+        [
+          65.05913807900004,
+          29.534670236000068
+        ],
+        [
+          64.12682527900006,
+          29.37858882100005
+        ],
+        [
+          64.11630806000005,
+          29.377065966000032
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    60.471977233000075,
+    29.377065966000032,
+    74.88956179300004,
+    38.490842400000076
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en",
+      "fa"
+    ],
+    "languages_admin_all": [
+      "en",
+      "fa"
+    ],
+    "iso3": "AFG",
+    "iso2": "AF",
+    "name": "Afghanistan",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/AFG_pcode/FeatureServer",
+    "itos_update": "2023-05-19",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-afg",
+    "hdx_date": "2019-10-22",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Afghanistan Geodesy and Cartography Head Office (AGCHO)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "This COD-AB uses the 401 district administrative model.  Although other lists exist, this arrangement has been adopted by the humanitarian community.",
+    "start_datetime": "2017-12-12T00:00:00Z",
+    "end_datetime": "2021-11-17T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2021-11-17T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/afg_adm0/afg_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/afg_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/afg/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/afg/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/afg/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/afg/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/afg/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/afg/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/afg/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/afg_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/afg_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/afg_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

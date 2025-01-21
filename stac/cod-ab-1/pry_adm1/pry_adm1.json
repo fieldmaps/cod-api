@@ -1,0 +1,268 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "pry_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -56.40779314763563,
+          -27.59183356546663
+        ],
+        [
+          -58.61019150923073,
+          -27.306219282493828
+        ],
+        [
+          -62.64023768172359,
+          -22.29975247179908
+        ],
+        [
+          -62.640279995725166,
+          -22.29961792063051
+        ],
+        [
+          -62.64461743584593,
+          -22.251467045567665
+        ],
+        [
+          -62.2663416659351,
+          -20.563155556483707
+        ],
+        [
+          -61.735211110904004,
+          -19.63440555627136
+        ],
+        [
+          -59.977777777922086,
+          -19.294686111075123
+        ],
+        [
+          -59.06892777809446,
+          -19.28764722264117
+        ],
+        [
+          -58.23596666622865,
+          -19.774997222843524
+        ],
+        [
+          -58.16390142581014,
+          -19.82715419540972
+        ],
+        [
+          -55.74670772228353,
+          -22.384105972212808
+        ],
+        [
+          -54.290566282807674,
+          -24.02628870016332
+        ],
+        [
+          -54.28765534102115,
+          -24.032433872025535
+        ],
+        [
+          -54.28018501362743,
+          -24.067296988665078
+        ],
+        [
+          -54.25892390911105,
+          -24.354642576293827
+        ],
+        [
+          -54.25964818801344,
+          -24.365661665353514
+        ],
+        [
+          -54.61779728791447,
+          -26.21515682632645
+        ],
+        [
+          -54.64891646032635,
+          -26.314952661136374
+        ],
+        [
+          -54.700296295437624,
+          -26.437830660156806
+        ],
+        [
+          -54.78828390407887,
+          -26.633442819830236
+        ],
+        [
+          -54.81270191046474,
+          -26.669297184517404
+        ],
+        [
+          -55.13534249615924,
+          -26.948954837595636
+        ],
+        [
+          -55.60502716197391,
+          -27.341242306687036
+        ],
+        [
+          -55.731537196284535,
+          -27.443190593271197
+        ],
+        [
+          -55.73612975518404,
+          -27.44465905127413
+        ],
+        [
+          -56.37695699367026,
+          -27.587814955695592
+        ],
+        [
+          -56.39235815890186,
+          -27.59123623666295
+        ],
+        [
+          -56.40779314763563,
+          -27.59183356546663
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -62.64461743584593,
+    -27.59183356546663,
+    -54.25892390911105,
+    -19.28764722264117
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "es"
+    ],
+    "languages_admin_all": [
+      "es"
+    ],
+    "iso3": "PRY",
+    "iso2": "PY",
+    "name": "Paraguay",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/PRY_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-pry",
+    "hdx_date": "2017-10-11",
+    "hdx_update": "2020-09-16",
+    "hdx_source_1": "Dirección General de Estadísticas, Encuestas y Censos (DGEEC)",
+    "hdx_source_2": "OCHA Latin America and the Caribbean (ROLAC)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2020-09-16T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/pry_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pry/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pry/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pry/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pry/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pry/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pry/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pry/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/pry_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/pry_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/pry_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

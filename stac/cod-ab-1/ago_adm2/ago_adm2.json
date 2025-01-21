@@ -1,0 +1,328 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "ago_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          20.837919235000072,
+          -18.04208183299994
+        ],
+        [
+          20.81847381600005,
+          -18.04175758399998
+        ],
+        [
+          11.797248840000066,
+          -17.269109725999954
+        ],
+        [
+          11.796669960000031,
+          -17.26906013499996
+        ],
+        [
+          11.796097755000062,
+          -17.269004821999943
+        ],
+        [
+          11.795525551000026,
+          -17.26893806499993
+        ],
+        [
+          11.79494857800006,
+          -17.26886749299996
+        ],
+        [
+          11.794379234000075,
+          -17.26877975499997
+        ],
+        [
+          11.793813705000048,
+          -17.268690108999976
+        ],
+        [
+          11.79325103800005,
+          -17.268590926999934
+        ],
+        [
+          11.79267597200004,
+          -17.268480300999954
+        ],
+        [
+          11.792120934000025,
+          -17.268360137999935
+        ],
+        [
+          11.791555405000054,
+          -17.268234252999946
+        ],
+        [
+          11.790994644000023,
+          -17.268098830999975
+        ],
+        [
+          11.790438652000034,
+          -17.26795005799994
+        ],
+        [
+          11.78975868200007,
+          -17.267763137999964
+        ],
+        [
+          11.751805305000062,
+          -17.249626159999934
+        ],
+        [
+          11.66986084000007,
+          -16.56736183199996
+        ],
+        [
+          11.66847324400004,
+          -16.553195952999943
+        ],
+        [
+          11.66847324400004,
+          -16.552917479999962
+        ],
+        [
+          12.009860039000046,
+          -5.030663966999953
+        ],
+        [
+          12.210160255000062,
+          -4.767732142999932
+        ],
+        [
+          12.743300438000063,
+          -4.377670764999948
+        ],
+        [
+          12.751319885000044,
+          -4.3725910189999695
+        ],
+        [
+          12.765771866000023,
+          -4.374630927999931
+        ],
+        [
+          12.902990341000077,
+          -4.40930080399994
+        ],
+        [
+          21.78059005700004,
+          -7.2838931079999725
+        ],
+        [
+          21.784339905000024,
+          -7.28764915499994
+        ],
+        [
+          21.81974029500003,
+          -7.327551841999934
+        ],
+        [
+          23.99569892900007,
+          -10.891569137999966
+        ],
+        [
+          24.020280838000076,
+          -10.947729110999944
+        ],
+        [
+          24.025600433000022,
+          -10.969360351999967
+        ],
+        [
+          24.081438065000043,
+          -11.384390830999962
+        ],
+        [
+          24.082117081000035,
+          -11.397729873999936
+        ],
+        [
+          24.078123093000045,
+          -12.366378783999949
+        ],
+        [
+          24.075969696000072,
+          -12.403868674999956
+        ],
+        [
+          24.04029083300003,
+          -12.99055862399996
+        ],
+        [
+          23.428153992000034,
+          -17.639280318999965
+        ],
+        [
+          23.28471946700006,
+          -17.668060302999947
+        ],
+        [
+          22.929176331000065,
+          -17.739391326999964
+        ],
+        [
+          21.76298141500007,
+          -17.962678908999976
+        ],
+        [
+          21.76074218800005,
+          -17.963106154999934
+        ],
+        [
+          21.433547974000078,
+          -18.02407455399998
+        ],
+        [
+          20.837919235000072,
+          -18.04208183299994
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    11.66847324400004,
+    -18.04208183299994,
+    24.082117081000035,
+    -4.3725910189999695
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "pt"
+    ],
+    "languages_admin_all": [
+      "pt"
+    ],
+    "iso3": "AGO",
+    "iso2": "AO",
+    "name": "Angola",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/AGO_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-ago",
+    "hdx_date": "2018-08-30",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "www.gadm.org and Instituto Nacional de Estatística (INE - www.ine.gov.ao) - see methodology",
+    "hdx_source_2": "OCHA Regional Office for Southern and Eastern Africa (ROSEA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2018-08-30T00:00:00Z",
+    "end_datetime": "2018-09-04T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2018-09-04T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/ago_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ago/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ago/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ago/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ago/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ago/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ago/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ago/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/ago_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/ago_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/ago_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

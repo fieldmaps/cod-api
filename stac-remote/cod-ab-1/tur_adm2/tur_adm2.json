@@ -1,0 +1,311 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "tur_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.15085590000007,
+          35.808419300000025
+        ],
+        [
+          29.683666000000073,
+          36.131010899000046
+        ],
+        [
+          27.477636700000062,
+          36.64764050000008
+        ],
+        [
+          27.410534099000074,
+          36.66342239900007
+        ],
+        [
+          27.36674060000007,
+          36.68237929900005
+        ],
+        [
+          27.363767300000063,
+          36.684221699000034
+        ],
+        [
+          26.207103800000027,
+          38.292562400000065
+        ],
+        [
+          26.205601499000068,
+          38.29666510000004
+        ],
+        [
+          25.66850899900004,
+          40.12995499900006
+        ],
+        [
+          25.673377000000073,
+          40.151743999000075
+        ],
+        [
+          26.331894399000078,
+          41.758114800000044
+        ],
+        [
+          26.339916500000072,
+          41.77566940000003
+        ],
+        [
+          26.342099099000052,
+          41.779650299000025
+        ],
+        [
+          26.343929600000024,
+          41.782888799000034
+        ],
+        [
+          26.34612130000005,
+          41.78675749900003
+        ],
+        [
+          26.352474400000062,
+          41.79588730000006
+        ],
+        [
+          26.36931510000005,
+          41.82003960000003
+        ],
+        [
+          26.62348170000007,
+          41.97989720000004
+        ],
+        [
+          27.065831100000025,
+          42.09316320000005
+        ],
+        [
+          27.24014489900003,
+          42.104785700000036
+        ],
+        [
+          34.94424780000003,
+          42.09799870000006
+        ],
+        [
+          42.69844609900008,
+          41.60092489900006
+        ],
+        [
+          42.830052600000045,
+          41.587546100000054
+        ],
+        [
+          42.836064700000065,
+          41.58454000000006
+        ],
+        [
+          43.44861730000008,
+          41.17665070000004
+        ],
+        [
+          43.67201250000005,
+          40.93736880000006
+        ],
+        [
+          44.80171819900005,
+          39.683488399000055
+        ],
+        [
+          44.81718600000005,
+          39.654008599000065
+        ],
+        [
+          44.81761620000003,
+          39.653187900000034
+        ],
+        [
+          44.817741900000044,
+          39.65237390000004
+        ],
+        [
+          44.81774850000005,
+          39.65161279900008
+        ],
+        [
+          44.817931000000044,
+          37.28196380000003
+        ],
+        [
+          44.784744999000054,
+          37.14453259900006
+        ],
+        [
+          44.31476600000008,
+          36.96456910000006
+        ],
+        [
+          44.31132370000006,
+          36.96345880000007
+        ],
+        [
+          36.15296939900003,
+          35.808605199000056
+        ],
+        [
+          36.15192990000003,
+          35.80846059900006
+        ],
+        [
+          36.15085590000007,
+          35.808419300000025
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    25.66850899900004,
+    35.808419300000025,
+    44.817931000000044,
+    42.104785700000036
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en",
+      "tr"
+    ],
+    "languages_admin_all": [
+      "en",
+      "tr"
+    ],
+    "iso3": "TUR",
+    "iso2": "TR",
+    "name": "Türkiye",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/TUR_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-tur",
+    "hdx_date": "2014-03-30",
+    "hdx_update": "2025-01-17",
+    "hdx_source_1": "General Command of Mapping (obtained by Regional IM Working Group - Europe)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2018-01-01T00:00:00Z",
+    "end_datetime": "2022-01-01T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2022-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/tur_adm2/tur_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/tur_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tur/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tur/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tur/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tur/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tur/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tur/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tur/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/tur_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/tur_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/tur_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

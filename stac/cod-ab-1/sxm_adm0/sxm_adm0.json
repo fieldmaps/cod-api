@@ -1,0 +1,296 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "sxm_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -63.04354674699994,
+          18.005101594000053
+        ],
+        [
+          -63.07947451999996,
+          18.018316148000054
+        ],
+        [
+          -63.09144281899995,
+          18.022836204000043
+        ],
+        [
+          -63.11562170399998,
+          18.032867417000034
+        ],
+        [
+          -63.11574989999997,
+          18.03293074800007
+        ],
+        [
+          -63.120701517999976,
+          18.03647946600006
+        ],
+        [
+          -63.13660206499998,
+          18.050900227000056
+        ],
+        [
+          -63.13881121299994,
+          18.05296785300004
+        ],
+        [
+          -63.13873832899998,
+          18.05307418900003
+        ],
+        [
+          -63.13873346399998,
+          18.05307940600005
+        ],
+        [
+          -63.13871625699994,
+          18.053097856000022
+        ],
+        [
+          -63.13867138099994,
+          18.053138311000055
+        ],
+        [
+          -63.138656254999944,
+          18.053147744000057
+        ],
+        [
+          -63.13864640899993,
+          18.053152579000027
+        ],
+        [
+          -63.138625031999936,
+          18.053160648000073
+        ],
+        [
+          -63.138535908999984,
+          18.053187885000057
+        ],
+        [
+          -63.135079504999965,
+          18.054167024000037
+        ],
+        [
+          -63.063143396999976,
+          18.06377060400007
+        ],
+        [
+          -63.05348594299994,
+          18.063967181000066
+        ],
+        [
+          -63.05331463599998,
+          18.06395825100003
+        ],
+        [
+          -63.05282025399998,
+          18.063932476000048
+        ],
+        [
+          -63.01568699099994,
+          18.056858112000043
+        ],
+        [
+          -63.01561431499994,
+          18.05683424500006
+        ],
+        [
+          -63.01527494399994,
+          18.056707735000032
+        ],
+        [
+          -63.015167401999975,
+          18.056667133000076
+        ],
+        [
+          -63.012795661999974,
+          18.055703764000043
+        ],
+        [
+          -63.01262074899995,
+          18.05559018100007
+        ],
+        [
+          -63.012464585999965,
+          18.055446720000077
+        ],
+        [
+          -63.01241468799998,
+          18.055058253000027
+        ],
+        [
+          -63.02030674399998,
+          18.03091685100003
+        ],
+        [
+          -63.025482755999974,
+          18.019609957000057
+        ],
+        [
+          -63.02556949399997,
+          18.019474203000073
+        ],
+        [
+          -63.03200309399995,
+          18.01315427700007
+        ],
+        [
+          -63.03977098299998,
+          18.005808586000057
+        ],
+        [
+          -63.040110743999946,
+          18.005618507000065
+        ],
+        [
+          -63.04354674699994,
+          18.005101594000053
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -63.13881121299994,
+    18.005101594000053,
+    -63.01241468799998,
+    18.063967181000066
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "SXM",
+    "iso2": "SX",
+    "name": "Sint Maarten (Dutch part)",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/SXM_pcode/FeatureServer",
+    "itos_update": "2024-01-31",
+    "itos_service": "COD_External",
+    "itos_level": 1.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": null,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-sxm",
+    "hdx_date": "2018-09-14",
+    "hdx_update": "2024-02-05",
+    "hdx_source_1": "Sint Maarten Ministry of Public Housing, Spatial Planning, Environment and Infrastructure (VROMI)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2018-09-14T00:00:00Z",
+    "end_datetime": "2024-01-22T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2024-01-22T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/sxm_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sxm/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sxm/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sxm/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sxm/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sxm/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sxm/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sxm/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/sxm_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/sxm_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/sxm_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

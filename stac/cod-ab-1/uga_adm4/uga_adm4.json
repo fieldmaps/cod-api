@@ -1,0 +1,296 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "uga_adm4",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.912943805000054,
+          -1.4814743469999598
+        ],
+        [
+          29.589582981000035,
+          -1.3883502599999247
+        ],
+        [
+          29.572161692000066,
+          -1.186205705999953
+        ],
+        [
+          29.580950708000046,
+          -0.9144281209999576
+        ],
+        [
+          29.581343660000073,
+          -0.9049710939999613
+        ],
+        [
+          29.71714025700004,
+          0.07352415500002962
+        ],
+        [
+          29.71764149200004,
+          0.07519194100007098
+        ],
+        [
+          30.86300181300004,
+          3.4870344030000524
+        ],
+        [
+          30.881588672000078,
+          3.538376610000057
+        ],
+        [
+          30.887640308000073,
+          3.553690993000032
+        ],
+        [
+          30.88770783700005,
+          3.5538568350000332
+        ],
+        [
+          30.88826774900008,
+          3.555061783000042
+        ],
+        [
+          30.88908380400005,
+          3.556676664000065
+        ],
+        [
+          30.908902840000053,
+          3.593647004000047
+        ],
+        [
+          30.909237395000048,
+          3.5941880290000654
+        ],
+        [
+          30.955860165000047,
+          3.668538978000072
+        ],
+        [
+          30.973635356000045,
+          3.6934669610000697
+        ],
+        [
+          30.97501630800008,
+          3.6952177590000588
+        ],
+        [
+          30.977392918000078,
+          3.6978534920000357
+        ],
+        [
+          30.979353718000027,
+          3.699829338000029
+        ],
+        [
+          30.980925408000076,
+          3.7013856030000625
+        ],
+        [
+          30.98301972400003,
+          3.7028274360000637
+        ],
+        [
+          30.98736094800006,
+          3.7051885320000224
+        ],
+        [
+          31.16588196300006,
+          3.7939716860000203
+        ],
+        [
+          33.988505263000036,
+          4.231367005000038
+        ],
+        [
+          34.04811910900003,
+          4.176446235000071
+        ],
+        [
+          34.463969091000024,
+          3.6667882570000643
+        ],
+        [
+          34.95515768400003,
+          2.469689884000047
+        ],
+        [
+          34.95568031600004,
+          2.466685339000037
+        ],
+        [
+          35.00095098400004,
+          1.9596831860000634
+        ],
+        [
+          35.000989848000074,
+          1.9305944260000274
+        ],
+        [
+          35.00105362800008,
+          1.7558212110000682
+        ],
+        [
+          34.99226345400007,
+          1.663595927000074
+        ],
+        [
+          34.99198496200006,
+          1.6616301800000315
+        ],
+        [
+          33.92961826800007,
+          -0.9958740389999434
+        ],
+        [
+          29.912943805000054,
+          -1.4814743469999598
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    29.572161692000066,
+    -1.4814743469999598,
+    35.00105362800008,
+    4.231367005000038
+  ],
+  "properties": {
+    "admin_level": "4",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "UGA",
+    "iso2": "UG",
+    "name": "Uganda",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/UGA_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 4.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": 4.0,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-uga",
+    "hdx_date": "2020-06-11",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Uganda Bureau of Statistics with support from WHO",
+    "hdx_source_2": "OCHA Regional Office for Southern and Eastern Africa (ROSEA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "This COD-AB reflects the 135 district administrative system.",
+    "start_datetime": "2020-06-11T00:00:00Z",
+    "end_datetime": "2020-08-24T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2020-08-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/uga_adm4.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/uga/4?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/uga/4?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/uga/4?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/uga/4?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/uga/4?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/uga/4?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/uga/4?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/uga_adm4.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/uga_adm4.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/uga_adm4.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

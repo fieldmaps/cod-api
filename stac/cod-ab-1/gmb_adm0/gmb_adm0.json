@@ -1,0 +1,292 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "gmb_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -16.738037469999938,
+          13.043466586000022
+        ],
+        [
+          -16.739467867999963,
+          13.043657135000046
+        ],
+        [
+          -16.772263146999933,
+          13.077997499000048
+        ],
+        [
+          -16.791079415999945,
+          13.15876736100006
+        ],
+        [
+          -16.807099808999965,
+          13.275821825000037
+        ],
+        [
+          -16.81426480799996,
+          13.338862549000055
+        ],
+        [
+          -16.814202730999966,
+          13.339518830000031
+        ],
+        [
+          -16.81229772599994,
+          13.34451682100007
+        ],
+        [
+          -16.793968551999967,
+          13.378518631000077
+        ],
+        [
+          -16.79353937899998,
+          13.379128256000058
+        ],
+        [
+          -16.71484942199993,
+          13.45893230200005
+        ],
+        [
+          -16.693894494999938,
+          13.475597485000037
+        ],
+        [
+          -16.54565345499998,
+          13.59337823900006
+        ],
+        [
+          -15.347651508999945,
+          13.787947312000028
+        ],
+        [
+          -15.340148036999949,
+          13.789094243000022
+        ],
+        [
+          -15.071396663999963,
+          13.82274121000006
+        ],
+        [
+          -14.894606326999963,
+          13.794653628000049
+        ],
+        [
+          -13.918148415999951,
+          13.565334920000055
+        ],
+        [
+          -13.909142089999932,
+          13.56309051900007
+        ],
+        [
+          -13.900709608999932,
+          13.55864312400007
+        ],
+        [
+          -13.892841802999953,
+          13.55401420100003
+        ],
+        [
+          -13.83454166499996,
+          13.50433978500007
+        ],
+        [
+          -13.830789109999955,
+          13.500850612000022
+        ],
+        [
+          -13.814477507999982,
+          13.481245800000067
+        ],
+        [
+          -13.793818323999972,
+          13.444911870000055
+        ],
+        [
+          -13.791117502999953,
+          13.430903736000062
+        ],
+        [
+          -13.797112759999948,
+          13.384281636000026
+        ],
+        [
+          -13.804144641999926,
+          13.374008384000035
+        ],
+        [
+          -13.821313076999957,
+          13.352607661000036
+        ],
+        [
+          -13.84424246499998,
+          13.33058085500005
+        ],
+        [
+          -13.851801605999981,
+          13.325190537000026
+        ],
+        [
+          -14.184835029999931,
+          13.219121132000055
+        ],
+        [
+          -14.191404248999959,
+          13.218039272000055
+        ],
+        [
+          -14.207071694999968,
+          13.216893715000026
+        ],
+        [
+          -16.738037469999938,
+          13.043466586000022
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -16.81426480799996,
+    13.043466586000022,
+    -13.791117502999953,
+    13.82274121000006
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "GMB",
+    "iso2": "GM",
+    "name": "Gambia",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/GMB_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-gmb",
+    "hdx_date": "2022-08-17",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Gambia National Disaster Management Agency (NDMA)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The polygon layers include one small topological error that will be fixed shortly.",
+    "start_datetime": "2022-08-17T00:00:00Z",
+    "end_datetime": "2022-09-01T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2022-09-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/gmb_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gmb/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gmb/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gmb/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gmb/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gmb/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gmb/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gmb/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/gmb_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/gmb_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/gmb_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

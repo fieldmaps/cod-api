@@ -1,0 +1,368 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "cri_adm3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -87.07387899599996,
+          5.499134725000033
+        ],
+        [
+          -87.07388554699997,
+          5.499134987000048
+        ],
+        [
+          -87.07389176099997,
+          5.4991359450000346
+        ],
+        [
+          -87.07389742299995,
+          5.499137630000064
+        ],
+        [
+          -87.10155703099997,
+          5.507960805000039
+        ],
+        [
+          -87.10156356899995,
+          5.507964284000025
+        ],
+        [
+          -87.10167802399997,
+          5.508044512000026
+        ],
+        [
+          -87.10169141499995,
+          5.508055307000063
+        ],
+        [
+          -87.10189849799997,
+          5.508231654000042
+        ],
+        [
+          -87.10190866799996,
+          5.508242439000071
+        ],
+        [
+          -87.10191291099994,
+          5.508248374000061
+        ],
+        [
+          -87.10191639799996,
+          5.508254715000021
+        ],
+        [
+          -87.10191911099997,
+          5.508261841000035
+        ],
+        [
+          -87.10192232099996,
+          5.508277154000041
+        ],
+        [
+          -87.10192386899996,
+          5.508301549000066
+        ],
+        [
+          -87.10192308299997,
+          5.508326536000027
+        ],
+        [
+          -87.10192118999998,
+          5.508343400000058
+        ],
+        [
+          -87.10191647599999,
+          5.50836881400005
+        ],
+        [
+          -85.95026560599996,
+          10.889634305000072
+        ],
+        [
+          -85.95009265399995,
+          10.890425191000077
+        ],
+        [
+          -85.95008539199995,
+          10.890433280000025
+        ],
+        [
+          -85.94719271199995,
+          10.893415534000042
+        ],
+        [
+          -85.94718826099995,
+          10.893420080000055
+        ],
+        [
+          -85.60989208199999,
+          11.219638676000045
+        ],
+        [
+          -83.70259170499997,
+          10.94237335300005
+        ],
+        [
+          -83.68117543599999,
+          10.937169895000068
+        ],
+        [
+          -83.67462335799996,
+          10.934991841000056
+        ],
+        [
+          -83.67448105899996,
+          10.934938437000028
+        ],
+        [
+          -83.67316541899999,
+          10.934204517000069
+        ],
+        [
+          -83.66702964299998,
+          10.93072083900006
+        ],
+        [
+          -83.66698338399993,
+          10.93069004800003
+        ],
+        [
+          -83.65876057999998,
+          10.924471954000069
+        ],
+        [
+          -83.65576257399994,
+          10.922171864000063
+        ],
+        [
+          -83.65311344999998,
+          10.920104682000044
+        ],
+        [
+          -83.65206788699999,
+          10.919225235000056
+        ],
+        [
+          -83.64620629099994,
+          10.914199761000077
+        ],
+        [
+          -83.64310543199997,
+          10.911399817000074
+        ],
+        [
+          -83.63870145699997,
+          10.90604399700004
+        ],
+        [
+          -82.56357649999995,
+          9.572080764000077
+        ],
+        [
+          -82.55323032599995,
+          9.55016028500006
+        ],
+        [
+          -82.55301374299995,
+          9.549609966000048
+        ],
+        [
+          -82.55286962699995,
+          9.548772626000073
+        ],
+        [
+          -82.55284592699996,
+          9.548078885000052
+        ],
+        [
+          -82.55287043899995,
+          9.547361249000062
+        ],
+        [
+          -82.55299137999998,
+          9.546595825000054
+        ],
+        [
+          -82.89092396299998,
+          8.051630772000067
+        ],
+        [
+          -82.89150993299995,
+          8.051049903000035
+        ],
+        [
+          -82.90346279499994,
+          8.040247118000025
+        ],
+        [
+          -87.05413984299997,
+          5.509437606000063
+        ],
+        [
+          -87.05415457499998,
+          5.509428916000047
+        ],
+        [
+          -87.07385911799997,
+          5.499138705000064
+        ],
+        [
+          -87.07386561399994,
+          5.499136465000049
+        ],
+        [
+          -87.07387229599999,
+          5.4991351890000715
+        ],
+        [
+          -87.07387899599996,
+          5.499134725000033
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -87.10192386899996,
+    5.499134725000033,
+    -82.55284592699996,
+    11.219638676000045
+  ],
+  "properties": {
+    "admin_level": "3",
+    "languages_admin_self": [
+      "es"
+    ],
+    "languages_admin_all": [
+      "es"
+    ],
+    "iso3": "CRI",
+    "iso2": "CR",
+    "name": "Costa Rica",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/CRI_pcode/FeatureServer",
+    "itos_update": "2024-12-06",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-cri",
+    "hdx_date": "2022-06-21",
+    "hdx_update": "2024-12-06",
+    "hdx_source_1": "Costa Rica National Statistics Office (NSO)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "**  The P-codes in this dataset (and the accompanying [Costa Rica - Subnational Population Statistics](https://data.humdata.org/dataset/costa-rica-subnational-population-statisticsx) were adapted from the official codes in January 2022.  *The earlier dataset used incompatible, unofficial P-codes.*\r\n\r\nThe ADM3 feature “Alfaro Ruiz” in the COD-PS corresponds to “Zarcero” in this COD-AB. They are linked by the P-code CR21101.\r\n\r\nThese layers contain two topological overlap errors and five topological gap errors.  These will be corrected in a future update.\r\n\r\nNeither the COD-PS nor the COD-AB feature the ADM2 feature, \"Caldera\" which was formed from parts of \"Espiritu Santo\" [CR60201] and \"San Juan Grande\" [CR60602] in 2014.",
+    "start_datetime": "2024-11-14T00:00:00Z",
+    "end_datetime": "2024-12-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2024-12-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/cri_adm3.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cri/3?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cri/3?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cri/3?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cri/3?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cri/3?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cri/3?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cri/3?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/cri_adm3.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/cri_adm3.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/cri_adm3.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

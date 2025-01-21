@@ -1,0 +1,366 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "rou_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.39020000000005,
+          43.61900000000003
+        ],
+        [
+          24.173400000000072,
+          43.682600000000036
+        ],
+        [
+          23.043000000000063,
+          43.79630000000003
+        ],
+        [
+          22.97520000000003,
+          43.80850000000004
+        ],
+        [
+          22.952800000000025,
+          43.81320000000005
+        ],
+        [
+          22.894900000000064,
+          43.828700000000026
+        ],
+        [
+          22.873500000000035,
+          43.835000000000036
+        ],
+        [
+          22.87050000000005,
+          43.836400000000026
+        ],
+        [
+          22.86650000000003,
+          43.83830000000006
+        ],
+        [
+          21.395400000000052,
+          44.78010000000006
+        ],
+        [
+          21.393700000000024,
+          44.781400000000076
+        ],
+        [
+          21.39220000000006,
+          44.78290000000004
+        ],
+        [
+          20.771100000000047,
+          45.47990000000004
+        ],
+        [
+          20.34830000000005,
+          45.999600000000044
+        ],
+        [
+          20.265000000000043,
+          46.10820000000007
+        ],
+        [
+          20.264800000000037,
+          46.10850000000005
+        ],
+        [
+          20.26460000000003,
+          46.10910000000007
+        ],
+        [
+          20.262000000000057,
+          46.12080000000003
+        ],
+        [
+          20.262000000000057,
+          46.12190000000004
+        ],
+        [
+          20.262200000000064,
+          46.12240000000003
+        ],
+        [
+          20.262500000000045,
+          46.12300000000005
+        ],
+        [
+          20.262600000000077,
+          46.123200000000054
+        ],
+        [
+          20.26430000000005,
+          46.12630000000007
+        ],
+        [
+          20.271700000000067,
+          46.13280000000003
+        ],
+        [
+          22.264500000000055,
+          47.73120000000006
+        ],
+        [
+          22.31720000000007,
+          47.765900000000045
+        ],
+        [
+          23.166600000000074,
+          48.12000000000006
+        ],
+        [
+          26.66080000000005,
+          48.26430000000005
+        ],
+        [
+          26.700200000000052,
+          48.26540000000006
+        ],
+        [
+          26.70240000000007,
+          48.26520000000005
+        ],
+        [
+          26.808100000000024,
+          48.254500000000064
+        ],
+        [
+          26.81000000000006,
+          48.25380000000007
+        ],
+        [
+          26.941400000000044,
+          48.19700000000006
+        ],
+        [
+          26.942400000000077,
+          48.19650000000007
+        ],
+        [
+          27.039000000000044,
+          48.12990000000008
+        ],
+        [
+          27.03920000000005,
+          48.12970000000007
+        ],
+        [
+          27.16610000000003,
+          47.99490000000003
+        ],
+        [
+          29.651100000000042,
+          45.339800000000025
+        ],
+        [
+          29.65500000000003,
+          45.33440000000007
+        ],
+        [
+          29.655700000000024,
+          45.33340000000004
+        ],
+        [
+          29.668100000000038,
+          45.31060000000008
+        ],
+        [
+          29.66900000000004,
+          45.30840000000006
+        ],
+        [
+          29.71530000000007,
+          45.16530000000006
+        ],
+        [
+          29.62480000000005,
+          44.883800000000065
+        ],
+        [
+          29.61760000000004,
+          44.864100000000064
+        ],
+        [
+          29.609800000000064,
+          44.846700000000055
+        ],
+        [
+          29.608300000000042,
+          44.84450000000004
+        ],
+        [
+          29.593600000000038,
+          44.82620000000003
+        ],
+        [
+          28.579000000000065,
+          43.73870000000005
+        ],
+        [
+          28.567000000000064,
+          43.73820000000006
+        ],
+        [
+          28.44990000000007,
+          43.73380000000003
+        ],
+        [
+          25.39020000000005,
+          43.61900000000003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    20.262000000000057,
+    43.61900000000003,
+    29.71530000000007,
+    48.26540000000006
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "ro"
+    ],
+    "languages_admin_all": [
+      "ro",
+      "en"
+    ],
+    "iso3": "ROU",
+    "iso2": "RO",
+    "name": "Romania",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/ROU_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-rou",
+    "hdx_date": "2022-03-09",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "ANCPI - Agenția Națională de Cadastru și publicitate imobiliară",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Minor differences between the ADM1/2 and the ADM0 boundary exist.",
+    "start_datetime": "2022-03-09T00:00:00Z",
+    "end_datetime": "2022-04-27T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2022-04-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/rou_adm1/rou_adm1.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/rou_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rou/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rou/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rou/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rou/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rou/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rou/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rou/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/rou_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/rou_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/rou_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

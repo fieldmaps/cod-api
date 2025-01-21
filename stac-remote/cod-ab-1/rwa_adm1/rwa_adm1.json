@@ -1,0 +1,389 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "rwa_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.371197453999343,
+          -2.840230103036788
+        ],
+        [
+          29.37062638360078,
+          -2.840087334762643
+        ],
+        [
+          29.040499963502555,
+          -2.7446709483055542
+        ],
+        [
+          28.91755297568932,
+          -2.680164473711443
+        ],
+        [
+          28.897601195938478,
+          -2.6607480720658145
+        ],
+        [
+          28.897279967996155,
+          -2.66039115272946
+        ],
+        [
+          28.89642336284794,
+          -2.6586065578463263
+        ],
+        [
+          28.896244902280444,
+          -2.658035487447762
+        ],
+        [
+          28.895566755901143,
+          -2.655679820367368
+        ],
+        [
+          28.862123431351336,
+          -2.531971642777023
+        ],
+        [
+          28.861909280289126,
+          -2.530865193373927
+        ],
+        [
+          28.861802204308333,
+          -2.530222738388602
+        ],
+        [
+          28.86177692886224,
+          -2.529793063898751
+        ],
+        [
+          28.86176651201498,
+          -2.5296159765960056
+        ],
+        [
+          28.86173082062095,
+          -2.5290092139040325
+        ],
+        [
+          28.86173082062095,
+          -2.5241908055612043
+        ],
+        [
+          28.878588239155988,
+          -2.431619318276887
+        ],
+        [
+          28.87996113429898,
+          -2.4285684374833636
+        ],
+        [
+          28.893120262690047,
+          -2.400323018092763
+        ],
+        [
+          29.242866737709846,
+          -1.6680746151513404
+        ],
+        [
+          29.268136613414015,
+          -1.6295035523469892
+        ],
+        [
+          29.26849353275037,
+          -1.6290038665351858
+        ],
+        [
+          29.361649430976513,
+          -1.5091980037847748
+        ],
+        [
+          29.557235969864166,
+          -1.389762941406559
+        ],
+        [
+          30.35208914369906,
+          -1.062228694798364
+        ],
+        [
+          30.357842680595297,
+          -1.0603727153285263
+        ],
+        [
+          30.35842802773135,
+          -1.0602013944787245
+        ],
+        [
+          30.442261198395613,
+          -1.0476521170515412
+        ],
+        [
+          30.44791479723017,
+          -1.0471667070778494
+        ],
+        [
+          30.449142599351546,
+          -1.047380858140059
+        ],
+        [
+          30.469782837108312,
+          -1.0523309308277362
+        ],
+        [
+          30.470353907506876,
+          -1.0525403226777144
+        ],
+        [
+          30.47081076490491,
+          -1.0530733220761022
+        ],
+        [
+          30.73838547770771,
+          -1.445963646305188
+        ],
+        [
+          30.739313467442628,
+          -1.447748242986961
+        ],
+        [
+          30.839250830361607,
+          -1.650978006629657
+        ],
+        [
+          30.839393597736375,
+          -1.651442001047485
+        ],
+        [
+          30.899746641594277,
+          -2.0780040992097497
+        ],
+        [
+          30.857124545761224,
+          -2.3139574006135035
+        ],
+        [
+          30.856946086093046,
+          -2.314463036339987
+        ],
+        [
+          30.85670814076815,
+          -2.315057901900616
+        ],
+        [
+          30.856202505041608,
+          -2.3161584022884085
+        ],
+        [
+          30.85590507226135,
+          -2.3166937803936207
+        ],
+        [
+          30.853079462647145,
+          -2.321155270299414
+        ],
+        [
+          30.83594734259583,
+          -2.3444442444063043
+        ],
+        [
+          30.82666744524647,
+          -2.356757956114734
+        ],
+        [
+          30.826221296076028,
+          -2.3572635909418977
+        ],
+        [
+          30.818904453277923,
+          -2.3644912039059136
+        ],
+        [
+          30.818279844439303,
+          -2.3650265829104455
+        ],
+        [
+          30.817506520109873,
+          -2.365651191749066
+        ],
+        [
+          30.781665889868975,
+          -2.3913493695777106
+        ],
+        [
+          29.832670121528963,
+          -2.7821236645754084
+        ],
+        [
+          29.753434070226206,
+          -2.811938311004212
+        ],
+        [
+          29.72352424494801,
+          -2.8188863364352414
+        ],
+        [
+          29.708890560251234,
+          -2.8200760675564425
+        ],
+        [
+          29.542471057893067,
+          -2.8302363661153436
+        ],
+        [
+          29.371197453999343,
+          -2.840230103036788
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    28.86173082062095,
+    -2.840230103036788,
+    30.899746641594277,
+    -1.0471667070778494
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "en",
+      "fr",
+      "rw"
+    ],
+    "languages_admin_all": [
+      "en",
+      "fr",
+      "rw"
+    ],
+    "iso3": "RWA",
+    "iso2": "RW",
+    "name": "Rwanda",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/RWA_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 4.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": 4.0,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-rwa",
+    "hdx_date": "2018-09-27",
+    "hdx_update": "2022-06-09",
+    "hdx_source_1": "National Institute of Statistics of Rwanda (NISR).",
+    "hdx_source_2": "OCHA Regional Office for Southern and Eastern Africa (ROSEA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Administrative level 4 does not cover the entire country\r\n\r\n",
+    "start_datetime": "2020-02-20T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/rwa_adm1/rwa_adm1.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/rwa_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rwa/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rwa/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rwa/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rwa/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rwa/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rwa/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/rwa/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/rwa_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/rwa_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/rwa_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

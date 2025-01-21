@@ -1,0 +1,375 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "alb_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          20.18048286459259,
+          39.65032958983875
+        ],
+        [
+          20.170715332346788,
+          39.65069580097048
+        ],
+        [
+          20.136474609515687,
+          39.65570068373961
+        ],
+        [
+          20.126281738411535,
+          39.65728759774447
+        ],
+        [
+          19.98513984682654,
+          39.6873626707507
+        ],
+        [
+          19.984582901179976,
+          39.687637329099516
+        ],
+        [
+          19.983194351538145,
+          39.68847274801897
+        ],
+        [
+          19.98236084008073,
+          39.68930435201429
+        ],
+        [
+          19.37958335888493,
+          40.29791641251251
+        ],
+        [
+          19.372358322478647,
+          40.306251526187054
+        ],
+        [
+          19.288473129631257,
+          40.42013931297896
+        ],
+        [
+          19.288196563820406,
+          40.420970916974284
+        ],
+        [
+          19.26402854917825,
+          40.499305725279044
+        ],
+        [
+          19.263196945182926,
+          40.50291824348221
+        ],
+        [
+          19.263196945182926,
+          40.503471374204594
+        ],
+        [
+          19.341222762620475,
+          41.90346145638114
+        ],
+        [
+          19.34140968311044,
+          41.90670013450364
+        ],
+        [
+          19.36303138698895,
+          42.235599517803564
+        ],
+        [
+          19.36317062362542,
+          42.23666000375624
+        ],
+        [
+          19.36335945157748,
+          42.237869262756305
+        ],
+        [
+          19.421749115329476,
+          42.363925933535086
+        ],
+        [
+          19.431570052915674,
+          42.376155853609816
+        ],
+        [
+          19.61277580276112,
+          42.579475402867615
+        ],
+        [
+          19.622867584671326,
+          42.59015655548069
+        ],
+        [
+          19.65701293979538,
+          42.624782562265466
+        ],
+        [
+          19.701570510670592,
+          42.65584182723859
+        ],
+        [
+          19.706918716825385,
+          42.658889770846315
+        ],
+        [
+          19.71613693237356,
+          42.66026687661514
+        ],
+        [
+          19.72286796578402,
+          42.66071319575741
+        ],
+        [
+          20.07023620613603,
+          42.55896759028212
+        ],
+        [
+          20.082721709938994,
+          42.55474472019273
+        ],
+        [
+          20.158843994454855,
+          42.51057815565741
+        ],
+        [
+          20.16680908207354,
+          42.504913329686474
+        ],
+        [
+          20.480833053702497,
+          42.24755477863016
+        ],
+        [
+          20.4923038479443,
+          42.23784256008611
+        ],
+        [
+          20.499788283902205,
+          42.23038864172247
+        ],
+        [
+          20.506895065754748,
+          42.2233085634395
+        ],
+        [
+          20.512590408420635,
+          42.2175331118637
+        ],
+        [
+          20.51799583394063,
+          42.21203613266147
+        ],
+        [
+          20.524263381949595,
+          42.20240783705208
+        ],
+        [
+          20.557989120601462,
+          42.137432098012994
+        ],
+        [
+          20.627555847424446,
+          41.96759414665257
+        ],
+        [
+          20.986024856861718,
+          40.89578628520894
+        ],
+        [
+          21.049665450700047,
+          40.657516479501965
+        ],
+        [
+          21.048976898265266,
+          40.60849380524496
+        ],
+        [
+          21.039241791075824,
+          40.56328582757891
+        ],
+        [
+          21.038093567264355,
+          40.56050109844699
+        ],
+        [
+          21.034809112750395,
+          40.55367660479152
+        ],
+        [
+          21.034740447713546,
+          40.55353927651646
+        ],
+        [
+          20.668951034162944,
+          40.09512329130689
+        ],
+        [
+          20.39918327328951,
+          39.80000686602409
+        ],
+        [
+          20.383716583453634,
+          39.783428192357235
+        ],
+        [
+          20.25766372669966,
+          39.66610717800393
+        ],
+        [
+          20.18048286459259,
+          39.65032958983875
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    19.263196945182926,
+    39.65032958983875,
+    21.049665450700047,
+    42.66071319575741
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en",
+      "sq"
+    ],
+    "languages_admin_all": [
+      "en",
+      "sq"
+    ],
+    "iso3": "ALB",
+    "iso2": "AL",
+    "name": "Albania",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/ALB_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-alb",
+    "hdx_date": "2015-06-21",
+    "hdx_update": "2019-12-21",
+    "hdx_source_1": "www.gadm.org and UNHCR",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The process of assigning administrative level 3 features to a different administrative level 2 caused administrative level 2 feature “Bashkia Sarande” [AL1205] to be rendered as two non-adjacent polygons.\r\n\r\nThe ADM2 feature with the English name \"Bashkia Kamez\" [AL1101] appears to have been given the Albanian name \"Bashkia Kavajë\" which duplicates the Albanian name of the feature with the English name \"Bashkia Kavaje\" [AL1102].\r\n\r\nThe ADM2 feature named \"Krume\" / \"Krumë\" [AL0801] may actually be called \"Has\" / \"Hasi\".\r\n\r\n\r\n\r\n\r\n\r\n",
+    "start_datetime": "2019-12-20T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/alb_adm2/alb_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/alb_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/alb/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/alb/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/alb/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/alb/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/alb/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/alb/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/alb/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/alb_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/alb_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/alb_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

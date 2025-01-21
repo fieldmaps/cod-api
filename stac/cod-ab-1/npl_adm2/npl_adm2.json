@@ -1,0 +1,424 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "npl_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          87.34085756200005,
+          26.34776202200004
+        ],
+        [
+          86.72960763700007,
+          26.42244117200005
+        ],
+        [
+          85.85044130000006,
+          26.56846617000008
+        ],
+        [
+          85.84901629000007,
+          26.568851675000076
+        ],
+        [
+          85.21166715500004,
+          26.75787654800007
+        ],
+        [
+          83.29465896100004,
+          27.333371476000025
+        ],
+        [
+          82.73573009100005,
+          27.50252367400003
+        ],
+        [
+          82.73536301200005,
+          27.502655719000074
+        ],
+        [
+          81.88543567600004,
+          27.856986103000054
+        ],
+        [
+          81.31796654700008,
+          28.133541543000035
+        ],
+        [
+          80.51757456900003,
+          28.551793263000036
+        ],
+        [
+          80.37127496000005,
+          28.629090477000034
+        ],
+        [
+          80.36070717400008,
+          28.635492873000032
+        ],
+        [
+          80.07496920200003,
+          28.824330959000065
+        ],
+        [
+          80.07246424600004,
+          28.82741764000008
+        ],
+        [
+          80.06473264600004,
+          28.837320995000027
+        ],
+        [
+          80.06457845400007,
+          28.838948655000024
+        ],
+        [
+          80.06360108600006,
+          28.85068054800007
+        ],
+        [
+          80.05846710800006,
+          28.91637141700005
+        ],
+        [
+          80.24315809800004,
+          29.44439543900006
+        ],
+        [
+          80.36575815400005,
+          29.747692744000062
+        ],
+        [
+          80.36734589500008,
+          29.749998735000077
+        ],
+        [
+          80.40685686000006,
+          29.794371571000056
+        ],
+        [
+          80.90748640100009,
+          30.221070311000062
+        ],
+        [
+          80.91012380500007,
+          30.223149333000038
+        ],
+        [
+          80.92317335100006,
+          30.233291157000053
+        ],
+        [
+          80.92582963700005,
+          30.234896288000073
+        ],
+        [
+          80.92737771600008,
+          30.23575422700003
+        ],
+        [
+          81.40819699300005,
+          30.42118814400004
+        ],
+        [
+          81.62004217300006,
+          30.447198467000078
+        ],
+        [
+          81.62012928500008,
+          30.447191281000073
+        ],
+        [
+          81.63388705000006,
+          30.44502106500005
+        ],
+        [
+          82.08157159700005,
+          30.359792567000056
+        ],
+        [
+          82.08522729400005,
+          30.35909018700005
+        ],
+        [
+          82.08529334800005,
+          30.35906712900004
+        ],
+        [
+          88.14864928300005,
+          27.876746232000073
+        ],
+        [
+          88.19560728600004,
+          27.854527679000057
+        ],
+        [
+          88.19590994000004,
+          27.854292706000024
+        ],
+        [
+          88.19607754900005,
+          27.85407022800007
+        ],
+        [
+          88.19625184600005,
+          27.853822754000078
+        ],
+        [
+          88.19650888600006,
+          27.85336029900003
+        ],
+        [
+          88.20122653600004,
+          27.84286981400004
+        ],
+        [
+          88.20131615500009,
+          27.842650210000045
+        ],
+        [
+          88.20143783900005,
+          27.842119009000044
+        ],
+        [
+          88.20151397600006,
+          27.84131751900003
+        ],
+        [
+          88.20154995600006,
+          27.839397375000033
+        ],
+        [
+          88.18784943100007,
+          26.76798373500003
+        ],
+        [
+          88.18701108400006,
+          26.750319619000038
+        ],
+        [
+          88.18626515000005,
+          26.738502938000067
+        ],
+        [
+          88.18468397000004,
+          26.73099368100003
+        ],
+        [
+          88.18192484900004,
+          26.71949162100003
+        ],
+        [
+          88.16295247400006,
+          26.646009096000057
+        ],
+        [
+          88.16036453100008,
+          26.636585296000078
+        ],
+        [
+          88.09569948300003,
+          26.43959221700004
+        ],
+        [
+          88.09564180700005,
+          26.439457228000038
+        ],
+        [
+          88.09551645400006,
+          26.439189686000077
+        ],
+        [
+          88.09523387800004,
+          26.438666100000034
+        ],
+        [
+          88.09515939000005,
+          26.438538048000055
+        ],
+        [
+          88.09508421500004,
+          26.438410057000056
+        ],
+        [
+          88.09467103300005,
+          26.43778816500003
+        ],
+        [
+          88.07125348900007,
+          26.40808590200004
+        ],
+        [
+          88.02987194000008,
+          26.36499126500007
+        ],
+        [
+          88.02974464500005,
+          26.364899646000026
+        ],
+        [
+          88.01467827100004,
+          26.362227218000044
+        ],
+        [
+          88.00825368500006,
+          26.36118274900008
+        ],
+        [
+          88.00787817200006,
+          26.361128934000078
+        ],
+        [
+          88.00771888000008,
+          26.361107495000056
+        ],
+        [
+          87.34085756200005,
+          26.34776202200004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    80.05846710800006,
+    26.34776202200004,
+    88.20154995600006,
+    30.447198467000078
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "NPL",
+    "iso2": "NP",
+    "name": "Nepal",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/NPL_pcode/FeatureServer",
+    "itos_update": "2024-03-28",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-npl",
+    "hdx_date": "2024-01-01",
+    "hdx_update": "2024-03-21",
+    "hdx_source_1": "Survey Department of Nepal (http://ngiip.gov.np/index.php),  UN Resident Coordinators Office in Nepal (https://un.org.np/)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2023-12-12T00:00:00Z",
+    "end_datetime": "2024-03-14T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2024-03-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/npl_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/npl/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/npl/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/npl/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/npl/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/npl/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/npl/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/npl/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/npl_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/npl_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/npl_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

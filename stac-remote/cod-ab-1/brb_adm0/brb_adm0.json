@@ -1,0 +1,309 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "brb_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59.528194427530764,
+          13.044584274644592
+        ],
+        [
+          -59.61264038094879,
+          13.077916145313907
+        ],
+        [
+          -59.63319396992574,
+          13.102082252494029
+        ],
+        [
+          -59.63874816939244,
+          13.143749236837834
+        ],
+        [
+          -59.650417327997275,
+          13.284305572644087
+        ],
+        [
+          -59.65069580037084,
+          13.305138588175339
+        ],
+        [
+          -59.65069580037084,
+          13.30652999856062
+        ],
+        [
+          -59.65013885472433,
+          13.308194160732
+        ],
+        [
+          -59.63735961885129,
+          13.326807021726722
+        ],
+        [
+          -59.63375091557225,
+          13.32874870299031
+        ],
+        [
+          -59.62958145172257,
+          13.330693244997292
+        ],
+        [
+          -59.62014007570389,
+          13.334584236473404
+        ],
+        [
+          -59.61458206221238,
+          13.335140227939235
+        ],
+        [
+          -59.61430740386356,
+          13.335140227939235
+        ],
+        [
+          -59.61208343530228,
+          13.334861755565612
+        ],
+        [
+          -59.607082366557904,
+          13.332639694466366
+        ],
+        [
+          -59.59902954108043,
+          13.327917098994988
+        ],
+        [
+          -59.582084655382516,
+          13.314306259126624
+        ],
+        [
+          -59.58041763336706,
+          13.312917709484736
+        ],
+        [
+          -59.41930389365973,
+          13.155971527064366
+        ],
+        [
+          -59.41930389365973,
+          13.155694007972158
+        ],
+        [
+          -59.41986084020556,
+          13.14902782467442
+        ],
+        [
+          -59.42013931257918,
+          13.147640228313946
+        ],
+        [
+          -59.42152786222101,
+          13.142360687196003
+        ],
+        [
+          -59.4220848087669,
+          13.1404170993697
+        ],
+        [
+          -59.425415038773,
+          13.13263893134166
+        ],
+        [
+          -59.425971984419505,
+          13.131528854073395
+        ],
+        [
+          -59.430137634244375,
+          13.12347221367179
+        ],
+        [
+          -59.43208312953277,
+          13.120694160207393
+        ],
+        [
+          -59.444305419759246,
+          13.104028701963102
+        ],
+        [
+          -59.45347213742917,
+          13.09152984592572
+        ],
+        [
+          -59.45375061070206,
+          13.091249466090062
+        ],
+        [
+          -59.459861755815325,
+          13.085970878253477
+        ],
+        [
+          -59.46319580074555,
+          13.083194732251116
+        ],
+        [
+          -59.503749847077756,
+          13.052082061937654
+        ],
+        [
+          -59.51902770986089,
+          13.045415878639915
+        ],
+        [
+          -59.52513885497416,
+          13.044584274644592
+        ],
+        [
+          -59.528194427530764,
+          13.044584274644592
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -59.65069580037084,
+    13.044584274644592,
+    -59.41930389365973,
+    13.335140227939235
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "BRB",
+    "iso2": "BB",
+    "name": "Barbados",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/BRB_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 1.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": null,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-brb",
+    "hdx_date": "2017-09-07",
+    "hdx_update": "2022-07-14",
+    "hdx_source_1": "GADM database of Global Administrative Areas (www.gadm.org)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "28 November 2019 update:\r\nAdministrative features P-coded to conform to COD-PS\r\n\r\n3 June 2019 update:\r\nThe lines file was updated to correctly code shorelines as '99'.",
+    "start_datetime": "2022-07-14T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/brb_adm0/brb_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/brb_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/brb/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/brb/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/brb/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/brb/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/brb/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/brb/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/brb/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/brb_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/brb_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/brb_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

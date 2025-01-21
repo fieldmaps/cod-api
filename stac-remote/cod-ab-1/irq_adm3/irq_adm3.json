@@ -1,0 +1,307 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "irq_adm3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          46.431221470000025,
+          29.06952693900007
+        ],
+        [
+          46.41614560600004,
+          29.07008530400003
+        ],
+        [
+          46.332390805000045,
+          29.07622732300007
+        ],
+        [
+          45.37702771700003,
+          29.146581355000023
+        ],
+        [
+          45.05261745800004,
+          29.17114943000007
+        ],
+        [
+          45.001806212000076,
+          29.175616352000077
+        ],
+        [
+          44.92810198800004,
+          29.182316736000075
+        ],
+        [
+          44.72094844900005,
+          29.205209715000024
+        ],
+        [
+          39.20481158800004,
+          32.159183014000064
+        ],
+        [
+          39.04323951900005,
+          32.303169007000065
+        ],
+        [
+          39.03994213000004,
+          32.31196204500003
+        ],
+        [
+          38.99597694100004,
+          32.444956741000055
+        ],
+        [
+          38.98498564400006,
+          32.47902976300003
+        ],
+        [
+          38.794836202000056,
+          33.36602744700008
+        ],
+        [
+          41.41220356900004,
+          36.52339445300004
+        ],
+        [
+          42.73090078700005,
+          37.34728279800004
+        ],
+        [
+          42.79728774800003,
+          37.37655016800005
+        ],
+        [
+          42.802284616000065,
+          37.377264006000075
+        ],
+        [
+          43.16776981900006,
+          37.372980976000065
+        ],
+        [
+          44.032227987000056,
+          37.325153811000064
+        ],
+        [
+          44.141411160000075,
+          37.31389987100005
+        ],
+        [
+          44.77173036900007,
+          37.16684918400006
+        ],
+        [
+          44.80313925300004,
+          37.14900322700004
+        ],
+        [
+          46.33944987800004,
+          35.819989932000055
+        ],
+        [
+          46.34516058400004,
+          35.81427922600005
+        ],
+        [
+          46.34872977600003,
+          35.806427005000046
+        ],
+        [
+          48.62379496600005,
+          29.926891822000073
+        ],
+        [
+          48.62379496600005,
+          29.918742765000047
+        ],
+        [
+          48.62243678900006,
+          29.905161002000057
+        ],
+        [
+          48.618362260000026,
+          29.89429559100006
+        ],
+        [
+          48.604780498000025,
+          29.879355652000072
+        ],
+        [
+          48.566751561000046,
+          29.858983008000052
+        ],
+        [
+          46.55629530500005,
+          29.10414559000003
+        ],
+        [
+          46.54736145900006,
+          29.101353763000077
+        ],
+        [
+          46.51162607800006,
+          29.090186456000026
+        ],
+        [
+          46.44518060300004,
+          29.07287713100004
+        ],
+        [
+          46.431221470000025,
+          29.06952693900007
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    38.794836202000056,
+    29.06952693900007,
+    48.62379496600005,
+    37.377264006000075
+  ],
+  "properties": {
+    "admin_level": "3",
+    "languages_admin_self": [
+      "en",
+      "ar"
+    ],
+    "languages_admin_all": [
+      "en",
+      "ar"
+    ],
+    "iso3": "IRQ",
+    "iso2": "IQ",
+    "name": "Iraq",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/IRQ_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-irq",
+    "hdx_date": "2019-06-05",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Iraq Central Statistics Office",
+    "hdx_source_2": "OCHA Iraq (inactive)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Version history:\r\n6 June 2019\r\nITOS vetted and configured COD-AB files loaded to HDX\r\nITOS live services enabled\r\n\r\n26 March 2019\r\nUpdated COD-AB files loaded to HDX\r\n\r\n21 May 2017\r\nInitial upload to HDX",
+    "start_datetime": "2019-05-30T00:00:00Z",
+    "end_datetime": "2019-06-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2019-06-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/irq_adm3/irq_adm3.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/irq_adm3.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/irq/3?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/irq/3?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/irq/3?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/irq/3?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/irq/3?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/irq/3?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/irq/3?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/irq_adm3.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/irq_adm3.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/irq_adm3.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

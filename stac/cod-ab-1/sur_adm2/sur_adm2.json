@@ -1,0 +1,376 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "sur_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -55.99496841406102,
+          1.8311460019864398
+        ],
+        [
+          -56.01333999594402,
+          1.8334909680338
+        ],
+        [
+          -56.026821136486205,
+          1.835320949901984
+        ],
+        [
+          -56.267444610979965,
+          1.8893929721079985
+        ],
+        [
+          -56.48025131264791,
+          1.9414720534925323
+        ],
+        [
+          -56.68918991058587,
+          2.0183470246954585
+        ],
+        [
+          -56.692432403632495,
+          2.0207378867441435
+        ],
+        [
+          -56.69696807861391,
+          2.0240828989067268
+        ],
+        [
+          -56.707042694264885,
+          2.033958911874322
+        ],
+        [
+          -56.786540985178306,
+          2.1419260497474397
+        ],
+        [
+          -57.69239807091418,
+          3.4022428988907336
+        ],
+        [
+          -57.99999999999994,
+          3.893640041654635
+        ],
+        [
+          -58.05067825329871,
+          3.982002020077232
+        ],
+        [
+          -58.055412292643155,
+          3.994234085035032
+        ],
+        [
+          -58.086399078554564,
+          4.131200790384241
+        ],
+        [
+          -58.0865631103992,
+          4.141334057121071
+        ],
+        [
+          -57.92857742320945,
+          4.832964897312195
+        ],
+        [
+          -57.92379379254942,
+          4.842642784237171
+        ],
+        [
+          -57.14674377420579,
+          5.992897033771158
+        ],
+        [
+          -56.96263885469932,
+          6.015139102587568
+        ],
+        [
+          -56.96097183268387,
+          6.015139102587568
+        ],
+        [
+          -54.99986267052577,
+          5.999859809882366
+        ],
+        [
+          -54.779304504399306,
+          5.9868049623791535
+        ],
+        [
+          -54.75374984757735,
+          5.985138892745738
+        ],
+        [
+          -54.739028930440725,
+          5.984026908914757
+        ],
+        [
+          -54.71541595488236,
+          5.981804847815511
+        ],
+        [
+          -54.68152618438586,
+          5.978473186088706
+        ],
+        [
+          -54.6654167176074,
+          5.97625112498946
+        ],
+        [
+          -54.663471222319004,
+          5.975972175975187
+        ],
+        [
+          -54.47652816744096,
+          5.94319391266896
+        ],
+        [
+          -54.31208419772753,
+          5.913194179467837
+        ],
+        [
+          -54.2873611449009,
+          5.907361030986863
+        ],
+        [
+          -54.19708251964255,
+          5.88541603072531
+        ],
+        [
+          -54.0348625184904,
+          5.840415954732578
+        ],
+        [
+          -54.03347396884857,
+          5.839583874096547
+        ],
+        [
+          -54.02291488661268,
+          5.8315281869763
+        ],
+        [
+          -54.01985931405608,
+          5.828749180230545
+        ],
+        [
+          -54.019027710060755,
+          5.827918052875873
+        ],
+        [
+          -54.01847076441419,
+          5.827361107229365
+        ],
+        [
+          -54.018196106065375,
+          5.82708311059713
+        ],
+        [
+          -54.0165290831506,
+          5.8251390461301185
+        ],
+        [
+          -54.01597213750409,
+          5.824305057132733
+        ],
+        [
+          -54.01569366423115,
+          5.823749065666902
+        ],
+        [
+          -53.98409652733284,
+          5.749306202119556
+        ],
+        [
+          -53.977493285786466,
+          3.6010971073456517
+        ],
+        [
+          -54.01174545249057,
+          3.435131072840761
+        ],
+        [
+          -54.0140190123675,
+          3.425174951862573
+        ],
+        [
+          -54.177001953377385,
+          2.856148004526858
+        ],
+        [
+          -54.18168640140624,
+          2.8414320948153886
+        ],
+        [
+          -54.206989288524824,
+          2.776746987883257
+        ],
+        [
+          -54.43297195479187,
+          2.340313911158148
+        ],
+        [
+          -54.44006347694784,
+          2.333882092984254
+        ],
+        [
+          -54.450126647826494,
+          2.3265340329193123
+        ],
+        [
+          -54.49037170419075,
+          2.309333085953199
+        ],
+        [
+          -55.97245407099854,
+          1.837193966128666
+        ],
+        [
+          -55.99496841406102,
+          1.8311460019864398
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -58.0865631103992,
+    1.8311460019864398,
+    -53.977493285786466,
+    6.015139102587568
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "nl"
+    ],
+    "languages_admin_all": [
+      "nl"
+    ],
+    "iso3": "SUR",
+    "iso2": "SR",
+    "name": "Suriname",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/SUR_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-sur",
+    "hdx_date": "2019-10-24",
+    "hdx_update": "2019-10-24",
+    "hdx_source_1": "www.gadm.org",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2019-10-24T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/sur_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sur/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sur/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sur/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sur/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sur/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sur/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sur/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/sur_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/sur_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/sur_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

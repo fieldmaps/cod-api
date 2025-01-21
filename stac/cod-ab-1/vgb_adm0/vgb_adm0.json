@@ -1,0 +1,324 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "vgb_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.6212463379481,
+          18.30597305281418
+        ],
+        [
+          -64.62513732942415,
+          18.30652618443594
+        ],
+        [
+          -64.62875366255145,
+          18.307916641539805
+        ],
+        [
+          -64.84930419882966,
+          18.42791748090707
+        ],
+        [
+          -64.84958648702673,
+          18.4281940458186
+        ],
+        [
+          -64.85013580282498,
+          18.428747177440357
+        ],
+        [
+          -64.85013580282498,
+          18.429859161271338
+        ],
+        [
+          -64.83013916039391,
+          18.450696945008076
+        ],
+        [
+          -64.8298645020451,
+          18.450971603356834
+        ],
+        [
+          -64.82958221474735,
+          18.451250076629776
+        ],
+        [
+          -64.41319274934585,
+          18.745695113938382
+        ],
+        [
+          -64.41263580280003,
+          18.74597167974929
+        ],
+        [
+          -64.41152954135521,
+          18.746250153022174
+        ],
+        [
+          -64.38874816889285,
+          18.748750686495043
+        ],
+        [
+          -64.33569335906122,
+          18.7495841979524
+        ],
+        [
+          -64.33403015107058,
+          18.7495841979524
+        ],
+        [
+          -64.33180236848449,
+          18.749027252305893
+        ],
+        [
+          -64.32569122337122,
+          18.74736022939112
+        ],
+        [
+          -64.31319427479593,
+          18.743473052839192
+        ],
+        [
+          -64.30625152568734,
+          18.739027023178608
+        ],
+        [
+          -64.29569244345146,
+          18.730972290239038
+        ],
+        [
+          -64.28902435269168,
+          18.724582671852886
+        ],
+        [
+          -64.28736114470104,
+          18.722917556400148
+        ],
+        [
+          -64.27847290030405,
+          18.712917328172182
+        ],
+        [
+          -64.27764129630873,
+          18.71180534344188
+        ],
+        [
+          -64.27180480954428,
+          18.703472137229426
+        ],
+        [
+          -64.27124786389777,
+          18.70125007613018
+        ],
+        [
+          -64.27097320554896,
+          18.7001380922992
+        ],
+        [
+          -64.27041625990245,
+          18.697641372851137
+        ],
+        [
+          -64.27041625990245,
+          18.692638397544044
+        ],
+        [
+          -64.27069091825126,
+          18.691249847002894
+        ],
+        [
+          -64.31986236555571,
+          18.503194809193133
+        ],
+        [
+          -64.32013702390446,
+          18.50263977010934
+        ],
+        [
+          -64.3268051146643,
+          18.495695114438035
+        ],
+        [
+          -64.32707977301305,
+          18.495416641165093
+        ],
+        [
+          -64.3273620603108,
+          18.495136261329435
+        ],
+        [
+          -64.47180175774486,
+          18.381805420184037
+        ],
+        [
+          -64.49930572477933,
+          18.365694045943542
+        ],
+        [
+          -64.5631942751956,
+          18.32958412180983
+        ],
+        [
+          -64.59069824223008,
+          18.315694808668525
+        ],
+        [
+          -64.61042022721165,
+          18.307916641539805
+        ],
+        [
+          -64.61958312995745,
+          18.30597305281418
+        ],
+        [
+          -64.6212463379481,
+          18.30597305281418
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -64.85013580282498,
+    18.30597305281418,
+    -64.27041625990245,
+    18.7495841979524
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "VGB",
+    "iso2": "VG",
+    "name": "British Virgin Islands",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/VGB_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 1.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": null,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-vgb",
+    "hdx_date": "2017-09-09",
+    "hdx_update": "2020-04-01",
+    "hdx_source_1": "www.gadm.org",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The district assignment of the smaller mostly uninhabited islands near Cooper Island is uncertain. They have been given administrative level 1 name “uncertain” and P-code VG00.",
+    "start_datetime": "2020-04-01T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/vgb_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vgb/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vgb/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vgb/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vgb/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vgb/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vgb/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vgb/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/vgb_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/vgb_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/vgb_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

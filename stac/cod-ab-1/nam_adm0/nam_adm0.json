@@ -1,0 +1,424 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "nam_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          19.11396525300006,
+          -28.969589707999944
+        ],
+        [
+          19.104448630000036,
+          -28.96951878899995
+        ],
+        [
+          18.19024041700004,
+          -28.91699510199993
+        ],
+        [
+          18.189256536000073,
+          -28.916921301999935
+        ],
+        [
+          16.452162934000057,
+          -28.633231121999984
+        ],
+        [
+          16.43729103100003,
+          -28.624315877999948
+        ],
+        [
+          16.399753864000047,
+          -28.599755502999983
+        ],
+        [
+          16.377100554000037,
+          -28.584704943999952
+        ],
+        [
+          16.344474132000073,
+          -28.561272478999967
+        ],
+        [
+          15.855662880000068,
+          -28.131848099999957
+        ],
+        [
+          15.834010680000063,
+          -28.11264893999993
+        ],
+        [
+          15.813090360000047,
+          -28.094008859999974
+        ],
+        [
+          15.81123204000005,
+          -28.092265829999974
+        ],
+        [
+          15.810563880000075,
+          -28.091610899999978
+        ],
+        [
+          15.716974680000021,
+          -27.999829079999984
+        ],
+        [
+          15.715421280000044,
+          -27.998015129999942
+        ],
+        [
+          15.713991000000021,
+          -27.996273719999976
+        ],
+        [
+          15.69061116000006,
+          -27.967027859999973
+        ],
+        [
+          15.680474640000057,
+          -27.95349086999994
+        ],
+        [
+          15.54841188000006,
+          -27.75455648999997
+        ],
+        [
+          15.54759432000003,
+          -27.753247529999953
+        ],
+        [
+          15.29449776000007,
+          -27.32186816999996
+        ],
+        [
+          15.29445996000004,
+          -27.321795899999984
+        ],
+        [
+          15.290583120000065,
+          -27.312681329999975
+        ],
+        [
+          11.833854840000072,
+          -18.092655089999937
+        ],
+        [
+          11.810205720000056,
+          -18.000005399999964
+        ],
+        [
+          11.804381616000057,
+          -17.973118073999956
+        ],
+        [
+          11.768659175000039,
+          -17.781548303999955
+        ],
+        [
+          11.768446054000037,
+          -17.78034095399994
+        ],
+        [
+          11.746358974000032,
+          -17.645758283999953
+        ],
+        [
+          11.736771093000073,
+          -17.585888573999966
+        ],
+        [
+          11.736771093000073,
+          -17.585462423999957
+        ],
+        [
+          11.73705513300007,
+          -17.56571894399997
+        ],
+        [
+          11.739185974000065,
+          -17.45677439399998
+        ],
+        [
+          11.752466735000041,
+          -17.268713813999966
+        ],
+        [
+          11.753745095000056,
+          -17.25280532399995
+        ],
+        [
+          11.75381601500004,
+          -17.252379263999956
+        ],
+        [
+          11.753886935000025,
+          -17.252024123999945
+        ],
+        [
+          11.945252504000052,
+          -17.18067338399993
+        ],
+        [
+          12.034017707000032,
+          -17.151163464999968
+        ],
+        [
+          12.078869388000044,
+          -17.142283434999968
+        ],
+        [
+          12.985587517000056,
+          -16.98162126799997
+        ],
+        [
+          13.063582439000072,
+          -16.972946904999958
+        ],
+        [
+          13.141612080000073,
+          -16.965278814999976
+        ],
+        [
+          13.142198520000022,
+          -16.965222834999963
+        ],
+        [
+          13.16771532000007,
+          -16.96373279499994
+        ],
+        [
+          13.168203840000047,
+          -16.963714164999942
+        ],
+        [
+          24.38829750900004,
+          -17.467923731999974
+        ],
+        [
+          24.392718310000078,
+          -17.468203272999972
+        ],
+        [
+          24.707918500000062,
+          -17.497845853999934
+        ],
+        [
+          24.710487460000024,
+          -17.49809965399993
+        ],
+        [
+          24.717655421000075,
+          -17.498914063999962
+        ],
+        [
+          24.722552861000054,
+          -17.499534883999956
+        ],
+        [
+          24.726971501000037,
+          -17.500209163999955
+        ],
+        [
+          24.87728086900006,
+          -17.527563673999964
+        ],
+        [
+          24.88161418900006,
+          -17.52835243399994
+        ],
+        [
+          24.975381232000075,
+          -17.55284566399996
+        ],
+        [
+          24.97948307200005,
+          -17.55400909399998
+        ],
+        [
+          25.04476115400007,
+          -17.58922222399997
+        ],
+        [
+          25.046787594000023,
+          -17.590333723999947
+        ],
+        [
+          25.26218032400004,
+          -17.790809928999977
+        ],
+        [
+          25.261409769000068,
+          -17.79307418099995
+        ],
+        [
+          20.000005561000023,
+          -28.429704182999956
+        ],
+        [
+          19.28316318900005,
+          -28.909431707999943
+        ],
+        [
+          19.189531604000024,
+          -28.95270929999998
+        ],
+        [
+          19.153804751000052,
+          -28.96327764399996
+        ],
+        [
+          19.11969106600003,
+          -28.969376946999944
+        ],
+        [
+          19.11396525300006,
+          -28.969589707999944
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    11.736771093000073,
+    -28.969589707999944,
+    25.26218032400004,
+    -16.963714164999942
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "NAM",
+    "iso2": null,
+    "name": "Namibia",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/NAM_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-nam",
+    "hdx_date": "2011-01-01",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Namibia Statistics Agency (NSA)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The ‘//Karas’ administrative level 1 feature name includes the click consonant that is symbolized with a non-Latin character. The ADM1_EN attribute field includes only Roman characters but the ADM1ALT1EN field includes the click consonant symbol.\r\n\r\nThis dataset fits the former 107 constituency system but does reflect the split of Kavango region into Kavango East and West, and Caprivi to Zambezi name change.  Namibia has adopted a new 121 constituency system .",
+    "start_datetime": "2011-01-01T00:00:00Z",
+    "end_datetime": "2020-01-09T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2020-01-09T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/nam_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nam/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nam/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nam/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nam/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nam/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nam/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/nam/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/nam_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/nam_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/nam_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

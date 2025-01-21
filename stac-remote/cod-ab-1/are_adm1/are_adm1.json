@@ -1,0 +1,267 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "are_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          55.137356940000075,
+          22.631511940000053
+        ],
+        [
+          52.581231942000045,
+          22.939286111000058
+        ],
+        [
+          52.579498691000026,
+          22.94124787800007
+        ],
+        [
+          51.59051919800004,
+          24.126729871000066
+        ],
+        [
+          51.529761535000034,
+          24.40429043300003
+        ],
+        [
+          51.529866232000074,
+          24.405247630000076
+        ],
+        [
+          51.53792027500003,
+          24.435079167000026
+        ],
+        [
+          51.53823351700004,
+          24.435702595000066
+        ],
+        [
+          51.712278139000034,
+          24.59546668300004
+        ],
+        [
+          51.71316764200003,
+          24.59623095300003
+        ],
+        [
+          51.81734331100006,
+          24.662152078000076
+        ],
+        [
+          52.38769588900004,
+          24.968399937000072
+        ],
+        [
+          55.139306720000036,
+          26.24822828200007
+        ],
+        [
+          55.30759894000005,
+          26.28227176200005
+        ],
+        [
+          55.313038101000075,
+          26.28246052700007
+        ],
+        [
+          55.31366628600006,
+          26.28246052700007
+        ],
+        [
+          55.31444938800007,
+          26.282366144000036
+        ],
+        [
+          56.153417311000055,
+          26.069391659000075
+        ],
+        [
+          56.15605163300006,
+          26.06739923200007
+        ],
+        [
+          56.18218261200008,
+          26.019093591000058
+        ],
+        [
+          56.35585741400007,
+          25.593574184000033
+        ],
+        [
+          56.37131410200004,
+          25.52699130900004
+        ],
+        [
+          56.38122228900005,
+          25.327242871000067
+        ],
+        [
+          56.37526012400008,
+          24.980562897000027
+        ],
+        [
+          56.01812603400003,
+          24.066032567000036
+        ],
+        [
+          55.21334970600003,
+          22.705772482000043
+        ],
+        [
+          55.137356940000075,
+          22.631511940000053
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    51.529761535000034,
+    22.631511940000053,
+    56.38122228900005,
+    26.28246052700007
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "en",
+      "ar"
+    ],
+    "languages_admin_all": [
+      "en",
+      "ar"
+    ],
+    "iso3": "ARE",
+    "iso2": "AE",
+    "name": "United Arab Emirates",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/ARE_pcode/FeatureServer",
+    "itos_update": "2023-05-22",
+    "itos_service": "COD_External",
+    "itos_level": 1.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": null,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-are",
+    "hdx_date": "2023-05-19",
+    "hdx_update": "2023-05-24",
+    "hdx_source_1": "Federal Competitiveness and Statistics Centre, UAE Ministry of Cabinet Affairs",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2020-06-01T00:00:00Z",
+    "end_datetime": "2023-05-15T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-05-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/are_adm1/are_adm1.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/are_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/are/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/are/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/are/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/are/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/are/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/are/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/are/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/are_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/are_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/are_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

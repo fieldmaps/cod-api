@@ -1,0 +1,242 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "maf_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -63.09390640299995,
+          18.04535293600003
+        ],
+        [
+          -63.13958358799994,
+          18.052360535000048
+        ],
+        [
+          -63.140140532999965,
+          18.052637100000027
+        ],
+        [
+          -63.15375137299998,
+          18.061527252000076
+        ],
+        [
+          -63.15375137299998,
+          18.062639236000052
+        ],
+        [
+          -63.15347289999994,
+          18.063472748000038
+        ],
+        [
+          -63.148471831999984,
+          18.07180595400007
+        ],
+        [
+          -63.14791488599997,
+          18.07236290000003
+        ],
+        [
+          -63.14736175499996,
+          18.072639465000066
+        ],
+        [
+          -63.05125045799997,
+          18.119304657000043
+        ],
+        [
+          -63.03819274899996,
+          18.124027252000076
+        ],
+        [
+          -63.02624893199999,
+          18.124862671000074
+        ],
+        [
+          -62.97041702299998,
+          18.125972748000038
+        ],
+        [
+          -62.969860076999964,
+          18.125972748000038
+        ],
+        [
+          -62.969581603999984,
+          18.125694275000058
+        ],
+        [
+          -62.969581603999984,
+          18.124584198000036
+        ],
+        [
+          -62.97041702299998,
+          18.120418549000078
+        ],
+        [
+          -62.97097396899994,
+          18.119304657000043
+        ],
+        [
+          -63.00958251999998,
+          18.052915573000064
+        ],
+        [
+          -63.00986099199997,
+          18.052637100000027
+        ],
+        [
+          -63.01041793799993,
+          18.052083969000023
+        ],
+        [
+          -63.09390640299995,
+          18.04535293600003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -63.15375137299998,
+    18.04535293600003,
+    -62.969581603999984,
+    18.125972748000038
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en",
+      "fr"
+    ],
+    "languages_admin_all": [
+      "en",
+      "fr"
+    ],
+    "iso3": "MAF",
+    "iso2": "MF",
+    "name": "Saint Martin (French part)",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/MAF_pcode/FeatureServer",
+    "itos_update": "2024-01-31",
+    "itos_service": "COD_External",
+    "itos_level": 0.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": null,
+    "itos_index_2": null,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-maf",
+    "hdx_date": "2007-02-22",
+    "hdx_update": "2024-11-20",
+    "hdx_source_1": "www.gadm.org",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Only administrative level 0 is available.",
+    "start_datetime": "2017-09-09T00:00:00Z",
+    "end_datetime": "2024-01-26T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2024-01-26T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/maf_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/maf/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/maf/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/maf/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/maf/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/maf/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/maf/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/maf/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/maf_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/maf_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/maf_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

@@ -1,0 +1,284 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "bhs_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -73.64763600000134,
+          20.912083000230325
+        ],
+        [
+          -75.75708099968836,
+          21.71763900033966
+        ],
+        [
+          -80.38680299955877,
+          23.685416999694837
+        ],
+        [
+          -80.38708600001883,
+          23.6856929998321
+        ],
+        [
+          -80.38764199957859,
+          23.686251000383436
+        ],
+        [
+          -80.39152599972505,
+          23.69041499995234
+        ],
+        [
+          -80.47597400000006,
+          23.91819399995319
+        ],
+        [
+          -80.47597400000006,
+          23.91875099955905
+        ],
+        [
+          -80.47569199958605,
+          23.920138999715107
+        ],
+        [
+          -80.47541800044036,
+          23.92069500017419
+        ],
+        [
+          -79.01875199990485,
+          26.801805000100728
+        ],
+        [
+          -78.41805200029955,
+          27.27138900030218
+        ],
+        [
+          -78.4172219997954,
+          27.27138900030218
+        ],
+        [
+          -78.35167000037018,
+          27.262222000245174
+        ],
+        [
+          -78.35083100035035,
+          27.26194400001566
+        ],
+        [
+          -77.77083599958166,
+          27.04333400016401
+        ],
+        [
+          -77.55097300040359,
+          26.956807000242918
+        ],
+        [
+          -77.52430700006795,
+          26.944026999946118
+        ],
+        [
+          -77.52319199991081,
+          26.94347100038641
+        ],
+        [
+          -77.0534739998252,
+          26.637639000039883
+        ],
+        [
+          -77.02319300005689,
+          26.61708299998054
+        ],
+        [
+          -76.95986099958543,
+          26.559029000088344
+        ],
+        [
+          -74.47541799984077,
+          24.16152899966363
+        ],
+        [
+          -72.71263900038952,
+          22.327361999656603
+        ],
+        [
+          -72.71208299993049,
+          22.326527999867324
+        ],
+        [
+          -72.71208299993049,
+          22.325972000307615
+        ],
+        [
+          -72.99986199963155,
+          20.99986200033112
+        ],
+        [
+          -73.16263600025115,
+          20.96430500007574
+        ],
+        [
+          -73.2284690000443,
+          20.953194000302915
+        ],
+        [
+          -73.39097600004231,
+          20.933473000078948
+        ],
+        [
+          -73.4915310002554,
+          20.922362000306123
+        ],
+        [
+          -73.64624799984529,
+          20.912083000230325
+        ],
+        [
+          -73.64763600000134,
+          20.912083000230325
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -80.47597400000006,
+    20.912083000230325,
+    -72.71208299993049,
+    27.27138900030218
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "BHS",
+    "iso2": "BS",
+    "name": "Bahamas",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/BHS_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 1.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": null,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-bhs",
+    "hdx_date": "1996-03-06",
+    "hdx_update": "2020-11-13",
+    "hdx_source_1": "www.gadm.org",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "These are intended to be a temporary",
+    "start_datetime": "2018-04-12T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bhs_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bhs/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bhs/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bhs/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bhs/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bhs/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bhs/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bhs/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/bhs_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bhs_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bhs_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

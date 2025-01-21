@@ -1,0 +1,283 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "cmr_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          16.056206400000065,
+          1.6546659000000545
+        ],
+        [
+          10.034891300000027,
+          2.1623846000000526
+        ],
+        [
+          9.906463300000041,
+          2.197672100000034
+        ],
+        [
+          9.90527080000004,
+          2.1982744000000594
+        ],
+        [
+          9.848171800000046,
+          2.2456935000000726
+        ],
+        [
+          8.506174200000032,
+          4.508588700000075
+        ],
+        [
+          8.505190300000038,
+          4.512102700000071
+        ],
+        [
+          8.503644100000031,
+          4.518568500000072
+        ],
+        [
+          8.50308190000004,
+          4.521660800000063
+        ],
+        [
+          8.500130100000035,
+          4.542042000000038
+        ],
+        [
+          8.499427300000036,
+          4.5485078000000385
+        ],
+        [
+          8.499003200000061,
+          4.555244800000025
+        ],
+        [
+          8.49895280000004,
+          4.612025200000062
+        ],
+        [
+          8.49895280000004,
+          4.6156010000000265
+        ],
+        [
+          8.49938190000006,
+          4.6190339000000336
+        ],
+        [
+          8.52567700000003,
+          4.756281000000058
+        ],
+        [
+          8.528399100000058,
+          4.769891100000052
+        ],
+        [
+          8.841133700000057,
+          5.824821100000065
+        ],
+        [
+          8.843001300000026,
+          5.82744740000004
+        ],
+        [
+          14.083333000000039,
+          13.083333000000039
+        ],
+        [
+          14.466666000000032,
+          13.083333000000039
+        ],
+        [
+          14.83096820000003,
+          12.636087100000054
+        ],
+        [
+          14.832523700000024,
+          12.63350070000007
+        ],
+        [
+          15.085319800000036,
+          12.000354300000026
+        ],
+        [
+          15.688997800000038,
+          9.998714000000064
+        ],
+        [
+          16.192147600000055,
+          2.215655300000037
+        ],
+        [
+          16.149757600000044,
+          1.7043756000000485
+        ],
+        [
+          16.14852200000007,
+          1.6983317000000397
+        ],
+        [
+          16.14494300000007,
+          1.6906716000000301
+        ],
+        [
+          16.141673300000036,
+          1.688293900000076
+        ],
+        [
+          16.056206400000065,
+          1.6546659000000545
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    8.49895280000004,
+    1.6546659000000545,
+    16.192147600000055,
+    13.083333000000039
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "en",
+      "fr"
+    ],
+    "languages_admin_all": [
+      "en",
+      "fr"
+    ],
+    "iso3": "CMR",
+    "iso2": "CM",
+    "name": "Cameroon",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/CMR_pcode/FeatureServer",
+    "itos_update": "2024-04-04",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-cmr",
+    "hdx_date": "1987-08-22",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Institut National de Cartographie (INC)",
+    "hdx_source_2": "OCHA Cameroon",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The gazetteer contains reference at the administrative 3 (arrondissement) level to OSM feature IDs and to a former 'COG' feature code where available.",
+    "start_datetime": "2018-12-17T00:00:00Z",
+    "end_datetime": "2019-01-04T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2019-01-04T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/cmr_adm1/cmr_adm1.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/cmr_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cmr/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cmr/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cmr/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cmr/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cmr/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cmr/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cmr/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/cmr_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/cmr_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/cmr_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

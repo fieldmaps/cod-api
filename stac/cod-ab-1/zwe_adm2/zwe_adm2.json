@@ -1,0 +1,372 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "zwe_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.309571920000053,
+          -22.42104925899997
+        ],
+        [
+          30.289295467000045,
+          -22.35486715999997
+        ],
+        [
+          29.36666203200008,
+          -22.191000189999954
+        ],
+        [
+          29.363186132000067,
+          -22.190319144999933
+        ],
+        [
+          29.362834142000054,
+          -22.190250139999932
+        ],
+        [
+          29.361842170000045,
+          -22.189848111999936
+        ],
+        [
+          28.02194111800003,
+          -21.573519045999944
+        ],
+        [
+          28.021517130000063,
+          -21.573321031999967
+        ],
+        [
+          28.020384162000028,
+          -21.572790994999934
+        ],
+        [
+          28.02010217000003,
+          -21.572658984999975
+        ],
+        [
+          28.01967918200006,
+          -21.572393966999982
+        ],
+        [
+          28.019112198000073,
+          -21.571996937999927
+        ],
+        [
+          28.018900204000033,
+          -21.57179892399995
+        ],
+        [
+          28.01868920900006,
+          -21.571600909999972
+        ],
+        [
+          26.170159242000068,
+          -19.54236465799994
+        ],
+        [
+          26.169238267000026,
+          -19.54133158099995
+        ],
+        [
+          26.169070271000066,
+          -19.54109256299995
+        ],
+        [
+          26.16856828400006,
+          -19.540297502999977
+        ],
+        [
+          25.298632655000063,
+          -18.041951337999933
+        ],
+        [
+          25.291191844000025,
+          -18.02822327599995
+        ],
+        [
+          25.28856791000004,
+          -18.023040874999936
+        ],
+        [
+          25.238281162000078,
+          -17.911475225999936
+        ],
+        [
+          25.23814416500005,
+          -17.91107819499996
+        ],
+        [
+          25.238007168000024,
+          -17.91067916399993
+        ],
+        [
+          25.237734174000025,
+          -17.909487070999944
+        ],
+        [
+          25.237597177000055,
+          -17.908559998999976
+        ],
+        [
+          25.23760017400008,
+          -17.906837863999954
+        ],
+        [
+          25.237602174000074,
+          -17.906705853999938
+        ],
+        [
+          25.23920108300007,
+          -17.873214232999942
+        ],
+        [
+          25.26302630400005,
+          -17.79012169999993
+        ],
+        [
+          29.214393157000075,
+          -15.768773414999941
+        ],
+        [
+          29.228138770000044,
+          -15.761950856999931
+        ],
+        [
+          29.35031334000007,
+          -15.71346187499995
+        ],
+        [
+          29.36404695400006,
+          -15.708069431999945
+        ],
+        [
+          29.556724553000038,
+          -15.642050994999977
+        ],
+        [
+          29.55742253300008,
+          -15.641824976999942
+        ],
+        [
+          29.557887520000065,
+          -15.641712967999979
+        ],
+        [
+          29.789344061000065,
+          -15.60803912199998
+        ],
+        [
+          29.797313839000026,
+          -15.607703089999973
+        ],
+        [
+          29.822212146000027,
+          -15.607218037999928
+        ],
+        [
+          29.83080990700006,
+          -15.60714302699995
+        ],
+        [
+          29.83278085200004,
+          -15.607146025999953
+        ],
+        [
+          30.42239844100004,
+          -15.618543416999955
+        ],
+        [
+          32.99093600500004,
+          -16.694301749999966
+        ],
+        [
+          32.990997003000075,
+          -16.69441575899998
+        ],
+        [
+          33.05306036200005,
+          -17.342572969999935
+        ],
+        [
+          33.067178124000066,
+          -18.345781186999943
+        ],
+        [
+          33.067178124000066,
+          -18.346531244999937
+        ],
+        [
+          33.06178052400003,
+          -19.774620184999947
+        ],
+        [
+          33.03001648000003,
+          -20.033585621999976
+        ],
+        [
+          32.48022858100006,
+          -21.327248233999967
+        ],
+        [
+          31.376281961000075,
+          -22.379717294999978
+        ],
+        [
+          31.32570044700003,
+          -22.41141056799995
+        ],
+        [
+          31.309615919000066,
+          -22.421047258999977
+        ],
+        [
+          31.309571920000053,
+          -22.42104925899997
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    25.237597177000055,
+    -22.42104925899997,
+    33.067178124000066,
+    -15.60714302699995
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "ZWE",
+    "iso2": "ZW",
+    "name": "Zimbabwe",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/ZWE_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-zwe",
+    "hdx_date": "2018-08-31",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Zimbabwe National Statistics Agency (ZIMSTAT  www.zimstat.co.zw) Central Statistics Office",
+    "hdx_source_2": "OCHA Regional Office for Southern and Eastern Africa (ROSEA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2018-08-31T00:00:00Z",
+    "end_datetime": "2018-09-11T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2018-09-11T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/zwe_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zwe/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zwe/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zwe/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zwe/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zwe/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zwe/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zwe/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/zwe_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/zwe_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/zwe_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

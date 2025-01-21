@@ -1,0 +1,317 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "khm_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          104.32812500000006,
+          10.39447021500007
+        ],
+        [
+          103.80511474600007,
+          10.403930664000029
+        ],
+        [
+          103.31567382800006,
+          10.54290771500007
+        ],
+        [
+          103.31127929700006,
+          10.545288086000028
+        ],
+        [
+          103.29528808600008,
+          10.56671142600004
+        ],
+        [
+          103.06732177700007,
+          10.890502930000025
+        ],
+        [
+          103.05889892600004,
+          10.906494141000053
+        ],
+        [
+          103.05731201200007,
+          10.911071777000075
+        ],
+        [
+          102.49792480500008,
+          12.704895020000038
+        ],
+        [
+          102.34991455100004,
+          13.277526855000076
+        ],
+        [
+          102.34527587900004,
+          13.346313477000024
+        ],
+        [
+          102.33489990200007,
+          13.537902832000043
+        ],
+        [
+          102.33489990200007,
+          13.54150390600006
+        ],
+        [
+          102.33868408200004,
+          13.555908203000058
+        ],
+        [
+          102.34130859400005,
+          13.559326172000056
+        ],
+        [
+          102.93908691400009,
+          14.194702148000033
+        ],
+        [
+          102.95190429700006,
+          14.206115723000039
+        ],
+        [
+          102.95489502000004,
+          14.208679199000073
+        ],
+        [
+          103.05627441400009,
+          14.283325195000032
+        ],
+        [
+          103.12969970700004,
+          14.320312500000057
+        ],
+        [
+          103.14190673800005,
+          14.32611084000007
+        ],
+        [
+          103.16589355500008,
+          14.334106445000032
+        ],
+        [
+          103.16888427700007,
+          14.335083008000026
+        ],
+        [
+          103.55688476600005,
+          14.431701660000044
+        ],
+        [
+          103.56072998000008,
+          14.432312012000068
+        ],
+        [
+          103.65612793000008,
+          14.439514160000044
+        ],
+        [
+          107.53552246100008,
+          14.689086914000029
+        ],
+        [
+          107.53869628900009,
+          14.689270020000038
+        ],
+        [
+          107.55047607400007,
+          14.687072754000042
+        ],
+        [
+          107.55548095700004,
+          14.68530273400006
+        ],
+        [
+          107.62530517600004,
+          13.413085937000062
+        ],
+        [
+          107.62768554700006,
+          13.369506836000028
+        ],
+        [
+          107.58947753900009,
+          12.558288574000073
+        ],
+        [
+          107.57971191400009,
+          12.49530029300007
+        ],
+        [
+          107.57708740200007,
+          12.48272705100004
+        ],
+        [
+          107.55389404300007,
+          12.379089355000076
+        ],
+        [
+          107.54492187500006,
+          12.35272216800007
+        ],
+        [
+          106.18951416000004,
+          10.790710449000073
+        ],
+        [
+          104.49792480500008,
+          10.405090332000043
+        ],
+        [
+          104.32812500000006,
+          10.39447021500007
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    102.33489990200007,
+    10.39447021500007,
+    107.62768554700006,
+    14.689270020000038
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "KHM",
+    "iso2": "KH",
+    "name": "Cambodia",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/KHM_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-khm",
+    "hdx_date": "2018-01-01",
+    "hdx_update": "2024-09-09",
+    "hdx_source_1": "Department of Geography of the Ministry of Land Management, Urbanization and Construction in 2008, WFP",
+    "hdx_source_2": "OCHA Regional Office for Asia and the Pacific (ROAP)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "**Languages:** EN\r\n\r\n The boundaries used on this map do not imply official endorsement or acceptance by the United Nations and HRF members.\r\n\r\nSix administrative level 3 records do not correspond to any of the level 3 shapefile features.  These are:\r\nKdol Saen Chey [KH040809]\r\nKronhoung Saen Chey[KH100506]\r\nOu Baek K'am [KH120808]\r\nKouk Khleang [KH120809]\r\nKoah Rung Sonlem [KH180106]\r\nTa Ney [KH180215]",
+    "start_datetime": "2014-10-14T00:00:00Z",
+    "end_datetime": "2018-10-04T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2018-10-04T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/khm_adm2/khm_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/khm_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/khm/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/khm/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/khm/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/khm/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/khm/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/khm/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/khm/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/khm_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/khm_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/khm_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

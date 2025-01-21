@@ -1,0 +1,337 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "pan_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -80.79902648899997,
+          7.202359200000046
+        ],
+        [
+          -81.80069732699997,
+          7.2034721370000625
+        ],
+        [
+          -82.25846862799995,
+          7.46846914300005
+        ],
+        [
+          -82.26319122299998,
+          7.47125005700002
+        ],
+        [
+          -82.87959289599996,
+          8.016530991000025
+        ],
+        [
+          -82.88236236599994,
+          8.01903057100003
+        ],
+        [
+          -82.89577484099993,
+          8.037637711000059
+        ],
+        [
+          -83.04618835399998,
+          8.315669060000062
+        ],
+        [
+          -83.04644775399998,
+          8.316570282000043
+        ],
+        [
+          -83.04979705799997,
+          8.331919670000048
+        ],
+        [
+          -83.05017852799995,
+          8.33401012400003
+        ],
+        [
+          -83.05017852799995,
+          8.335979462000068
+        ],
+        [
+          -82.93872070299994,
+          9.470703125000057
+        ],
+        [
+          -82.93847656199995,
+          9.472718239000073
+        ],
+        [
+          -82.93829345699999,
+          9.473326683000039
+        ],
+        [
+          -82.87701415999999,
+          9.591307640000025
+        ],
+        [
+          -82.85699462899998,
+          9.61468601200005
+        ],
+        [
+          -82.85589599599996,
+          9.615479469000036
+        ],
+        [
+          -82.85510253899997,
+          9.61572265600006
+        ],
+        [
+          -82.85449218799994,
+          9.615904808000039
+        ],
+        [
+          -82.83581542999997,
+          9.616516113000046
+        ],
+        [
+          -79.56180572499994,
+          9.647360802000037
+        ],
+        [
+          -79.56124877899998,
+          9.647360802000037
+        ],
+        [
+          -78.77348327599998,
+          9.600419998000064
+        ],
+        [
+          -78.69930267299998,
+          9.594307899000057
+        ],
+        [
+          -78.68791961699998,
+          9.592638969000063
+        ],
+        [
+          -78.67986297599998,
+          9.591251373000034
+        ],
+        [
+          -78.67319488499999,
+          9.588194847000068
+        ],
+        [
+          -78.25927734399994,
+          9.372679710000057
+        ],
+        [
+          -78.03070068399995,
+          9.248291969000036
+        ],
+        [
+          -77.76568603499999,
+          9.057920456000033
+        ],
+        [
+          -77.35820007299998,
+          8.675700188000064
+        ],
+        [
+          -77.35791778599997,
+          8.675419807000026
+        ],
+        [
+          -77.35764312699996,
+          8.675139427000033
+        ],
+        [
+          -77.35736083999996,
+          8.67430973100005
+        ],
+        [
+          -77.17498016399998,
+          7.9778790470000445
+        ],
+        [
+          -77.17492675799997,
+          7.976729870000042
+        ],
+        [
+          -77.17324066199996,
+          7.93697977100004
+        ],
+        [
+          -77.17337036099997,
+          7.935829163000051
+        ],
+        [
+          -77.17372131299999,
+          7.934730053000067
+        ],
+        [
+          -77.17411804199998,
+          7.934069157000067
+        ],
+        [
+          -77.17566680899995,
+          7.93203783000007
+        ],
+        [
+          -77.31764221199995,
+          7.747269154000037
+        ],
+        [
+          -77.88338470499997,
+          7.218424797000068
+        ],
+        [
+          -80.79902648899997,
+          7.202359200000046
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -83.05017852799995,
+    7.202359200000046,
+    -77.17324066199996,
+    9.647360802000037
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "es"
+    ],
+    "languages_admin_all": [
+      "es"
+    ],
+    "iso3": "PAN",
+    "iso2": "PA",
+    "name": "Panama",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/PAN_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-pan",
+    "hdx_date": "2020-06-15",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "www.gadm.org",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The www.gadm.org source used for the previous version of this COD-AB assigns administrative level 2 feature ‘Taboga’ to ‘Panamá Oeste’ province instead of ‘Panamá’ province.  This has been corrected in this COD-AB.\r\n\r\nUsers are guided to note that administrative level 1 feature Emberá [PA06] consists of two large non-continugous polygons (one of which is surrounded by Darién [PA05]), each containing only one administrative level 2 feature.\r\n",
+    "start_datetime": "2020-06-15T00:00:00Z",
+    "end_datetime": "2021-10-20T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2021-10-20T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/pan_adm2/pan_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/pan_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pan/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pan/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pan/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pan/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pan/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pan/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pan/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/pan_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/pan_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/pan_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

@@ -1,0 +1,303 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "tun_adm3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.55988579500007,
+          30.24158341100008
+        ],
+        [
+          7.743771406000064,
+          33.256524624000065
+        ],
+        [
+          7.52892842600005,
+          33.803997809000066
+        ],
+        [
+          7.522527893000074,
+          33.910928203000026
+        ],
+        [
+          7.5399748100000465,
+          34.05406383800005
+        ],
+        [
+          8.148978939000074,
+          36.494149838000055
+        ],
+        [
+          8.86975654500003,
+          37.49764393000004
+        ],
+        [
+          8.871667344000059,
+          37.49995700000005
+        ],
+        [
+          8.911482983000042,
+          37.52994198400006
+        ],
+        [
+          8.954832744000043,
+          37.55937112200007
+        ],
+        [
+          8.955323820000046,
+          37.55963404600004
+        ],
+        [
+          8.95547876300003,
+          37.55970290800008
+        ],
+        [
+          8.955599273000075,
+          37.55975455400005
+        ],
+        [
+          8.955817337000042,
+          37.559829157000024
+        ],
+        [
+          8.955874722000033,
+          37.55984063500006
+        ],
+        [
+          8.955914893000056,
+          37.55984063300008
+        ],
+        [
+          11.035259693000057,
+          37.08860052800003
+        ],
+        [
+          11.044924897000044,
+          37.08404954100007
+        ],
+        [
+          11.04507509800004,
+          37.08396133100007
+        ],
+        [
+          11.04590255000005,
+          37.083435585000075
+        ],
+        [
+          11.04652918000005,
+          37.08297188300003
+        ],
+        [
+          11.056003515000043,
+          37.075102136000055
+        ],
+        [
+          11.058061575000067,
+          37.073088151000036
+        ],
+        [
+          11.074798670000064,
+          37.05159194000004
+        ],
+        [
+          11.074846766000064,
+          37.051525756000046
+        ],
+        [
+          11.13622742900003,
+          36.87489353400008
+        ],
+        [
+          11.559601630000031,
+          33.16684812300008
+        ],
+        [
+          11.605384882000067,
+          32.51379075400007
+        ],
+        [
+          11.608143339000037,
+          32.466186411000024
+        ],
+        [
+          10.212561726000047,
+          30.72124934900006
+        ],
+        [
+          10.083757474000038,
+          30.565748616000064
+        ],
+        [
+          9.93833354800006,
+          30.390893611000024
+        ],
+        [
+          9.897910331000048,
+          30.363013042000034
+        ],
+        [
+          9.87372454900003,
+          30.35091616400007
+        ],
+        [
+          9.606304282000053,
+          30.254299200000048
+        ],
+        [
+          9.55988579500007,
+          30.24158341100008
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    7.522527893000074,
+    30.24158341100008,
+    11.608143339000037,
+    37.55984063500006
+  ],
+  "properties": {
+    "admin_level": "3",
+    "languages_admin_self": [
+      "fr",
+      "ar"
+    ],
+    "languages_admin_all": [
+      "fr",
+      "ar"
+    ],
+    "iso3": "TUN",
+    "iso2": "TN",
+    "name": "Tunisia",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/TUN_pcode/FeatureServer",
+    "itos_update": "2023-06-09",
+    "itos_service": "COD_External",
+    "itos_level": 4.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": 4.0,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-tun",
+    "hdx_date": "2022-08-15",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Institut National de la Statistique Tunisie",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2022-08-15T00:00:00Z",
+    "end_datetime": "2022-11-15T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2022-11-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/tun_adm3/tun_adm3.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/tun_adm3.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tun/3?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tun/3?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tun/3?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tun/3?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tun/3?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tun/3?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tun/3?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/tun_adm3.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/tun_adm3.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/tun_adm3.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

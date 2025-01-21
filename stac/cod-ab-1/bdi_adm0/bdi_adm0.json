@@ -1,0 +1,300 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "bdi_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.753774000000078,
+          -4.470000999999968
+        ],
+        [
+          29.751418000000058,
+          -4.469747999999925
+        ],
+        [
+          29.707078000000024,
+          -4.4624469999999405
+        ],
+        [
+          29.661887000000036,
+          -4.44799299999994
+        ],
+        [
+          29.594981000000075,
+          -4.3492559999999685
+        ],
+        [
+          29.587082000000066,
+          -4.334281999999973
+        ],
+        [
+          29.569619000000046,
+          -4.300092999999947
+        ],
+        [
+          29.426261000000068,
+          -4.008009999999956
+        ],
+        [
+          29.34771100000006,
+          -3.821602999999925
+        ],
+        [
+          29.345391000000063,
+          -3.8160689999999704
+        ],
+        [
+          29.312051000000054,
+          -3.731329999999957
+        ],
+        [
+          29.001748000000077,
+          -2.8102109999999243
+        ],
+        [
+          29.001351000000057,
+          -2.8074679999999717
+        ],
+        [
+          29.000504000000035,
+          -2.798971999999935
+        ],
+        [
+          29.00034500000004,
+          -2.790049999999951
+        ],
+        [
+          29.000477000000046,
+          -2.7879729999999654
+        ],
+        [
+          29.000716000000068,
+          -2.7857089999999403
+        ],
+        [
+          29.052910000000054,
+          -2.618958999999961
+        ],
+        [
+          29.061352000000056,
+          -2.6023249999999507
+        ],
+        [
+          29.06177100000008,
+          -2.6015789999999583
+        ],
+        [
+          29.087386000000038,
+          -2.591592999999932
+        ],
+        [
+          29.95837700000004,
+          -2.3271289999999567
+        ],
+        [
+          30.40822000000003,
+          -2.309069999999963
+        ],
+        [
+          30.456881000000067,
+          -2.3174959999999487
+        ],
+        [
+          30.458769000000075,
+          -2.317891999999972
+        ],
+        [
+          30.461523000000057,
+          -2.319315999999958
+        ],
+        [
+          30.462821000000076,
+          -2.320383999999933
+        ],
+        [
+          30.54311000000007,
+          -2.412640999999951
+        ],
+        [
+          30.543543000000057,
+          -2.4131549999999606
+        ],
+        [
+          30.850906000000066,
+          -2.979704999999967
+        ],
+        [
+          30.84886700000004,
+          -3.2070489999999268
+        ],
+        [
+          30.84357200000005,
+          -3.253898999999933
+        ],
+        [
+          30.043811000000062,
+          -4.275173999999936
+        ],
+        [
+          30.042214000000058,
+          -4.277047999999979
+        ],
+        [
+          29.76117800000003,
+          -4.466624999999965
+        ],
+        [
+          29.757728000000043,
+          -4.468692999999973
+        ],
+        [
+          29.753774000000078,
+          -4.470000999999968
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    29.00034500000004,
+    -4.470000999999968,
+    30.850906000000066,
+    -2.309069999999963
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "fr"
+    ],
+    "languages_admin_all": [
+      "fr"
+    ],
+    "iso3": "BDI",
+    "iso2": "BI",
+    "name": "Burundi",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/BDI_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-bdi",
+    "hdx_date": "2015-03-26",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "IGEBU and OCHA Burundi",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "P-codes prefixed as 'BI' instead of the '003BDI' prefix previously used.\r\n\r\nThe 'Shape_Area' data in the 'BDI_AdminBoundaries_TabularData.xlsx' gazetteer file are in 'square degrees' which vary in size by latitude and should not be used for actual area calculations.",
+    "start_datetime": "2015-09-13T00:00:00Z",
+    "end_datetime": "2017-11-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2017-11-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bdi_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bdi/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bdi/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bdi/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bdi/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bdi/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bdi/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bdi/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/bdi_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bdi_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bdi_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

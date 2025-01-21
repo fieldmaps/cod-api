@@ -1,0 +1,280 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "ton_adm3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -174.90877884040734,
+          -21.45742273437875
+        ],
+        [
+          -174.91316975970204,
+          -21.454908008131987
+        ],
+        [
+          -175.33558008034683,
+          -21.157318429883233
+        ],
+        [
+          -175.3375795199635,
+          -21.15545375442746
+        ],
+        [
+          -175.3403515197077,
+          -21.15231759555037
+        ],
+        [
+          -175.3425781199035,
+          -21.148333762713058
+        ],
+        [
+          -175.34748707965625,
+          -21.13239047345815
+        ],
+        [
+          -175.35626460004409,
+          -21.094755734378595
+        ],
+        [
+          -175.35645936018753,
+          -21.093162166094082
+        ],
+        [
+          -175.64186916015692,
+          -15.573247330997518
+        ],
+        [
+          -175.6411923604387,
+          -15.572897773287732
+        ],
+        [
+          -175.62244175993627,
+          -15.56849269811465
+        ],
+        [
+          -173.75111783978957,
+          -15.838657289288749
+        ],
+        [
+          -173.750482800054,
+          -15.839017993986438
+        ],
+        [
+          -173.74921380035778,
+          -15.839870660761472
+        ],
+        [
+          -173.74794659998707,
+          -15.840893716771859
+        ],
+        [
+          -173.7449596801078,
+          -15.843305533567417
+        ],
+        [
+          -173.74145688021875,
+          -15.84655593409896
+        ],
+        [
+          -173.73869712002028,
+          -15.84976299361088
+        ],
+        [
+          -173.73741587988005,
+          -15.851515157457849
+        ],
+        [
+          -173.73711204000656,
+          -15.851991853255939
+        ],
+        [
+          -173.73697739961347,
+          -15.852232884131528
+        ],
+        [
+          -173.73689387964822,
+          -15.852741957238036
+        ],
+        [
+          -173.73691332008926,
+          -15.854035587026063
+        ],
+        [
+          -173.9021378397932,
+          -18.629812864322293
+        ],
+        [
+          -173.90217203955436,
+          -18.630004583274776
+        ],
+        [
+          -173.90372723980514,
+          -18.63612684879223
+        ],
+        [
+          -174.26525220019812,
+          -19.693921784152693
+        ],
+        [
+          -174.90134772035722,
+          -21.448620582997446
+        ],
+        [
+          -174.90337451996254,
+          -21.452393070653038
+        ],
+        [
+          -174.90675203990375,
+          -21.456479738097094
+        ],
+        [
+          -174.90877884040734,
+          -21.45742273437875
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -175.64186916015692,
+    -21.45742273437875,
+    -173.73689387964822,
+    -15.56849269811465
+  ],
+  "properties": {
+    "admin_level": "3",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "TON",
+    "iso2": "TO",
+    "name": "Tonga",
+    "itos_url": null,
+    "itos_update": null,
+    "itos_service": null,
+    "itos_level": null,
+    "itos_index_0": null,
+    "itos_index_1": null,
+    "itos_index_2": null,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-ton",
+    "hdx_date": "2021-01-01",
+    "hdx_update": "2022-01-26",
+    "hdx_source_1": "Secretariat of the Pacific Community, Statistics for Development Division, and Department of Lands.",
+    "hdx_source_2": "OCHA Office of the Pacific Islands",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2018-02-05T00:00:00Z",
+    "end_datetime": "2018-02-05T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2018-02-05T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/ton_adm3.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ton/3?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ton/3?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ton/3?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ton/3?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ton/3?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ton/3?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ton/3?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/ton_adm3.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/ton_adm3.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/ton_adm3.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

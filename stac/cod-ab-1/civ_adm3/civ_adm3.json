@@ -1,0 +1,260 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "civ_adm3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -7.488323210999965,
+          4.360553222000021
+        ],
+        [
+          -7.52877187699994,
+          4.361884686000053
+        ],
+        [
+          -7.538596150999979,
+          4.363398951000022
+        ],
+        [
+          -7.55630111499994,
+          4.369587897000031
+        ],
+        [
+          -7.562016008999933,
+          4.374492236000037
+        ],
+        [
+          -7.573409555999945,
+          4.386722981000048
+        ],
+        [
+          -8.584146518999944,
+          6.507410718000074
+        ],
+        [
+          -8.47092153799997,
+          7.540799978000052
+        ],
+        [
+          -8.157340056999942,
+          9.94364117400005
+        ],
+        [
+          -8.156834637999964,
+          9.945657077000021
+        ],
+        [
+          -8.143206584999973,
+          9.978915444000052
+        ],
+        [
+          -8.113250712999957,
+          10.046081087000061
+        ],
+        [
+          -8.107928254999933,
+          10.05445538600003
+        ],
+        [
+          -7.7090973809999355,
+          10.395875416000024
+        ],
+        [
+          -7.6252574979999395,
+          10.459590285000047
+        ],
+        [
+          -6.64796781299998,
+          10.67851057200005
+        ],
+        [
+          -6.262570874999938,
+          10.745650689000058
+        ],
+        [
+          -3.1876832619999504,
+          9.93763251100006
+        ],
+        [
+          -2.6834230009999374,
+          9.48821122000004
+        ],
+        [
+          -2.682871822999971,
+          9.485109514000044
+        ],
+        [
+          -2.4941043569999692,
+          8.225855645000024
+        ],
+        [
+          -2.4923088679999523,
+          8.210294653000062
+        ],
+        [
+          -2.724996730999976,
+          5.1304631300000665
+        ],
+        [
+          -2.7286078909999674,
+          5.125398075000021
+        ],
+        [
+          -2.7437723029999574,
+          5.107309630000032
+        ],
+        [
+          -2.75821303999993,
+          5.093563397000025
+        ],
+        [
+          -7.488323210999965,
+          4.360553222000021
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -8.584146518999944,
+    4.360553222000021,
+    -2.4923088679999523,
+    10.745650689000058
+  ],
+  "properties": {
+    "admin_level": "3",
+    "languages_admin_self": [
+      "fr"
+    ],
+    "languages_admin_all": [
+      "fr"
+    ],
+    "iso3": "CIV",
+    "iso2": "CI",
+    "name": "Côte d'Ivoire",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/CIV_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-civ",
+    "hdx_date": "2018-08-06",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Comité National de Télédétection et d'Information Géographique (CNTIG)",
+    "hdx_source_2": "OCHA West and Central Africa (ROWCA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The edge-matched layers are subject to the following potential limitations:\r\n\r\nWhere countries border each other, one or even both boundaries may be less accurate than the original, definitive boundaries. The UN Geospatial Hub boundary is generally of lower quality than the definitive COD-AB layers.\r\n\r\nPeripheral polygon feature shapes and the relationship of their areas to those of their internal neighbouring features may be distorted, while internal features are untouched.\r\n\r\nPeripheral polygon features may artificially appear to touch different, incorrect features belonging the same country.\r\n\r\n*In theory, peripheral polygon features may be eliminated. This is monitored and will be specially treated if it occurs.",
+    "start_datetime": "2011-12-24T00:00:00Z",
+    "end_datetime": "2018-07-06T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2018-07-06T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/civ_adm3.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/civ/3?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/civ/3?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/civ/3?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/civ/3?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/civ/3?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/civ/3?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/civ/3?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/civ_adm3.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/civ_adm3.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/civ_adm3.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

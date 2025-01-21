@@ -1,0 +1,391 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "lao_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          106.10339734000007,
+          13.909824307000065
+        ],
+        [
+          106.10155106400003,
+          13.909849601000076
+        ],
+        [
+          105.91251012900005,
+          13.92673918500003
+        ],
+        [
+          105.90978630600006,
+          13.927434240000025
+        ],
+        [
+          105.36202794200005,
+          14.103809162000061
+        ],
+        [
+          105.36202227200005,
+          14.10381125400005
+        ],
+        [
+          105.36201675400008,
+          14.10381370500005
+        ],
+        [
+          105.36201141200007,
+          14.10381650100004
+        ],
+        [
+          105.36200784900007,
+          14.103818623000052
+        ],
+        [
+          105.36175621600006,
+          14.103976111000065
+        ],
+        [
+          105.36175463600006,
+          14.10397712200006
+        ],
+        [
+          105.36174971400004,
+          14.103980576000026
+        ],
+        [
+          100.91408485600004,
+          17.575787680000076
+        ],
+        [
+          100.90650863800005,
+          17.58667537300005
+        ],
+        [
+          100.08834648900006,
+          20.27131432500005
+        ],
+        [
+          100.08313145200003,
+          20.357484698000064
+        ],
+        [
+          100.08371576300004,
+          20.36041044700005
+        ],
+        [
+          100.16810422900005,
+          20.61652731500004
+        ],
+        [
+          100.16853611500005,
+          20.617795190000038
+        ],
+        [
+          100.17631626700006,
+          20.63914883500007
+        ],
+        [
+          100.17705865000005,
+          20.64098567800005
+        ],
+        [
+          100.17975448400006,
+          20.64660592200005
+        ],
+        [
+          100.18018185000005,
+          20.647371356000065
+        ],
+        [
+          100.20761219400003,
+          20.68997135500007
+        ],
+        [
+          100.21440937000006,
+          20.70010497100003
+        ],
+        [
+          100.22384262800006,
+          20.71299775400007
+        ],
+        [
+          101.67186938700007,
+          22.47599409000003
+        ],
+        [
+          101.67229252700008,
+          22.476206108000042
+        ],
+        [
+          101.72767777500007,
+          22.499408320000043
+        ],
+        [
+          101.76072992600007,
+          22.509162065000055
+        ],
+        [
+          101.76106607400004,
+          22.50920681300005
+        ],
+        [
+          102.04415043500006,
+          22.45931013300003
+        ],
+        [
+          102.04727761500004,
+          22.458726752000075
+        ],
+        [
+          102.10095675100007,
+          22.444369363000078
+        ],
+        [
+          102.12311678500004,
+          22.436619645000064
+        ],
+        [
+          102.12908094200009,
+          22.43433716900006
+        ],
+        [
+          102.12932286800009,
+          22.43422761900007
+        ],
+        [
+          104.29026256000009,
+          20.93669427100008
+        ],
+        [
+          104.63907860700004,
+          20.67165615700003
+        ],
+        [
+          107.45707285700007,
+          16.082706168000072
+        ],
+        [
+          107.45763778700007,
+          16.081701602000066
+        ],
+        [
+          107.45943146500008,
+          16.078099310000027
+        ],
+        [
+          107.46132602900008,
+          16.073027151000076
+        ],
+        [
+          107.62415693500009,
+          15.41527629500007
+        ],
+        [
+          107.63506836000005,
+          15.319136800000024
+        ],
+        [
+          107.63506449300007,
+          15.318670647000033
+        ],
+        [
+          107.63362799100008,
+          15.23068967100005
+        ],
+        [
+          107.62159357100006,
+          15.050978703000055
+        ],
+        [
+          107.59058651200007,
+          14.865771323000047
+        ],
+        [
+          107.55980546700005,
+          14.69388495800007
+        ],
+        [
+          107.55891302200007,
+          14.690277649000052
+        ],
+        [
+          107.55885258500007,
+          14.690075719000049
+        ],
+        [
+          107.55848437800006,
+          14.68917975200003
+        ],
+        [
+          107.55688298600006,
+          14.685892067000054
+        ],
+        [
+          107.45332491600004,
+          14.53256342900005
+        ],
+        [
+          107.45125726700007,
+          14.530250783000042
+        ],
+        [
+          107.44878511900004,
+          14.528888693000056
+        ],
+        [
+          106.10339734000007,
+          13.909824307000065
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    100.08313145200003,
+    13.909824307000065,
+    107.63506836000005,
+    22.50920681300005
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en",
+      "lo"
+    ],
+    "languages_admin_all": [
+      "en",
+      "lo"
+    ],
+    "iso3": "LAO",
+    "iso2": "LA",
+    "name": "Lao People's Democratic Republic",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/LAO_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-lao",
+    "hdx_date": "2019-01-01",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "National Geographic Department (NGD)",
+    "hdx_source_2": "OCHA Regional Office for Asia and the Pacific (ROAP)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The administrative level 2 (district / muang) features do not correspond exactly to the [Lao PDR - Population Statistics](https://data.humdata.org/dataset/lao-pdr-population-statistics) tables.  This is being analyzed and it is hoped that a solution will be provided soon.",
+    "start_datetime": "2016-03-26T00:00:00Z",
+    "end_datetime": "2019-11-12T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2019-11-12T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/lao_adm0/lao_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/lao_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lao/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lao/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lao/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lao/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lao/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lao/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lao/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/lao_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/lao_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/lao_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

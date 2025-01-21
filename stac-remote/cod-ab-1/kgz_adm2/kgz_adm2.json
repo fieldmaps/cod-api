@@ -1,0 +1,349 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "kgz_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          72.23575358700003,
+          39.18042698200003
+        ],
+        [
+          69.36433840500007,
+          39.52115129100008
+        ],
+        [
+          69.36148298300003,
+          39.52185573000003
+        ],
+        [
+          69.35787170000003,
+          39.52421001700003
+        ],
+        [
+          69.35251653500006,
+          39.528888797000036
+        ],
+        [
+          69.33993248000007,
+          39.54212983600007
+        ],
+        [
+          69.33889993800005,
+          39.54373040200005
+        ],
+        [
+          69.33792978400004,
+          39.546092577000024
+        ],
+        [
+          69.26390467800007,
+          39.80522952200005
+        ],
+        [
+          69.26385012400004,
+          39.80588378400006
+        ],
+        [
+          69.26428059300008,
+          39.80947151300006
+        ],
+        [
+          69.26517947100007,
+          39.81473469200006
+        ],
+        [
+          69.26843347300007,
+          39.82822304600006
+        ],
+        [
+          69.29543783200006,
+          39.92034427100003
+        ],
+        [
+          69.34574637500003,
+          40.01716926300003
+        ],
+        [
+          70.18080218600005,
+          41.55841931000003
+        ],
+        [
+          70.21060977800005,
+          41.612206411000045
+        ],
+        [
+          71.00153498800006,
+          42.58667128900004
+        ],
+        [
+          71.00273493000003,
+          42.58814894100004
+        ],
+        [
+          71.26199125600004,
+          42.774958877000074
+        ],
+        [
+          71.26386372700006,
+          42.77562426900005
+        ],
+        [
+          71.38527354900003,
+          42.798558884000045
+        ],
+        [
+          74.20027983100005,
+          43.26611989200006
+        ],
+        [
+          74.20482692700006,
+          43.26603074500008
+        ],
+        [
+          78.49402830400004,
+          42.902149063000024
+        ],
+        [
+          79.19970491000004,
+          42.80411036600003
+        ],
+        [
+          79.96520449100007,
+          42.43708277800005
+        ],
+        [
+          80.12665737100008,
+          42.30380423500003
+        ],
+        [
+          80.13128174400003,
+          42.29981828800004
+        ],
+        [
+          80.13475733100006,
+          42.296138247000044
+        ],
+        [
+          80.13850974800005,
+          42.29187375600003
+        ],
+        [
+          80.14144221000004,
+          42.28796108100005
+        ],
+        [
+          80.17533899500006,
+          42.21175976400008
+        ],
+        [
+          80.22606381000008,
+          42.06389193100006
+        ],
+        [
+          80.22645228700003,
+          42.062303160000056
+        ],
+        [
+          80.20637273500006,
+          42.04294221600003
+        ],
+        [
+          80.20091682100008,
+          42.03993446900006
+        ],
+        [
+          80.19593351900005,
+          42.03753515900007
+        ],
+        [
+          76.34176732000003,
+          40.34208526300006
+        ],
+        [
+          73.87460019900004,
+          39.48328496900007
+        ],
+        [
+          73.87163517500005,
+          39.482299675000036
+        ],
+        [
+          73.83678946600008,
+          39.47302843700004
+        ],
+        [
+          73.82225283400004,
+          39.46961386900006
+        ],
+        [
+          73.23010065500006,
+          39.35858322900003
+        ],
+        [
+          73.19227832900003,
+          39.351532226000074
+        ],
+        [
+          72.23844951800004,
+          39.18064140000007
+        ],
+        [
+          72.23575358700003,
+          39.18042698200003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    69.26385012400004,
+    39.18042698200003,
+    80.22645228700003,
+    43.26611989200006
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en",
+      "ru",
+      "ky"
+    ],
+    "languages_admin_all": [
+      "en",
+      "ru",
+      "ky"
+    ],
+    "iso3": "KGZ",
+    "iso2": "KG",
+    "name": "Kyrgyzstan",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/KGZ_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-kgz",
+    "hdx_date": "2018-11-21",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Ministry of Emergency Situations of the Kyrgyz Republic",
+    "hdx_source_2": "OCHA Middle East and North Africa (ROMENA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Community Users should be aware that 277 Admin3 names are blank. \r\n\r\nAdministrative boundaries at the administrative level 3 (community) are missing 20 polygons that were not digitized. They are:\r\nADM3_PCODE\tADM3_EN\tADM3_RU\tADM3_KY\tADM3TYPE_EN\r\n\r\nKG02210810000\tAk-Shyyrаk\tАк-Шыйракский\tАк-Шыйрак\tcommunity\r\n\r\nKG04230826000\tChon-Dobon\tЧон-Добонский\tЧоң-Дөбө\tcommunity\r\n\r\nKG04230835000\tSuyumbаev\tСуюмбаевский\tСүйүмбаев\tcommunity\r\n\r\nKG04230837000\tKyzyl-Jyldyz\tКызыл-Жылдызский\tКызыл-Жылдыз\tcommunity\r\n\r\nKG04245860000\tSаry-Oy\tСары-Ойский\tСары-Ой\tcommunity\r\nKG05258610020\tKаdаmjаy (city)\tКадамжай\tКадамжай\tindependent city\r\n\r\nKG06207823000\tKаbylаn-Kol\tКабылан-Колский\tКабылан-Кол\tcommunity\r\n\r\nKG06207839000\tSаry-Mogol\tСары-Моголский\tСары-Могол\tcommunity\r\n\r\nKG06207841000\tJany-Alay\tЖаны-Алайский\tЖаңы-Алай\tcommunity\r\n\r\nKG06211809000\tS.Yusupov\tС.Юсуповский\tС.Юсупов\tcommunity\r\n\r\nKG06211824000\tNurаbаd\tНурабадский\tНурабад\tcommunity\r\n\r\nKG06226840000\tSаry-Kolot\tСары-Колотский\tСары-Колот\tcommunity\r\n\r\nKG06242600010\tNookаt (city)\tНоокат\tНоокат\tindependent city\r\n\r\nKG06242838000\tKok-Bel\tКок-Бельский\tКөк-Бел\tcommunity\r\n\r\nKG06242856000\tMirmаkhmudov\tМирмахмудовский\tМирмахмудов\tcommunity\r\n\r\nKG06246815000\tKenesh\tКенешский\tКеңеш\tcommunity\r\n\r\nKG06255828000\tChаnget\tЧангетский\tЧаңгет\tcommunity\r\n\r\nKG06255860000\tAltyn-Bulаk\tАлтын-Булакский\tАлтын-Булак\tcommunity\r\n\r\nKG07215806000\tBаkyyan\tБакыянский\tБакыян\tcommunity\r\n\r\nKG11201510010\tChon-Aryk\tЧон-Арык\tЧоң-Арык\tsemi-urban settlement",
+    "start_datetime": "2018-08-28T00:00:00Z",
+    "end_datetime": "2018-11-19T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2018-11-19T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/kgz_adm2/kgz_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/kgz_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kgz/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kgz/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kgz/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kgz/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kgz/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kgz/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kgz/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/kgz_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/kgz_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/kgz_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

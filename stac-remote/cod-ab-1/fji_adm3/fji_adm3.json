@@ -1,0 +1,337 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "fji_adm3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -178.845572683759,
+          -21.041453683484416
+        ],
+        [
+          -178.84582527115228,
+          -21.04141397572829
+        ],
+        [
+          -178.84623924897113,
+          -21.0413241221743
+        ],
+        [
+          -178.84656807817927,
+          -21.041208652117565
+        ],
+        [
+          -178.84681206779692,
+          -21.041102013432607
+        ],
+        [
+          -178.84805696749075,
+          -21.040343214146866
+        ],
+        [
+          -178.84850319123507,
+          -21.04003893078351
+        ],
+        [
+          -178.8489276550882,
+          -21.03965675511579
+        ],
+        [
+          -178.84927330075845,
+          -21.039269044386643
+        ],
+        [
+          -178.84966219671634,
+          -21.03882405544593
+        ],
+        [
+          -178.849949816609,
+          -21.038457914720563
+        ],
+        [
+          -178.8501643846045,
+          -21.038146787832147
+        ],
+        [
+          -178.85077352411386,
+          -21.03710012859047
+        ],
+        [
+          -179.88534997320912,
+          -18.997496722111503
+        ],
+        [
+          -179.88541390540962,
+          -18.997345452546494
+        ],
+        [
+          -179.88551685054452,
+          -18.996939696241245
+        ],
+        [
+          -179.99999999999997,
+          -16.966392330999952
+        ],
+        [
+          -179.99999999999997,
+          -15.690098218999935
+        ],
+        [
+          -179.99983856599997,
+          -15.689933835999966
+        ],
+        [
+          -179.997750568,
+          -15.688635072999944
+        ],
+        [
+          -179.99666931899998,
+          -15.688501494999969
+        ],
+        [
+          -179.99641843399996,
+          -15.688486489999946
+        ],
+        [
+          177.07684790256093,
+          -12.479529532402465
+        ],
+        [
+          177.12264632531395,
+          -12.486901893199576
+        ],
+        [
+          177.1242962609963,
+          -12.487396234241293
+        ],
+        [
+          177.13113155546787,
+          -12.491657732596341
+        ],
+        [
+          177.13225726219818,
+          -12.49237351703231
+        ],
+        [
+          177.1345094706678,
+          -12.493839608434945
+        ],
+        [
+          177.13676876325178,
+          -12.495884042826951
+        ],
+        [
+          180.0,
+          -15.69009821900005
+        ],
+        [
+          180.0,
+          -16.966392331000034
+        ],
+        [
+          179.95266717929934,
+          -18.56945800092697
+        ],
+        [
+          179.95264108054536,
+          -18.56992788467454
+        ],
+        [
+          179.9524159510571,
+          -18.572411931405036
+        ],
+        [
+          179.95213977839603,
+          -18.573686666758142
+        ],
+        [
+          179.95209839660416,
+          -18.573872089685043
+        ],
+        [
+          179.7900358299194,
+          -19.172310003001787
+        ],
+        [
+          179.7899067195552,
+          -19.172492330162143
+        ],
+        [
+          179.77466700916924,
+          -19.18505602343892
+        ],
+        [
+          179.75883538087626,
+          -19.192782959949326
+        ],
+        [
+          179.7579857264328,
+          -19.19301168173422
+        ],
+        [
+          179.75755841222517,
+          -19.193106218657974
+        ],
+        [
+          179.75715457279256,
+          -19.19315634711991
+        ],
+        [
+          179.7565776675306,
+          -19.193190210750302
+        ],
+        [
+          -178.845572683759,
+          -21.041453683484416
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.99999999999997,
+    -21.041453683484416,
+    180.0,
+    -12.479529532402465
+  ],
+  "properties": {
+    "admin_level": "3",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "FJI",
+    "iso2": "FJ",
+    "name": "Fiji",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/FJI_pcode/FeatureServer",
+    "itos_update": "2023-10-13",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-fji",
+    "hdx_date": "2017-01-01",
+    "hdx_update": "2021-09-24",
+    "hdx_source_1": "POPGIS, Fiji Islands Bureau of Statistics, Pacific Catastrophe Risk Assessment and Financing Initiative (PCRAFI)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "suitable for linking by GIS or database to the [Fiji administrative level 0, 1, 2, and 3 population statistics](https://data.humdata.org/dataset/fiji-administrative-level-0-1-2-and-3-population-statistics)",
+    "start_datetime": "2018-01-15T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/fji_adm3/fji_adm3.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/fji_adm3.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/fji/3?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/fji/3?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/fji/3?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/fji/3?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/fji/3?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/fji/3?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/fji/3?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/fji_adm3.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/fji_adm3.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/fji_adm3.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

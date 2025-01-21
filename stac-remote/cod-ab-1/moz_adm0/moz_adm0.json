@@ -1,0 +1,359 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "moz_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.725262316000055,
+          -26.867040757999973
+        ],
+        [
+          32.183788864000064,
+          -26.86263147099993
+        ],
+        [
+          32.16988782100003,
+          -26.860401835999937
+        ],
+        [
+          32.16245282600005,
+          -26.858280934999982
+        ],
+        [
+          32.15614319000008,
+          -26.856226790999983
+        ],
+        [
+          32.15095891400006,
+          -26.85405058599997
+        ],
+        [
+          32.14546183300007,
+          -26.850148304999948
+        ],
+        [
+          32.144183886000064,
+          -26.849179410999966
+        ],
+        [
+          32.135181042000056,
+          -26.840539471999932
+        ],
+        [
+          31.93087853700007,
+          -25.840117964999934
+        ],
+        [
+          31.30588644900007,
+          -22.41836897199994
+        ],
+        [
+          30.21251089200007,
+          -15.070155107999938
+        ],
+        [
+          30.212404080000056,
+          -15.069404607999957
+        ],
+        [
+          30.211725073000025,
+          -15.058183349999979
+        ],
+        [
+          30.216915182000037,
+          -15.001688953999974
+        ],
+        [
+          34.637579119000065,
+          -11.57697552899998
+        ],
+        [
+          40.44884895600006,
+          -10.473812489999943
+        ],
+        [
+          40.45012309100008,
+          -10.47366563299994
+        ],
+        [
+          40.52053617900003,
+          -10.481393817999958
+        ],
+        [
+          40.52240160300005,
+          -10.481816272999936
+        ],
+        [
+          40.52322559400005,
+          -10.482263520999936
+        ],
+        [
+          40.52903549200005,
+          -10.48548008499995
+        ],
+        [
+          40.53680999200003,
+          -10.498876542999938
+        ],
+        [
+          40.639892675000056,
+          -10.689600602999974
+        ],
+        [
+          40.64044963100008,
+          -10.691192195999975
+        ],
+        [
+          40.68396845900003,
+          -10.847965445999932
+        ],
+        [
+          40.71728276700003,
+          -11.00327107499993
+        ],
+        [
+          40.71743917200007,
+          -11.004181781999932
+        ],
+        [
+          40.84040923100008,
+          -14.545251162999932
+        ],
+        [
+          40.838455862000046,
+          -14.752571350999972
+        ],
+        [
+          40.83840245400006,
+          -14.75429931399998
+        ],
+        [
+          40.835804522000046,
+          -14.824805326999979
+        ],
+        [
+          40.835739670000066,
+          -14.825565363999942
+        ],
+        [
+          40.835278078000044,
+          -14.829464721999955
+        ],
+        [
+          40.82912481300008,
+          -14.862272162999943
+        ],
+        [
+          40.79097305800008,
+          -15.049409902999969
+        ],
+        [
+          40.790343618000065,
+          -15.051117838999971
+        ],
+        [
+          40.788657484000055,
+          -15.055198384999926
+        ],
+        [
+          40.77621365700003,
+          -15.084341055999971
+        ],
+        [
+          40.57282468000005,
+          -15.484375714999942
+        ],
+        [
+          40.567346652000026,
+          -15.494376343999932
+        ],
+        [
+          40.56615644000004,
+          -15.496444748999977
+        ],
+        [
+          35.478297112000064,
+          -24.154329883999935
+        ],
+        [
+          35.46762331700006,
+          -24.171762206999972
+        ],
+        [
+          35.409718584000075,
+          -24.25245248799996
+        ],
+        [
+          35.20180480300007,
+          -24.525249249999945
+        ],
+        [
+          35.150019034000024,
+          -24.581257722999965
+        ],
+        [
+          32.89258235800003,
+          -26.856780154999967
+        ],
+        [
+          32.85911528200006,
+          -26.863102642999934
+        ],
+        [
+          32.725262316000055,
+          -26.867040757999973
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    30.211725073000025,
+    -26.867040757999973,
+    40.84040923100008,
+    -10.47366563299994
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en",
+      "pt"
+    ],
+    "languages_admin_all": [
+      "en",
+      "pt"
+    ],
+    "iso3": "MOZ",
+    "iso2": "MZ",
+    "name": "Mozambique",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/MOZ_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-moz",
+    "hdx_date": "1954-10-20",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Mozambique Instituto Nacional de Estatistica (INE) and partners ",
+    "hdx_source_2": "OCHA Regional Office for Southern and Eastern Africa (ROSEA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "10 JUNE 2019 UPDATE:\r\nThe administrative level 3 (posto) feature for “Mieze” (formerly MZ0117, in its own “Pemba” district) has been corrected to belong in the “Metuge” district and has been P-coded MZ010902.\r\n\r\n\r\n25 APRIL 2019 UPDATE:\r\nLines file with administrative level coding added to shapefiles.\r\n\r\n\r\n\r\n\r\nApril 10, 2019 update:\r\n\r\nShapefile projections changed to WGS94\r\nUnderscore (\"_\") characters in feature names changed to spaces.\r\nNO CHANGES MADE TO P-CODES.\r\n\r\nAffected resources:\r\ngazetteer:  moz_admbnda_2019_gazetteer_v4\r\nEMF files:  moz_adm_2019_EMF_v2.zip\r\nKMZ files:  moz_adm_2019_KMZ_v2.zip\r\nshapefiles:  moz_adm_2019_SHP_v3\r\n\r\n\r\nApril 8, 2019 update:\r\n\r\nEMF files added\r\nKMZ files added\r\nCOD-AB data sheet added.\r\n\r\nThe changes do not alter the previous shapefiles.\r\n\r\nThe administrative level 1 (province) KMZ file was generated from a generalized shapefile (tolerance 0.001 degree) because of the number of vertices.  The shapefile resource on this dataset is the original.\r\n\r\n\r\n\r\nApril 3, 2019 update:  administrative level 4 (settlement) features added for the Maputo City area.",
+    "start_datetime": "2019-04-02T00:00:00Z",
+    "end_datetime": "2019-06-07T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2019-06-07T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/moz_adm0/moz_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/moz_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/moz/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/moz/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/moz/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/moz/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/moz/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/moz/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/moz/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/moz_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/moz_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/moz_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

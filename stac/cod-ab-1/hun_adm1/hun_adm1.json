@@ -1,0 +1,345 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "hun_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          18.446900000000028,
+          45.737100000000055
+        ],
+        [
+          18.410600000000045,
+          45.73890000000006
+        ],
+        [
+          17.865300000000047,
+          45.76700000000005
+        ],
+        [
+          17.862000000000023,
+          45.76770000000005
+        ],
+        [
+          17.859300000000076,
+          45.768500000000074
+        ],
+        [
+          17.347600000000057,
+          45.942300000000046
+        ],
+        [
+          17.309700000000078,
+          45.968000000000075
+        ],
+        [
+          16.523600000000044,
+          46.505400000000066
+        ],
+        [
+          16.116900000000044,
+          46.86370000000005
+        ],
+        [
+          16.113900000000058,
+          46.86910000000006
+        ],
+        [
+          16.421500000000037,
+          47.66530000000006
+        ],
+        [
+          16.44730000000004,
+          47.696300000000065
+        ],
+        [
+          16.547000000000025,
+          47.75100000000003
+        ],
+        [
+          16.548100000000034,
+          47.75160000000005
+        ],
+        [
+          17.165000000000077,
+          48.00920000000008
+        ],
+        [
+          17.17360000000002,
+          48.01240000000007
+        ],
+        [
+          17.19100000000003,
+          48.01770000000005
+        ],
+        [
+          17.19360000000006,
+          48.01830000000007
+        ],
+        [
+          17.200100000000077,
+          48.01980000000003
+        ],
+        [
+          17.201000000000022,
+          48.02000000000004
+        ],
+        [
+          20.65390000000008,
+          48.56140000000005
+        ],
+        [
+          20.713100000000054,
+          48.57040000000006
+        ],
+        [
+          20.835600000000056,
+          48.58280000000008
+        ],
+        [
+          21.439500000000066,
+          48.585300000000075
+        ],
+        [
+          21.44010000000003,
+          48.58520000000004
+        ],
+        [
+          21.440600000000074,
+          48.58510000000007
+        ],
+        [
+          22.213000000000022,
+          48.42540000000008
+        ],
+        [
+          22.263300000000072,
+          48.410600000000045
+        ],
+        [
+          22.264500000000055,
+          48.41020000000003
+        ],
+        [
+          22.265300000000025,
+          48.409800000000075
+        ],
+        [
+          22.82370000000003,
+          48.117800000000045
+        ],
+        [
+          22.824200000000076,
+          48.117500000000064
+        ],
+        [
+          22.82540000000006,
+          48.11670000000004
+        ],
+        [
+          22.82680000000005,
+          48.11570000000006
+        ],
+        [
+          22.82720000000006,
+          48.11540000000008
+        ],
+        [
+          22.827900000000056,
+          48.11480000000006
+        ],
+        [
+          22.881500000000074,
+          48.05480000000006
+        ],
+        [
+          22.88190000000003,
+          48.05410000000006
+        ],
+        [
+          22.897700000000043,
+          47.954000000000065
+        ],
+        [
+          22.896600000000035,
+          47.95280000000008
+        ],
+        [
+          21.296200000000056,
+          46.40670000000006
+        ],
+        [
+          21.180600000000027,
+          46.30410000000006
+        ],
+        [
+          21.174600000000055,
+          46.30030000000005
+        ],
+        [
+          21.170600000000036,
+          46.298100000000034
+        ],
+        [
+          21.102900000000034,
+          46.26230000000004
+        ],
+        [
+          21.066100000000063,
+          46.24290000000008
+        ],
+        [
+          20.639200000000073,
+          46.12670000000003
+        ],
+        [
+          18.446900000000028,
+          45.737100000000055
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    16.113900000000058,
+    45.737100000000055,
+    22.897700000000043,
+    48.585300000000075
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "hu"
+    ],
+    "languages_admin_all": [
+      "hu",
+      "en"
+    ],
+    "iso3": "HUN",
+    "iso2": "HU",
+    "name": "Hungary",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/HUN_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-hun",
+    "hdx_date": "2022-03-09",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "OSM",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Minor differences between the ADM1/2 and the ADM0 boundary exist.",
+    "start_datetime": "2022-03-09T00:00:00Z",
+    "end_datetime": "2022-07-20T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2022-07-20T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/hun_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hun/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hun/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hun/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hun/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hun/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hun/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hun/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/hun_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/hun_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/hun_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

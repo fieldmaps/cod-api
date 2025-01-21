@@ -1,0 +1,304 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "btn_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          89.86315386000007,
+          26.700655537000046
+        ],
+        [
+          89.77224206300008,
+          26.702228053000056
+        ],
+        [
+          89.62748529300006,
+          26.71766223000003
+        ],
+        [
+          89.13427464900008,
+          26.807836913000074
+        ],
+        [
+          88.87698814500004,
+          26.944333357000062
+        ],
+        [
+          88.74604141400005,
+          27.144295886000066
+        ],
+        [
+          88.75693239700007,
+          27.165465253000036
+        ],
+        [
+          88.80320875300004,
+          27.247974261000024
+        ],
+        [
+          89.03683540700007,
+          27.58795754500005
+        ],
+        [
+          89.51027980500004,
+          28.09647962400004
+        ],
+        [
+          89.59328869000007,
+          28.164480584000046
+        ],
+        [
+          89.79432568200008,
+          28.24714591700007
+        ],
+        [
+          89.79552045800006,
+          28.247450005000076
+        ],
+        [
+          89.79731175800003,
+          28.247679301000062
+        ],
+        [
+          91.33375961200005,
+          28.066420194000045
+        ],
+        [
+          91.33505806300008,
+          28.06625155100005
+        ],
+        [
+          91.33679342900007,
+          28.065573293000057
+        ],
+        [
+          91.33835649000008,
+          28.06496091300005
+        ],
+        [
+          91.46596419700006,
+          28.007167080000045
+        ],
+        [
+          91.59560902400005,
+          27.914006870000037
+        ],
+        [
+          91.62579123000006,
+          27.89198488200003
+        ],
+        [
+          92.01876765800006,
+          27.480322896000075
+        ],
+        [
+          92.12300865300006,
+          27.286456438000073
+        ],
+        [
+          92.12475435900006,
+          27.282365508000055
+        ],
+        [
+          92.12217965200006,
+          26.957937598000058
+        ],
+        [
+          92.12013625000009,
+          26.909541594000075
+        ],
+        [
+          92.11992503000005,
+          26.907756059000064
+        ],
+        [
+          92.11951189200005,
+          26.90539457500006
+        ],
+        [
+          92.11842753200006,
+          26.901027199000055
+        ],
+        [
+          92.11794672300005,
+          26.899379423000028
+        ],
+        [
+          92.11675240800008,
+          26.89645038900005
+        ],
+        [
+          92.10289272800009,
+          26.867559222000068
+        ],
+        [
+          92.08629464300003,
+          26.85959338600003
+        ],
+        [
+          92.05662998000008,
+          26.847615012000063
+        ],
+        [
+          91.68974138300007,
+          26.806887500000073
+        ],
+        [
+          91.49493799100009,
+          26.79138345800004
+        ],
+        [
+          91.33742837600005,
+          26.78123388000006
+        ],
+        [
+          89.86315386000007,
+          26.700655537000046
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    88.74604141400005,
+    26.700655537000046,
+    92.12475435900006,
+    28.247679301000062
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "BTN",
+    "iso2": "BT",
+    "name": "Bhutan",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/BTN_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-btn",
+    "hdx_date": "2020-01-01",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "OCHA ROAP",
+    "hdx_source_2": "OCHA Regional Office for Asia and the Pacific (ROAP)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "UPDATES\r\n\r\n2019 02 01:  \r\nP-code prefix changed from 'BTN' to 'BT';  EMF files and geodatabase added; Corresponding COD-PS made available",
+    "start_datetime": "2019-02-01T00:00:00Z",
+    "end_datetime": "2020-10-26T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2020-10-26T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/btn_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/btn/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/btn/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/btn/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/btn/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/btn/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/btn/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/btn/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/btn_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/btn_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/btn_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

@@ -1,0 +1,337 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "idn_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          122.87468720000004,
+          -11.007615099999953
+        ],
+        [
+          122.87372590000007,
+          -11.007557899999938
+        ],
+        [
+          121.27694700000006,
+          -10.82951739999993
+        ],
+        [
+          121.2763824000001,
+          -10.829387699999927
+        ],
+        [
+          107.84717000000006,
+          -7.736959999999954
+        ],
+        [
+          106.40597210000004,
+          -7.3827585999999314
+        ],
+        [
+          106.40563870000005,
+          -7.382666899999947
+        ],
+        [
+          106.40550450000006,
+          -7.382620499999973
+        ],
+        [
+          106.40537040000004,
+          -7.382573999999977
+        ],
+        [
+          105.52488760000006,
+          -7.013464599999963
+        ],
+        [
+          102.27169700000007,
+          -5.514621999999974
+        ],
+        [
+          102.26587000000006,
+          -5.511581999999976
+        ],
+        [
+          102.24847300000005,
+          -5.497053999999935
+        ],
+        [
+          102.08865400000008,
+          -5.358278999999925
+        ],
+        [
+          102.08796200000006,
+          -5.35753399999993
+        ],
+        [
+          98.87573920000006,
+          -1.6769270999999435
+        ],
+        [
+          98.82564120000006,
+          -1.616405499999928
+        ],
+        [
+          95.39731440000008,
+          2.9675951000000396
+        ],
+        [
+          95.38972360000008,
+          2.9850686000000337
+        ],
+        [
+          95.38908370000007,
+          2.9866402000000676
+        ],
+        [
+          95.01114810000007,
+          5.723953300000062
+        ],
+        [
+          95.01114650000005,
+          5.723995600000023
+        ],
+        [
+          95.01078640000009,
+          5.7548775000000205
+        ],
+        [
+          95.11391820000006,
+          6.075247900000022
+        ],
+        [
+          95.11396280000008,
+          6.07536760000005
+        ],
+        [
+          95.11404200000004,
+          6.075462000000073
+        ],
+        [
+          95.11419680000006,
+          6.075568600000054
+        ],
+        [
+          95.11570310000008,
+          6.076373400000023
+        ],
+        [
+          95.11589720000006,
+          6.076454600000034
+        ],
+        [
+          95.11609280000005,
+          6.076523300000076
+        ],
+        [
+          95.11631370000003,
+          6.076596500000051
+        ],
+        [
+          95.11656290000008,
+          6.07667280000004
+        ],
+        [
+          95.11680420000005,
+          6.076730200000043
+        ],
+        [
+          95.11803080000004,
+          6.076921000000027
+        ],
+        [
+          95.11814430000004,
+          6.076930000000061
+        ],
+        [
+          126.58358170000008,
+          5.565815500000042
+        ],
+        [
+          126.58481560000007,
+          5.56575840000005
+        ],
+        [
+          126.59000130000004,
+          5.565185300000053
+        ],
+        [
+          126.59021370000005,
+          5.565095400000075
+        ],
+        [
+          140.99997200000007,
+          -2.6043441999999573
+        ],
+        [
+          141.01940000000002,
+          -6.889867999999979
+        ],
+        [
+          141.0193197000001,
+          -7.339719999999943
+        ],
+        [
+          141.01905890000012,
+          -8.80037139999996
+        ],
+        [
+          141.0190017000001,
+          -9.12036269999993
+        ],
+        [
+          122.87468720000004,
+          -11.007615099999953
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    95.01078640000009,
+    -11.007615099999953,
+    141.01940000000002,
+    6.076930000000061
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "IDN",
+    "iso2": "ID",
+    "name": "Indonesia",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/IDN_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 4.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": 4.0,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-idn",
+    "hdx_date": "2020-04-08",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Badan Pusat Statistik (BPS - Statistics Indonesia)",
+    "hdx_source_2": "OCHA Regional Office for Asia and the Pacific (ROAP)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Administrative level 1P-codes are not consecutive; level 1 P-codes start with p-code \"ID11\" instead of \"ID01”.\r\n\r\nSome administrative level 3 and 4 names include slashes (/ or \\) that may indicate alternate names. They may need to be separated and placed into alternate name fields.",
+    "start_datetime": "2019-12-20T00:00:00Z",
+    "end_datetime": "2020-04-01T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2020-04-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/idn_adm1/idn_adm1.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/idn_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/idn/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/idn/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/idn/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/idn/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/idn/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/idn/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/idn/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/idn_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/idn_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/idn_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

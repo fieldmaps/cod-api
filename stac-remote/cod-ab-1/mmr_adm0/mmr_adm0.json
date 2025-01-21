@@ -1,0 +1,323 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "mmr_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          97.97332875500007,
+          9.605883557000027
+        ],
+        [
+          97.97260202400008,
+          9.60609060400003
+        ],
+        [
+          93.36322770200007,
+          14.046399092000058
+        ],
+        [
+          93.36290808200005,
+          14.046810033000042
+        ],
+        [
+          93.35268480200006,
+          14.074284591000037
+        ],
+        [
+          92.17263072000009,
+          21.169394872000055
+        ],
+        [
+          92.17212389500008,
+          21.180089260000045
+        ],
+        [
+          92.17210485900006,
+          21.180698402000075
+        ],
+        [
+          92.19909246800006,
+          21.326561321000042
+        ],
+        [
+          93.33003142100006,
+          24.085188317000075
+        ],
+        [
+          93.34081956700004,
+          24.10505579000005
+        ],
+        [
+          95.14715922600004,
+          26.612045692000038
+        ],
+        [
+          95.16756263000008,
+          26.635176941000054
+        ],
+        [
+          97.50377904200008,
+          28.498423002000038
+        ],
+        [
+          97.56316236400005,
+          28.54262746200004
+        ],
+        [
+          97.56461177200003,
+          28.54308061100005
+        ],
+        [
+          97.57358308800008,
+          28.545538862000058
+        ],
+        [
+          97.66014736500006,
+          28.537051833000078
+        ],
+        [
+          97.66212465600006,
+          28.53648126300004
+        ],
+        [
+          97.68792166600008,
+          28.523512819000075
+        ],
+        [
+          97.91377763400004,
+          28.364591784000027
+        ],
+        [
+          97.95797281000006,
+          28.325975777000053
+        ],
+        [
+          98.01054615700008,
+          28.27402151900003
+        ],
+        [
+          98.12958371900004,
+          28.155791135000072
+        ],
+        [
+          98.70263801000004,
+          27.56369970700007
+        ],
+        [
+          98.70492550200004,
+          27.55882719300007
+        ],
+        [
+          101.12131938600004,
+          21.776567285000056
+        ],
+        [
+          101.16210334800007,
+          21.64024201600006
+        ],
+        [
+          101.17001505500008,
+          21.603467446000025
+        ],
+        [
+          101.16953916300008,
+          21.59674546900004
+        ],
+        [
+          101.16341205100008,
+          21.52664654700004
+        ],
+        [
+          99.66531837700006,
+          11.822461002000068
+        ],
+        [
+          99.63928735800005,
+          11.732659374000036
+        ],
+        [
+          99.63553344300004,
+          11.725634264000064
+        ],
+        [
+          98.54743156500007,
+          9.947754467000038
+        ],
+        [
+          98.54479889900006,
+          9.943701103000024
+        ],
+        [
+          98.53984347700003,
+          9.937660409000046
+        ],
+        [
+          98.52762912400004,
+          9.928496275000043
+        ],
+        [
+          98.09727082400008,
+          9.639579414000025
+        ],
+        [
+          98.09572687900004,
+          9.63863075300003
+        ],
+        [
+          97.97332875500007,
+          9.605883557000027
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    92.17210485900006,
+    9.605883557000027,
+    101.17001505500008,
+    28.545538862000058
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en",
+      "my"
+    ],
+    "languages_admin_all": [
+      "en",
+      "my"
+    ],
+    "iso3": "MMR",
+    "iso2": "MM",
+    "name": "Myanmar",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/MMR_pcode/FeatureServer",
+    "itos_update": "2024-03-08",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 5.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": 4.0,
+    "itos_index_5": 5.0,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-mmr",
+    "hdx_date": "2024-03-11",
+    "hdx_update": "2024-03-11",
+    "hdx_source_1": "Myanmar Information Management Unit (MIMU)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Please see the 'MMR COD-AB ITOS error documentation.pdf' provided in this dataset.",
+    "start_datetime": "2023-06-18T00:00:00Z",
+    "end_datetime": "2024-02-15T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2024-02-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/mmr_adm0/mmr_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mmr_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mmr/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mmr/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mmr/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mmr/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mmr/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mmr/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mmr/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/mmr_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mmr_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mmr_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

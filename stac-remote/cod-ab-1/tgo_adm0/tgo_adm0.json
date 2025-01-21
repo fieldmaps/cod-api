@@ -1,0 +1,269 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "tgo_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          1.1917699580000658,
+          6.109305859000074
+        ],
+        [
+          1.0911680470000533,
+          6.158789158000047
+        ],
+        [
+          1.085880995000025,
+          6.16247415600003
+        ],
+        [
+          0.7888630000000489,
+          6.398829000000035
+        ],
+        [
+          0.7568370000000755,
+          6.4315200000000345
+        ],
+        [
+          0.7485600000000545,
+          6.441094000000021
+        ],
+        [
+          0.6377870000000598,
+          6.632220000000075
+        ],
+        [
+          0.5301210000000651,
+          6.825826000000063
+        ],
+        [
+          -0.08717499999994516,
+          10.708459000000062
+        ],
+        [
+          -0.14229299999993827,
+          11.106565000000046
+        ],
+        [
+          -0.14245699999997896,
+          11.109673000000043
+        ],
+        [
+          -0.14229299999993827,
+          11.116379000000052
+        ],
+        [
+          -0.14196599999996806,
+          11.119160000000022
+        ],
+        [
+          -0.13171199999993632,
+          11.138040000000046
+        ],
+        [
+          0.9122870000000489,
+          10.996543000000031
+        ],
+        [
+          1.3641130000000317,
+          10.012135000000058
+        ],
+        [
+          1.6176570000000652,
+          9.071597000000054
+        ],
+        [
+          1.6245060000000535,
+          9.042144000000064
+        ],
+        [
+          1.6299860000000308,
+          8.998992000000044
+        ],
+        [
+          1.80752700000005,
+          6.286360000000059
+        ],
+        [
+          1.8071800000000735,
+          6.284425000000056
+        ],
+        [
+          1.7999840000000518,
+          6.280892000000051
+        ],
+        [
+          1.6276650000000359,
+          6.225702000000069
+        ],
+        [
+          1.6069500000000403,
+          6.219670000000065
+        ],
+        [
+          1.2037021560000198,
+          6.109968000000038
+        ],
+        [
+          1.19763209000007,
+          6.109417699000062
+        ],
+        [
+          1.1963705950000758,
+          6.109325843000022
+        ],
+        [
+          1.1917699580000658,
+          6.109305859000074
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -0.14245699999997896,
+    6.109305859000074,
+    1.80752700000005,
+    11.138040000000046
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "fr"
+    ],
+    "languages_admin_all": [
+      "fr"
+    ],
+    "iso3": "TGO",
+    "iso2": "TG",
+    "name": "Togo",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/TGO_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-tgo",
+    "hdx_date": "2020-01-12",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Global Administrative Unit Layers (GAUL)",
+    "hdx_source_2": "OCHA West and Central Africa (ROWCA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Administrative level 2 does not conform to the COD-PS.  The COD-PS does not extend to administrative level 3.",
+    "start_datetime": "2020-12-16T00:00:00Z",
+    "end_datetime": "2021-01-07T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2021-01-07T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/tgo_adm0/tgo_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/tgo_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tgo/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tgo/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tgo/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tgo/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tgo/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tgo/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/tgo/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/tgo_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/tgo_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/tgo_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

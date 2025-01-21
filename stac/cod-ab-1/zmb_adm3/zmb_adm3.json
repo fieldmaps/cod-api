@@ -1,0 +1,348 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "zmb_adm3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          26.693006057000048,
+          -18.077374280999948
+        ],
+        [
+          25.96829375300007,
+          -18.002406893999932
+        ],
+        [
+          25.919256216000065,
+          -17.996407861999955
+        ],
+        [
+          25.91844231400006,
+          -17.996291750999944
+        ],
+        [
+          23.437997818000042,
+          -17.63807296699997
+        ],
+        [
+          23.24578666700006,
+          -17.54803657499997
+        ],
+        [
+          23.223205567000036,
+          -17.533565520999957
+        ],
+        [
+          23.140567781000073,
+          -17.467475890999935
+        ],
+        [
+          22.81442633000006,
+          -17.178635989999975
+        ],
+        [
+          22.800257265000027,
+          -17.165817569999945
+        ],
+        [
+          22.19223793900005,
+          -16.54407628699994
+        ],
+        [
+          22.18933793900004,
+          -16.540976286999978
+        ],
+        [
+          22.15393793900006,
+          -16.49937628699996
+        ],
+        [
+          22.152137940000046,
+          -16.496876286999964
+        ],
+        [
+          22.149637940000048,
+          -16.492876286999945
+        ],
+        [
+          22.147437939000042,
+          -16.488976285999968
+        ],
+        [
+          22.14283793900006,
+          -16.480676286999937
+        ],
+        [
+          22.001284501000043,
+          -16.208053519999964
+        ],
+        [
+          21.99927419900007,
+          -16.19402224399994
+        ],
+        [
+          21.99620700500003,
+          -13.434399328999973
+        ],
+        [
+          22.00289050200007,
+          -12.99729132799996
+        ],
+        [
+          23.999246749000065,
+          -10.890237301999946
+        ],
+        [
+          23.99929399900003,
+          -10.890188727999941
+        ],
+        [
+          28.89079475400007,
+          -8.476704533999964
+        ],
+        [
+          28.91016561200007,
+          -8.473883531999945
+        ],
+        [
+          28.93115269200007,
+          -8.470827419999978
+        ],
+        [
+          29.230343335000043,
+          -8.427357491999942
+        ],
+        [
+          29.31143949500006,
+          -8.415578154999935
+        ],
+        [
+          29.426048430000037,
+          -8.39893129799998
+        ],
+        [
+          29.564021237000077,
+          -8.378897691999953
+        ],
+        [
+          29.568352066000045,
+          -8.378272530999936
+        ],
+        [
+          30.429537940000046,
+          -8.273276285999941
+        ],
+        [
+          30.46443794000004,
+          -8.271976286999973
+        ],
+        [
+          30.796037940000076,
+          -8.276676287999976
+        ],
+        [
+          32.43709009600008,
+          -9.117457161999937
+        ],
+        [
+          32.75524008300005,
+          -9.283232985999973
+        ],
+        [
+          32.95935532300007,
+          -9.398827386999926
+        ],
+        [
+          33.19567781100005,
+          -9.599539081999978
+        ],
+        [
+          33.21998951200004,
+          -9.621301106999965
+        ],
+        [
+          33.22214416800006,
+          -9.624173980999956
+        ],
+        [
+          33.22286238700008,
+          -9.625215397999966
+        ],
+        [
+          33.350736590000054,
+          -9.838894514999936
+        ],
+        [
+          33.560259071000075,
+          -10.208474315999979
+        ],
+        [
+          33.70969805500005,
+          -10.568341097999962
+        ],
+        [
+          33.54853376300008,
+          -12.370101100999932
+        ],
+        [
+          33.24117967700005,
+          -13.998671764999926
+        ],
+        [
+          27.04148937100007,
+          -17.96251018299995
+        ],
+        [
+          26.694194453000023,
+          -18.077148329999943
+        ],
+        [
+          26.693006057000048,
+          -18.077374280999948
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    21.99620700500003,
+    -18.077374280999948,
+    33.70969805500005,
+    -8.271976286999973
+  ],
+  "properties": {
+    "admin_level": "3",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "ZMB",
+    "iso2": "ZM",
+    "name": "Zambia",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/ZMB_pcode/FeatureServer",
+    "itos_update": "2023-07-12",
+    "itos_service": "COD_External",
+    "itos_level": 4.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": 4.0,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-zmb",
+    "hdx_date": "2020-11-26",
+    "hdx_update": "2023-07-12",
+    "hdx_source_1": "Disaster Management and Mitigation Unit (DMMU) Zambia",
+    "hdx_source_2": "OCHA Regional Office for Southern and Eastern Africa (ROSEA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2023-02-15T00:00:00Z",
+    "end_datetime": "2023-06-29T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-06-29T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/zmb_adm3.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zmb/3?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zmb/3?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zmb/3?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zmb/3?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zmb/3?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zmb/3?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/zmb/3?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/zmb_adm3.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/zmb_adm3.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/zmb_adm3.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

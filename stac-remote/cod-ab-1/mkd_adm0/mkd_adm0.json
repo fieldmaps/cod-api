@@ -1,0 +1,315 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "mkd_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          21.119611999893948,
+          40.85468300042021
+        ],
+        [
+          20.759953000330768,
+          40.902093500514695
+        ],
+        [
+          20.756049000161283,
+          40.90327400009505
+        ],
+        [
+          20.7324560003442,
+          40.91155899994794
+        ],
+        [
+          20.59560950017834,
+          41.092412000613365
+        ],
+        [
+          20.584139000014886,
+          41.10939300038672
+        ],
+        [
+          20.533448500647864,
+          41.199092500018935
+        ],
+        [
+          20.51553400009408,
+          41.23283700032738
+        ],
+        [
+          20.453369000379098,
+          41.516620500136014
+        ],
+        [
+          20.453210500264447,
+          41.51826050022197
+        ],
+        [
+          20.453139000564477,
+          41.5199094998236
+        ],
+        [
+          20.456006500599585,
+          41.55380050059267
+        ],
+        [
+          20.51940700063261,
+          41.746484500059694
+        ],
+        [
+          20.55979899992394,
+          41.86761750044735
+        ],
+        [
+          20.56085750017354,
+          41.869232500279736
+        ],
+        [
+          20.78464750058174,
+          42.078891500142674
+        ],
+        [
+          20.790843000304278,
+          42.08313749989577
+        ],
+        [
+          21.10235900016778,
+          42.204397999867865
+        ],
+        [
+          21.10630550049848,
+          42.20566150057783
+        ],
+        [
+          21.448767000196938,
+          42.27900400043433
+        ],
+        [
+          21.945132500664442,
+          42.343516000463126
+        ],
+        [
+          22.294323500429243,
+          42.373788999862484
+        ],
+        [
+          22.867214000026138,
+          42.02219950010692
+        ],
+        [
+          23.023263499910627,
+          41.742237000237424
+        ],
+        [
+          23.025713500477707,
+          41.73782450000073
+        ],
+        [
+          23.02971800078518,
+          41.73059950046661
+        ],
+        [
+          23.032498000382475,
+          41.7248800002119
+        ],
+        [
+          23.032397500244485,
+          41.71209500058387
+        ],
+        [
+          23.03222350031433,
+          41.70965150031651
+        ],
+        [
+          22.965504000109547,
+          41.35707900019577
+        ],
+        [
+          22.964251000783122,
+          41.35419100011461
+        ],
+        [
+          22.96267850021269,
+          41.352211000537295
+        ],
+        [
+          22.732037000407274,
+          41.14639150056735
+        ],
+        [
+          22.73148850029412,
+          41.14609400033788
+        ],
+        [
+          22.73000500023062,
+          41.145518499878904
+        ],
+        [
+          22.71109000030333,
+          41.13952900066289
+        ],
+        [
+          21.593235500218213,
+          40.86600249991551
+        ],
+        [
+          21.123153000410696,
+          40.85469700016648
+        ],
+        [
+          21.119611999893948,
+          40.85468300042021
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    20.453139000564477,
+    40.85468300042021,
+    23.032498000382475,
+    42.373788999862484
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en",
+      "mk"
+    ],
+    "languages_admin_all": [
+      "en",
+      "mk"
+    ],
+    "iso3": "MKD",
+    "iso2": "MK",
+    "name": "North Macedonia",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/MKD_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 4.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": null,
+    "itos_index_2": null,
+    "itos_index_3": 1.0,
+    "itos_index_4": 2.0,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-mkd",
+    "hdx_date": "2015-01-01",
+    "hdx_update": "2025-01-17",
+    "hdx_source_1": "\tEuroGeographics and NTES (Nomenclature of Territorial Units for Statistics - Republic of Macedonia State Statistical Office)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2016-05-12T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/mkd_adm0/mkd_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mkd_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mkd/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mkd/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mkd/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mkd/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mkd/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mkd/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mkd/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/mkd_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mkd_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mkd_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

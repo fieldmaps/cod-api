@@ -1,0 +1,369 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "lso_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.110265947915195,
+          -30.677847954819242
+        ],
+        [
+          28.108286650708408,
+          -30.6775651980754
+        ],
+        [
+          28.002394256889488,
+          -30.65918601062583
+        ],
+        [
+          27.935763371382507,
+          -30.647180101780236
+        ],
+        [
+          27.787050600105147,
+          -30.618825099998332
+        ],
+        [
+          27.7816300003243,
+          -30.617159900009312
+        ],
+        [
+          27.746976299816424,
+          -30.605985499830922
+        ],
+        [
+          27.745618099595674,
+          -30.60545310028033
+        ],
+        [
+          27.74512069986048,
+          -30.605251699806047
+        ],
+        [
+          27.743202400070743,
+          -30.604323600353837
+        ],
+        [
+          27.741919400260144,
+          -30.603528700389177
+        ],
+        [
+          27.383528101240927,
+          -30.336810000081414
+        ],
+        [
+          27.382491898782177,
+          -30.33600349886234
+        ],
+        [
+          27.38175170008094,
+          -30.334829699231193
+        ],
+        [
+          27.013309999656826,
+          -29.660950000442142
+        ],
+        [
+          27.01322000000306,
+          -29.66073000018929
+        ],
+        [
+          27.013079999842148,
+          -29.660300000144844
+        ],
+        [
+          27.01124999998757,
+          -29.650579999767103
+        ],
+        [
+          27.011230000863918,
+          -29.65008000009186
+        ],
+        [
+          27.011260000448715,
+          -29.649460000278737
+        ],
+        [
+          27.01736999982569,
+          -29.618439999706197
+        ],
+        [
+          27.017440000355805,
+          -29.618169999845577
+        ],
+        [
+          27.017759999824193,
+          -29.617530000009424
+        ],
+        [
+          27.01802000012293,
+          -29.61711999998795
+        ],
+        [
+          27.018300000444697,
+          -29.616819999643212
+        ],
+        [
+          27.75403000008447,
+          -28.89732999977963
+        ],
+        [
+          27.754290000383264,
+          -28.897130000449124
+        ],
+        [
+          28.183099999865135,
+          -28.693869999800597
+        ],
+        [
+          28.183389999748726,
+          -28.693740000100888
+        ],
+        [
+          28.40824859979307,
+          -28.62179530031284
+        ],
+        [
+          28.471525300052633,
+          -28.60548589985433
+        ],
+        [
+          28.472089999653804,
+          -28.605369999725667
+        ],
+        [
+          28.648175400074706,
+          -28.571050900078944
+        ],
+        [
+          28.648289499760665,
+          -28.5710298001851
+        ],
+        [
+          28.651259400201184,
+          -28.570597300025327
+        ],
+        [
+          28.651394499956268,
+          -28.570610500274313
+        ],
+        [
+          28.66419129958888,
+          -28.57713440003249
+        ],
+        [
+          28.682187599777933,
+          -28.589844499623894
+        ],
+        [
+          28.9434983393769,
+          -28.781676437317685
+        ],
+        [
+          29.311762913827465,
+          -29.077581920569116
+        ],
+        [
+          29.31310613224224,
+          -29.07886917057573
+        ],
+        [
+          29.349769376855306,
+          -29.11829545986751
+        ],
+        [
+          29.355904777583476,
+          -29.126816851016827
+        ],
+        [
+          29.416122606573083,
+          -29.22214280974282
+        ],
+        [
+          29.44020973798905,
+          -29.267931083052986
+        ],
+        [
+          29.440777830732372,
+          -29.270317071675493
+        ],
+        [
+          29.45611633390172,
+          -29.336329446646573
+        ],
+        [
+          29.45736613793696,
+          -29.341783136982144
+        ],
+        [
+          29.449185603332978,
+          -29.374618895745414
+        ],
+        [
+          29.170025741195047,
+          -29.915542021946692
+        ],
+        [
+          29.10450353630921,
+          -29.967198037959065
+        ],
+        [
+          28.11365902884114,
+          -30.67558590086861
+        ],
+        [
+          28.110265947915195,
+          -30.677847954819242
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    27.011230000863918,
+    -30.677847954819242,
+    29.45736613793696,
+    -28.570597300025327
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "LSO",
+    "iso2": "LS",
+    "name": "Lesotho",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/LSO_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-lso",
+    "hdx_date": "2019-01-08",
+    "hdx_update": "2020-02-20",
+    "hdx_source_1": "FAO and the Ministry of Local Government 2016",
+    "hdx_source_2": "OCHA Regional Office for Southern and Eastern Africa (ROSEA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The administrative level 1 (district) P-code is (unusually) alphabetical.\r\n\r\nLesotho boundary data was obtained from FAO Lesotho in 2018 (Data Source: FAO and the Lesotho Ministry of Local Government and Chieftainship Affairs-MLGCA, 2016 data)\r\n\r\nAdmin 1: Districts\r\n\r\nAdmin 2: Councils (1 Municipal Council, 11 Urban Councils and 64 Community Councils)\r\nThe Maseru Municipal Council spans 2 districts and there are therefore 2 records for Maseru with the district name in brackets (district brackets could be removed if necessary). Similarly the Butha-Buthe Urban Council spans 2 districts (the number of council records therefore totals 78 not 76, in order to accommodate the district divisions).\r\nP-codes were added for the Municipal and Urban Councils, which had no codes in the original data received (based on the district code and next consecutive number).\r\nThe old boundary system prior to 2016 had 10 districts sub-divided into 80 constituencies consisting of 128/129 local community councils (the UNHCR SAHIMS data is of the old 80 constituencies). However, recently the number of community councils was reduced from 128 to 64 to align with the national parliamentary constituencies, following which 11 urban councils were established. The capital Maseru has its own unique single-tier authority, the city council (Source: CLGF Lesotho Country Profile 2017-2018 http://www.clgf.org.uk/default/assets/File/Country_profiles/Lesotho.pdf) and supported by https://genderlinks.org.za/wp-content/uploads/imported/articles/attachments/14477_giz_lesotho_pamphletweb.pdfone",
+    "start_datetime": "2020-02-20T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/lso_adm2/lso_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/lso_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lso/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lso/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lso/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lso/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lso/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lso/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lso/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/lso_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/lso_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/lso_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

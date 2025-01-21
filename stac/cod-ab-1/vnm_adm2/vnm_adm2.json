@@ -1,0 +1,310 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "vnm_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          114.84381757000006,
+          7.180931477000058
+        ],
+        [
+          109.49611102200004,
+          7.312993041000027
+        ],
+        [
+          104.85547650900008,
+          8.408766179000054
+        ],
+        [
+          104.82343430700007,
+          8.421757055000057
+        ],
+        [
+          103.19851897100006,
+          9.254982100000063
+        ],
+        [
+          103.19830917700006,
+          9.255288728000039
+        ],
+        [
+          103.19821515900009,
+          9.25558219900006
+        ],
+        [
+          103.18657845500007,
+          9.305072210000048
+        ],
+        [
+          102.14402486200004,
+          22.400694806000047
+        ],
+        [
+          102.14404364300003,
+          22.40096631800003
+        ],
+        [
+          102.14412883500006,
+          22.401532657000075
+        ],
+        [
+          102.14556413400004,
+          22.405986530000064
+        ],
+        [
+          102.15412690700003,
+          22.424768423000046
+        ],
+        [
+          102.38470925800004,
+          22.68483705500006
+        ],
+        [
+          102.45931370700004,
+          22.766154651000022
+        ],
+        [
+          102.45956876500009,
+          22.766399337000053
+        ],
+        [
+          102.48160361900005,
+          22.778798434000066
+        ],
+        [
+          105.32426938100008,
+          23.39215181900005
+        ],
+        [
+          105.32517444100006,
+          23.392205570000044
+        ],
+        [
+          105.32594312400005,
+          23.39199535100005
+        ],
+        [
+          106.59893843100008,
+          22.932427843000028
+        ],
+        [
+          106.71035283500004,
+          22.888054881000073
+        ],
+        [
+          106.71164835000008,
+          22.887351484000078
+        ],
+        [
+          106.71349842000006,
+          22.886297284000023
+        ],
+        [
+          106.82070868700004,
+          22.818247403000044
+        ],
+        [
+          106.82883335200006,
+          22.811949239000057
+        ],
+        [
+          106.83750590100004,
+          22.803685534000067
+        ],
+        [
+          112.71010647900005,
+          16.682315095000035
+        ],
+        [
+          112.71402312500004,
+          16.677963267000052
+        ],
+        [
+          117.69798284000001,
+          11.038039824000066
+        ],
+        [
+          117.82828485100003,
+          10.84677081700005
+        ],
+        [
+          117.834262007,
+          10.83481650400006
+        ],
+        [
+          117.83545743800005,
+          10.812103309000065
+        ],
+        [
+          117.82708941900012,
+          10.77982666400004
+        ],
+        [
+          117.38323666100007,
+          10.063489185000037
+        ],
+        [
+          116.98203648800006,
+          9.43474520500007
+        ],
+        [
+          116.96299196600012,
+          9.40935250900003
+        ],
+        [
+          114.86166352700002,
+          7.1934236470000315
+        ],
+        [
+          114.84381757000006,
+          7.180931477000058
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    102.14402486200004,
+    7.180931477000058,
+    117.83545743800005,
+    23.392205570000044
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en",
+      "vi"
+    ],
+    "languages_admin_all": [
+      "en",
+      "vi"
+    ],
+    "iso3": "VNM",
+    "iso2": "VN",
+    "name": "Viet Nam",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/VNM_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-vnm",
+    "hdx_date": "2023-01-01",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Government of Viet Nam",
+    "hdx_source_2": "OCHA Regional Office for Asia and the Pacific (ROAP)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "All instances of \"Thura Thien Hue\" [VN411] have been corrected to \"Thua Thien Hue\".  This affects administrative levels 1 and 2 in the shapefiles, geodatabase, and the gazetteer. ",
+    "start_datetime": "2019-10-01T00:00:00Z",
+    "end_datetime": "2020-01-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2020-01-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/vnm_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vnm/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vnm/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vnm/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vnm/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vnm/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vnm/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vnm/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/vnm_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/vnm_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/vnm_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

@@ -1,0 +1,294 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "bgr_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.28799360000005,
+          41.23539290000008
+        ],
+        [
+          25.283268600000042,
+          41.23547270000006
+        ],
+        [
+          23.10544180000005,
+          41.31662240000003
+        ],
+        [
+          23.095025200000066,
+          41.317285800000036
+        ],
+        [
+          22.960076900000047,
+          41.333965000000035
+        ],
+        [
+          22.927469200000075,
+          41.33852260000003
+        ],
+        [
+          22.927252900000042,
+          41.338684700000044
+        ],
+        [
+          22.359811500000035,
+          42.31177350000007
+        ],
+        [
+          22.357145900000035,
+          43.80952970000004
+        ],
+        [
+          22.35719080000007,
+          43.81309840000006
+        ],
+        [
+          22.409465800000078,
+          44.004205400000046
+        ],
+        [
+          22.64449200000007,
+          44.20856670000006
+        ],
+        [
+          22.64517440000003,
+          44.20893490000003
+        ],
+        [
+          22.645782800000063,
+          44.20915340000005
+        ],
+        [
+          22.665430800000024,
+          44.21415050000007
+        ],
+        [
+          22.676184500000033,
+          44.21670640000008
+        ],
+        [
+          27.06624800000003,
+          44.149032000000034
+        ],
+        [
+          27.27003700000006,
+          44.12728200000004
+        ],
+        [
+          27.916809000000057,
+          44.008275000000026
+        ],
+        [
+          28.578825100000074,
+          43.738707100000056
+        ],
+        [
+          28.60923390000005,
+          43.54173100000003
+        ],
+        [
+          28.603006400000027,
+          43.52060000000006
+        ],
+        [
+          28.03575440000003,
+          41.98372130000007
+        ],
+        [
+          28.035554200000036,
+          41.98349500000006
+        ],
+        [
+          28.035145500000056,
+          41.983207900000025
+        ],
+        [
+          28.03381310000003,
+          41.98259440000004
+        ],
+        [
+          28.032443100000023,
+          41.982128500000044
+        ],
+        [
+          26.130430500000045,
+          41.35418320000008
+        ],
+        [
+          26.130160500000045,
+          41.354107200000044
+        ],
+        [
+          25.975314300000036,
+          41.31811320000003
+        ],
+        [
+          25.975026800000023,
+          41.31806410000007
+        ],
+        [
+          25.90313240000006,
+          41.306523800000036
+        ],
+        [
+          25.901328000000035,
+          41.30627970000006
+        ],
+        [
+          25.28799360000005,
+          41.23539290000008
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    22.357145900000035,
+    41.23539290000008,
+    28.60923390000005,
+    44.21670640000008
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en",
+      "bg"
+    ],
+    "iso3": "BGR",
+    "iso2": "BG",
+    "name": "Bulgaria",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/BGR_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-bgr",
+    "hdx_date": "2022-10-18",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "UNICEF",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2019-09-16T00:00:00Z",
+    "end_datetime": "2022-10-12T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2022-10-12T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/bgr_adm2/bgr_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bgr_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bgr/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bgr/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bgr/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bgr/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bgr/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bgr/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bgr/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/bgr_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bgr_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bgr_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

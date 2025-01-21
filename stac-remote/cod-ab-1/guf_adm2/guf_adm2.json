@@ -1,0 +1,330 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "guf_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -54.10448161324797,
+          2.111057725860058
+        ],
+        [
+          -54.142142497572316,
+          2.1130366975388255
+        ],
+        [
+          -54.342698779868044,
+          2.1518175173793455
+        ],
+        [
+          -54.47721332681789,
+          2.213288554967133
+        ],
+        [
+          -54.54886729658076,
+          2.2700178024193116
+        ],
+        [
+          -54.60233565145841,
+          2.333538038405534
+        ],
+        [
+          -54.60239047131378,
+          2.3349717381303843
+        ],
+        [
+          -54.47895407200305,
+          4.899336057318998
+        ],
+        [
+          -54.47871386870093,
+          4.9035426323258315
+        ],
+        [
+          -54.41724032223768,
+          5.080195929937672
+        ],
+        [
+          -54.41552498465854,
+          5.084696881473611
+        ],
+        [
+          -53.968365727902075,
+          5.74517645542931
+        ],
+        [
+          -53.94483508847097,
+          5.747050126161869
+        ],
+        [
+          -53.94223464086385,
+          5.7472342923587325
+        ],
+        [
+          -53.88892736949875,
+          5.7479628896236745
+        ],
+        [
+          -53.885615715773454,
+          5.747742021957831
+        ],
+        [
+          -53.87911347342417,
+          5.7469833844061124
+        ],
+        [
+          -53.875327679373015,
+          5.746116118498246
+        ],
+        [
+          -53.87045960525702,
+          5.744928093037076
+        ],
+        [
+          -53.79925967404363,
+          5.723899386230709
+        ],
+        [
+          -53.27472029954944,
+          5.563227790413613
+        ],
+        [
+          -52.95304330794699,
+          5.455174254469515
+        ],
+        [
+          -52.94536964360458,
+          5.452285111460945
+        ],
+        [
+          -52.940742834110054,
+          5.449685295382481
+        ],
+        [
+          -52.934698869558524,
+          5.446017675330404
+        ],
+        [
+          -51.84055460836122,
+          4.657597136552957
+        ],
+        [
+          -51.83602224723853,
+          4.654257418293687
+        ],
+        [
+          -51.8132437820837,
+          4.634343520625024
+        ],
+        [
+          -51.81213819884397,
+          4.633265625991217
+        ],
+        [
+          -51.81059385510175,
+          4.631634627901363
+        ],
+        [
+          -51.799508786581825,
+          4.614666381289821
+        ],
+        [
+          -51.69115196228822,
+          4.393248443058613
+        ],
+        [
+          -51.61904052029582,
+          4.201073897292239
+        ],
+        [
+          -51.64767716190235,
+          4.079481478690789
+        ],
+        [
+          -51.649249728840324,
+          4.073395681225492
+        ],
+        [
+          -51.65604009278555,
+          4.053887317049171
+        ],
+        [
+          -52.55203496236824,
+          2.5200028709486957
+        ],
+        [
+          -52.66055581077267,
+          2.3739558563820644
+        ],
+        [
+          -52.90352215305173,
+          2.186991745138414
+        ],
+        [
+          -52.95271619454763,
+          2.1745516031965377
+        ],
+        [
+          -52.97778990392651,
+          2.1685213524410183
+        ],
+        [
+          -52.980005701190606,
+          2.1680717750626304
+        ],
+        [
+          -54.10448161324797,
+          2.111057725860058
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -54.60239047131378,
+    2.111057725860058,
+    -51.61904052029582,
+    5.7479628896236745
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "fr"
+    ],
+    "languages_admin_all": [
+      "fr",
+      "en"
+    ],
+    "iso3": "GUF",
+    "iso2": "GF",
+    "name": "French Guiana",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/GUF_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-guf",
+    "hdx_date": "2020-02-12",
+    "hdx_update": "2020-02-12",
+    "hdx_source_1": "Institut national de l’information géographique et forestière (IGN)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The island or peninsula near the town of Awala-Yalimapo was incorrectly attributed in the source data to the Cayenne administrative level 2 feature. This is corrected in the dataset.",
+    "start_datetime": "2020-02-12T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/guf_adm2/guf_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/guf_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guf/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guf/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guf/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guf/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guf/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guf/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/guf/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/guf_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/guf_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/guf_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

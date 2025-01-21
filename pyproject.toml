@@ -7,6 +7,8 @@ requires-python = "==3.13.*"
 dependencies = [
     "fastapi[standard]",
     "geopandas",
+    "kaleido==0.2.1",
+    "plotly",
     "pyarrow",
     "pycountry",
     "pystac",
@@ -14,6 +16,7 @@ dependencies = [
     "stac-fastapi-extensions",
     "stac-fastapi-pgstac",
     "stac-fastapi-types",
+    "stactools[validate]",
     "tqdm",
 ]
 
@@ -25,6 +28,9 @@ api = "fastapi dev api"
 export = "uv export -o requirements.txt --no-hashes"
 pipeline = "python -m app"
 ruff = "ruff format && ruff check && ruff format"
+make_stac = "stac copy --catalog-type ABSOLUTE_PUBLISHED --publish-location ${CATALOG_URL} stac/catalog.json stac-remote"
+upload_assets = 'rclone sync --exclude=".*" --progress --s3-no-check-bucket --s3-chunk-size=100M --transfers=10 outputs r2://fieldmaps-data-cod/assets'
+upload_stac = 'rclone sync --exclude=".*" --progress --s3-no-check-bucket --s3-chunk-size=100M --transfers=10 stac-remote r2://fieldmaps-data-cod/stac'
 
 [tool.ruff]
 fix = true

@@ -1,0 +1,308 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "gtm_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -90.11499357999998,
+          13.739443412000071
+        ],
+        [
+          -90.11577350799996,
+          13.739507857000035
+        ],
+        [
+          -90.12812344899999,
+          13.74122359100005
+        ],
+        [
+          -91.21426470599994,
+          13.930666314000064
+        ],
+        [
+          -91.23109103699994,
+          13.933745406000071
+        ],
+        [
+          -91.25230054499997,
+          13.938019910000037
+        ],
+        [
+          -91.26814881199994,
+          13.941461248000053
+        ],
+        [
+          -91.28330880999994,
+          13.944830136000064
+        ],
+        [
+          -91.29959177199999,
+          13.948742395000068
+        ],
+        [
+          -91.30303310999994,
+          13.949611785000059
+        ],
+        [
+          -91.30618465099997,
+          13.950444951000065
+        ],
+        [
+          -91.30986112799997,
+          13.951611095000032
+        ],
+        [
+          -91.32099430499994,
+          13.955899903000045
+        ],
+        [
+          -91.53801175899997,
+          14.04382301000004
+        ],
+        [
+          -91.54803558199995,
+          14.049390654000035
+        ],
+        [
+          -91.57613601699995,
+          14.065897802000052
+        ],
+        [
+          -91.78661964999998,
+          14.190866200000073
+        ],
+        [
+          -91.78801849199994,
+          14.191904978000025
+        ],
+        [
+          -92.18756182699997,
+          14.500484921000066
+        ],
+        [
+          -92.24024247099999,
+          14.54346064300006
+        ],
+        [
+          -92.21075607399996,
+          15.26027244200003
+        ],
+        [
+          -91.44375861599997,
+          17.250907261000066
+        ],
+        [
+          -90.98770886599999,
+          17.817047941000055
+        ],
+        [
+          -89.91606670299996,
+          17.819453371000066
+        ],
+        [
+          -89.70170275899994,
+          17.819280099000025
+        ],
+        [
+          -89.33743645299995,
+          17.818087431000038
+        ],
+        [
+          -89.15691863599994,
+          17.816835489000027
+        ],
+        [
+          -88.22149753199994,
+          15.72352554300005
+        ],
+        [
+          -88.24804159499996,
+          15.689122067000028
+        ],
+        [
+          -88.24840932699999,
+          15.688662477000037
+        ],
+        [
+          -89.15200768399995,
+          14.583196886000053
+        ],
+        [
+          -89.16099160899995,
+          14.57252432000007
+        ],
+        [
+          -89.52176286299994,
+          14.222806687000059
+        ],
+        [
+          -89.52523746399999,
+          14.219457441000031
+        ],
+        [
+          -89.73672714199995,
+          14.031977507000022
+        ],
+        [
+          -90.10279420899997,
+          13.740113235000024
+        ],
+        [
+          -90.10323202799998,
+          13.739775168000051
+        ],
+        [
+          -90.10391514699995,
+          13.739681585000028
+        ],
+        [
+          -90.11499357999998,
+          13.739443412000071
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -92.24024247099999,
+    13.739443412000071,
+    -88.22149753199994,
+    17.819453371000066
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "es"
+    ],
+    "languages_admin_all": [
+      "es"
+    ],
+    "iso3": "GTM",
+    "iso2": "GT",
+    "name": "Guatemala",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/GTM_pcode/FeatureServer",
+    "itos_update": "2023-11-27",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-gtm",
+    "hdx_date": "2019-02-15",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Coordinadora Nacional Para La Reducción De Desastres",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Two lake features, ‘Lago De Amatitlan [GT0100]’ and ‘Lago De Atitlan [GT0700]’, are associated with administrative level 1 features but form their own [P-code GTxx00] administrative level 2 features.\r\n\r\nThis COD-AB excludes the UN recognized sovereign territory of Belize. Users are responsible for the way they depict the Guatemala / Belize border and territories.",
+    "start_datetime": "2018-09-25T00:00:00Z",
+    "end_datetime": "2019-02-07T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2019-02-07T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/gtm_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gtm/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gtm/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gtm/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gtm/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gtm/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gtm/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/gtm/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/gtm_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/gtm_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/gtm_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

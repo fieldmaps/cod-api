@@ -1,0 +1,377 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "cym_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -81.28791809054741,
+          19.262638092074326
+        ],
+        [
+          -81.38208007833293,
+          19.265138626446515
+        ],
+        [
+          -81.39013671873454,
+          19.26819419900312
+        ],
+        [
+          -81.39041900603229,
+          19.268472671376742
+        ],
+        [
+          -81.39097595257812,
+          19.269027709561215
+        ],
+        [
+          -81.39180755657344,
+          19.269861221018573
+        ],
+        [
+          -81.42013549775498,
+          19.372638702314305
+        ],
+        [
+          -81.42013549775498,
+          19.3740253444941
+        ],
+        [
+          -81.41986083940617,
+          19.376527786328325
+        ],
+        [
+          -81.41708374012245,
+          19.38263893144159
+        ],
+        [
+          -81.41680908177369,
+          19.38319206216397
+        ],
+        [
+          -81.41652679447594,
+          19.383752822734607
+        ],
+        [
+          -81.41569519048062,
+          19.385139464914403
+        ],
+        [
+          -81.41430664083879,
+          19.385974883833853
+        ],
+        [
+          -81.4129180911969,
+          19.386806487829176
+        ],
+        [
+          -81.41236114465107,
+          19.387083053640083
+        ],
+        [
+          -81.40625000043713,
+          19.389862060385838
+        ],
+        [
+          -81.39736175514082,
+          19.393749236937765
+        ],
+        [
+          -81.39597320549899,
+          19.39430618258433
+        ],
+        [
+          -81.38847351074389,
+          19.396804809494427
+        ],
+        [
+          -80.049026489281,
+          19.699029922293107
+        ],
+        [
+          -79.98069763159037,
+          19.713193893783227
+        ],
+        [
+          -79.74624633829785,
+          19.75680542013407
+        ],
+        [
+          -79.74097442612884,
+          19.757360458318544
+        ],
+        [
+          -79.73819732684512,
+          19.757360458318544
+        ],
+        [
+          -79.72791290295805,
+          19.75430488576194
+        ],
+        [
+          -79.72513580277501,
+          19.753194809392994
+        ],
+        [
+          -79.72374725313318,
+          19.7526397703092
+        ],
+        [
+          -79.72291564913786,
+          19.752082824662693
+        ],
+        [
+          -79.72264099078905,
+          19.751806258851786
+        ],
+        [
+          -79.72264099078905,
+          19.750972747394428
+        ],
+        [
+          -79.72291564913786,
+          19.749860763563447
+        ],
+        [
+          -79.72319793733487,
+          19.748750686295182
+        ],
+        [
+          -79.72347259478437,
+          19.748193740648674
+        ],
+        [
+          -79.72374725313318,
+          19.7476387024642
+        ],
+        [
+          -79.72513580277501,
+          19.744861603180482
+        ],
+        [
+          -79.72597503661859,
+          19.74347114607656
+        ],
+        [
+          -79.72652435331622,
+          19.742639541181916
+        ],
+        [
+          -79.72708129896273,
+          19.741806030623877
+        ],
+        [
+          -79.72791290295805,
+          19.740972519166462
+        ],
+        [
+          -79.73124694788828,
+          19.73763656587488
+        ],
+        [
+          -79.73180389443417,
+          19.737083435152442
+        ],
+        [
+          -79.73542022666209,
+          19.733749389322895
+        ],
+        [
+          -79.74013519318459,
+          19.729583740397345
+        ],
+        [
+          -79.74847412088394,
+          19.72347259528408
+        ],
+        [
+          -79.74930572487926,
+          19.722917557099606
+        ],
+        [
+          -79.75125122106698,
+          19.721807479831398
+        ],
+        [
+          -79.7545852659972,
+          19.720138549454532
+        ],
+        [
+          -79.75541686999253,
+          19.719861984543
+        ],
+        [
+          -79.85458374054713,
+          19.687639236061955
+        ],
+        [
+          -81.11513519313462,
+          19.29291725182975
+        ],
+        [
+          -81.2690277095611,
+          19.263750075905307
+        ],
+        [
+          -81.27458190902786,
+          19.2631931302588
+        ],
+        [
+          -81.28236389197997,
+          19.262638092074326
+        ],
+        [
+          -81.28791809054741,
+          19.262638092074326
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -81.42013549775498,
+    19.262638092074326,
+    -79.72264099078905,
+    19.757360458318544
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "CYM",
+    "iso2": "KY",
+    "name": "Cayman Islands",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/CYM_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 1.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": null,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-cym",
+    "hdx_date": "2020-03-24",
+    "hdx_update": "2020-03-24",
+    "hdx_source_1": "www.gadm.org",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The 10 November 2019 version of this dataset (obtained from www.gadm.org) treated the Sister Islands [KY05] as separate administrative level 1 features - Cayman Brac and Little Cayman - while distinguishing the five Grand Cayman districts the same as they are in this release. For reference the former configuration is preserved in the current “cym_admbnda_island_district” non-P-coded layer.",
+    "start_datetime": "2020-04-24T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/cym_adm1/cym_adm1.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/cym_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cym/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cym/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cym/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cym/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cym/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cym/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cym/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/cym_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/cym_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/cym_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

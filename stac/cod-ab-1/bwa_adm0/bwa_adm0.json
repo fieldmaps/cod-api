@@ -1,0 +1,320 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "bwa_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          20.68483800000007,
+          -26.90754499999997
+        ],
+        [
+          20.622964000000024,
+          -26.788494999999955
+        ],
+        [
+          20.622660000000053,
+          -26.787855999999977
+        ],
+        [
+          20.622325000000046,
+          -26.78710499999994
+        ],
+        [
+          20.622149000000036,
+          -26.78660999999994
+        ],
+        [
+          20.000643000000025,
+          -24.767867999999964
+        ],
+        [
+          20.000420000000076,
+          -24.767020999999943
+        ],
+        [
+          19.999318000000073,
+          -24.76233099999996
+        ],
+        [
+          19.99898600000006,
+          -24.732199999999978
+        ],
+        [
+          19.99890300000004,
+          -24.511885999999947
+        ],
+        [
+          19.998905000000036,
+          -24.434032999999943
+        ],
+        [
+          19.999092000000076,
+          -22.01347199999998
+        ],
+        [
+          19.99914700000005,
+          -21.999916999999982
+        ],
+        [
+          20.99876900000004,
+          -18.317332999999962
+        ],
+        [
+          23.098367000000053,
+          -18.00081899999998
+        ],
+        [
+          24.961644000000035,
+          -17.78777199999996
+        ],
+        [
+          25.16330300000004,
+          -17.77813699999996
+        ],
+        [
+          25.164394000000073,
+          -17.778161999999952
+        ],
+        [
+          25.165085000000033,
+          -17.77821199999994
+        ],
+        [
+          25.17531800000006,
+          -17.77938699999993
+        ],
+        [
+          25.261752000000058,
+          -17.790483999999935
+        ],
+        [
+          25.262913000000026,
+          -17.79134099999993
+        ],
+        [
+          29.069485000000043,
+          -21.808068999999932
+        ],
+        [
+          29.07323400000007,
+          -21.81258299999996
+        ],
+        [
+          29.07371500000005,
+          -21.81317999999993
+        ],
+        [
+          29.37530400000003,
+          -22.19547099999994
+        ],
+        [
+          25.58190600000006,
+          -25.637855999999942
+        ],
+        [
+          25.51401000000004,
+          -25.68404099999998
+        ],
+        [
+          25.513435000000072,
+          -25.684343999999953
+        ],
+        [
+          25.424258000000066,
+          -25.73098699999997
+        ],
+        [
+          25.42080800000008,
+          -25.732775999999944
+        ],
+        [
+          25.367098000000055,
+          -25.757631999999944
+        ],
+        [
+          25.342655000000036,
+          -25.76862399999993
+        ],
+        [
+          25.342144000000076,
+          -25.768847999999934
+        ],
+        [
+          25.341409000000056,
+          -25.769102999999973
+        ],
+        [
+          25.34088200000008,
+          -25.769262999999967
+        ],
+        [
+          21.696251000000075,
+          -26.860675999999955
+        ],
+        [
+          21.694893000000036,
+          -26.861043999999936
+        ],
+        [
+          21.662079000000062,
+          -26.864618999999948
+        ],
+        [
+          21.659283000000073,
+          -26.864778999999942
+        ],
+        [
+          21.62742700000007,
+          -26.866376999999943
+        ],
+        [
+          20.68483800000007,
+          -26.90754499999997
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    19.99890300000004,
+    -26.90754499999997,
+    29.37530400000003,
+    -17.77813699999996
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "BWA",
+    "iso2": "BW",
+    "name": "Botswana",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/BWA_pcode/FeatureServer",
+    "itos_update": "2023-06-05",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 3.0,
+    "itos_index_3": 5.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-bwa",
+    "hdx_date": "2021-05-18",
+    "hdx_update": "2021-05-18",
+    "hdx_source_1": "UNFPA",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2021-05-18T00:00:00Z",
+    "end_datetime": "2023-08-29T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-08-29T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bwa_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bwa/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bwa/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bwa/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bwa/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bwa/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bwa/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bwa/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/bwa_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bwa_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bwa_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

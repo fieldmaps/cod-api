@@ -1,0 +1,331 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "hti_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -73.87252310199995,
+          18.022139955000057
+        ],
+        [
+          -73.87631935299999,
+          18.022297562000062
+        ],
+        [
+          -73.88050907399997,
+          18.022981603000062
+        ],
+        [
+          -73.88581109399996,
+          18.024033377000023
+        ],
+        [
+          -73.89080694699999,
+          18.02572494800006
+        ],
+        [
+          -73.90290236999994,
+          18.031134913000074
+        ],
+        [
+          -74.36965505299997,
+          18.296444455000028
+        ],
+        [
+          -74.44493186499994,
+          18.34726394300003
+        ],
+        [
+          -74.44765853399997,
+          18.349974298000063
+        ],
+        [
+          -74.48039964699996,
+          18.415528895000023
+        ],
+        [
+          -74.48017928499996,
+          18.429003909000073
+        ],
+        [
+          -74.46285754499996,
+          18.49079337300003
+        ],
+        [
+          -74.42901902099999,
+          18.605700650000074
+        ],
+        [
+          -74.42572931699993,
+          18.614339763000032
+        ],
+        [
+          -74.42480362399994,
+          18.616189647000056
+        ],
+        [
+          -73.42146069899997,
+          19.828976776000047
+        ],
+        [
+          -73.41040111599995,
+          19.840948297000068
+        ],
+        [
+          -73.40815523099997,
+          19.843087437000065
+        ],
+        [
+          -72.96771879599999,
+          20.06493425000008
+        ],
+        [
+          -72.96111595099995,
+          20.067694477000032
+        ],
+        [
+          -72.92659756899997,
+          20.07641566500007
+        ],
+        [
+          -72.88491972299994,
+          20.08409585900006
+        ],
+        [
+          -72.87445180899994,
+          20.085496686000056
+        ],
+        [
+          -72.86345795599993,
+          20.08689051600004
+        ],
+        [
+          -72.85848005599996,
+          20.087381163000032
+        ],
+        [
+          -72.82044400999996,
+          20.089218999000025
+        ],
+        [
+          -72.81449752199995,
+          20.089226782000026
+        ],
+        [
+          -72.80662042499995,
+          20.089201460000027
+        ],
+        [
+          -72.79594125299997,
+          20.085826071000042
+        ],
+        [
+          -72.67765830899998,
+          20.043787443000042
+        ],
+        [
+          -71.76102837599996,
+          19.704709196000067
+        ],
+        [
+          -71.76068042699995,
+          19.704477220000058
+        ],
+        [
+          -71.75864280999997,
+          19.702021439000077
+        ],
+        [
+          -71.73533901499997,
+          19.661759336000046
+        ],
+        [
+          -71.68802879699996,
+          19.511820681000074
+        ],
+        [
+          -71.62215080999994,
+          19.206149942000025
+        ],
+        [
+          -71.69526247699997,
+          18.340720241000042
+        ],
+        [
+          -71.73569889199996,
+          18.078851091000047
+        ],
+        [
+          -71.73819538999999,
+          18.069397237000032
+        ],
+        [
+          -71.74513568099997,
+          18.05230039500003
+        ],
+        [
+          -71.75942305899997,
+          18.03169757200004
+        ],
+        [
+          -73.81287197299997,
+          18.02219899100004
+        ],
+        [
+          -73.87252310199995,
+          18.022139955000057
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -74.48039964699996,
+    18.022139955000057,
+    -71.62215080999994,
+    20.089226782000026
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "fr"
+    ],
+    "languages_admin_all": [
+      "fr",
+      "en",
+      "ht"
+    ],
+    "iso3": "HTI",
+    "iso2": "HT",
+    "name": "Haiti",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/HTI_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-hti",
+    "hdx_date": "1987-03-29",
+    "hdx_update": "2024-10-24",
+    "hdx_source_1": "Centre National de l'Information Géo-Spatiale (CNIGS)",
+    "hdx_source_2": "OCHA Haiti",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2017-09-06T00:00:00Z",
+    "end_datetime": "2018-11-29T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2018-11-29T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/hti_adm2/hti_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/hti_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hti/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hti/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hti/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hti/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hti/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hti/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/hti/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/hti_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/hti_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/hti_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

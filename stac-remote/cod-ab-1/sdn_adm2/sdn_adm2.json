@@ -1,0 +1,251 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "sdn_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          24.22364830500004,
+          8.64132883000002
+        ],
+        [
+          23.71244223000008,
+          8.692048127000021
+        ],
+        [
+          23.70435223000004,
+          8.69442712700004
+        ],
+        [
+          23.541597230000036,
+          8.744396127000073
+        ],
+        [
+          23.527282684000056,
+          8.750157502000036
+        ],
+        [
+          23.520940109000037,
+          8.76039662900007
+        ],
+        [
+          21.813680015000045,
+          12.802804431000027
+        ],
+        [
+          21.81463176500006,
+          12.808991181000067
+        ],
+        [
+          22.07239258800007,
+          13.776773319000029
+        ],
+        [
+          24.00014857000008,
+          20.00658734800004
+        ],
+        [
+          24.998821217000057,
+          22.000391868000065
+        ],
+        [
+          35.62081016900004,
+          23.14287180100007
+        ],
+        [
+          35.628021217000025,
+          23.142191868000054
+        ],
+        [
+          36.261266214000045,
+          22.611767190000023
+        ],
+        [
+          36.89610633900003,
+          22.06163569000006
+        ],
+        [
+          36.89896171400005,
+          22.057352690000073
+        ],
+        [
+          37.32281755300005,
+          21.06549202700006
+        ],
+        [
+          38.57959030200004,
+          18.025788744000067
+        ],
+        [
+          38.58183097500006,
+          18.018853327000045
+        ],
+        [
+          38.58236446900003,
+          18.016185859000075
+        ],
+        [
+          36.16889408900005,
+          12.692160594000029
+        ],
+        [
+          34.11272121700006,
+          9.498591868000062
+        ],
+        [
+          24.22364830500004,
+          8.64132883000002
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    21.813680015000045,
+    8.64132883000002,
+    38.58236446900003,
+    23.14287180100007
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en",
+      "ar"
+    ],
+    "languages_admin_all": [
+      "en",
+      "ar"
+    ],
+    "iso3": "SDN",
+    "iso2": "SD",
+    "name": "Sudan",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/SDN_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-sdn",
+    "hdx_date": "2013-08-13",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Information Management Working Group (IMWG), OCHA",
+    "hdx_source_2": "OCHA Regional Office for Southern and Eastern Africa (ROSEA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The state boundaries and names assigned to the states does not imply official endorsement or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of South Sudan has not yet been determined. Final status of the Abyei area is not yet determined.\r\n\r\nThe lines boundary layer was updated in September 2020 to include arcs enclosing Bir Tawil (not claimed by Sudan) and the Halayib triangle (claimed by Sudan) to assist cartography.  These features are attributed in the admLevel field as 81 and 82 respectively but do not form boundaries of any OCHA administrative boundary polygons.",
+    "start_datetime": "2020-03-11T00:00:00Z",
+    "end_datetime": "2020-08-31T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2020-08-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/sdn_adm2/sdn_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/sdn_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sdn/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sdn/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sdn/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sdn/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sdn/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sdn/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/sdn/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/sdn_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/sdn_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/sdn_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

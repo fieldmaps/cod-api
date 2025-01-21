@@ -1,0 +1,369 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "cpv_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -24.701640822999934,
+          14.80261733900005
+        ],
+        [
+          -24.702135854999938,
+          14.80270429500007
+        ],
+        [
+          -24.715707891999955,
+          14.807323437000036
+        ],
+        [
+          -24.726221186999965,
+          14.813258209000026
+        ],
+        [
+          -24.72623981399994,
+          14.813271612000051
+        ],
+        [
+          -24.744355093999957,
+          14.830095589000052
+        ],
+        [
+          -24.747449745999972,
+          14.833209755000041
+        ],
+        [
+          -24.74772709399997,
+          14.833547425000063
+        ],
+        [
+          -24.748036455999966,
+          14.834204546000024
+        ],
+        [
+          -24.748631097999976,
+          14.835638796000069
+        ],
+        [
+          -24.748668056999975,
+          14.835735459000034
+        ],
+        [
+          -25.36073377499997,
+          17.042700773000035
+        ],
+        [
+          -25.361004586999968,
+          17.044727358000046
+        ],
+        [
+          -25.361006889999942,
+          17.044790498000054
+        ],
+        [
+          -25.36118768999995,
+          17.054170686000077
+        ],
+        [
+          -25.359029050999936,
+          17.060157787000037
+        ],
+        [
+          -25.358728627999938,
+          17.06068305200006
+        ],
+        [
+          -25.353105743999947,
+          17.070475974000033
+        ],
+        [
+          -25.345061156999975,
+          17.083446018000075
+        ],
+        [
+          -25.338797067999963,
+          17.09280575400004
+        ],
+        [
+          -25.331107093999947,
+          17.097176645000047
+        ],
+        [
+          -25.200354644999948,
+          17.161833322000064
+        ],
+        [
+          -25.09315432099993,
+          17.20512332900006
+        ],
+        [
+          -25.092954196999983,
+          17.205157034000024
+        ],
+        [
+          -25.09281482199998,
+          17.205161074000046
+        ],
+        [
+          -25.09256252399996,
+          17.205158812000036
+        ],
+        [
+          -25.092163696999933,
+          17.205141473000026
+        ],
+        [
+          -25.09152910299997,
+          17.20510227400007
+        ],
+        [
+          -25.090027546999977,
+          17.204934867000077
+        ],
+        [
+          -22.91936955899996,
+          16.855925245000037
+        ],
+        [
+          -22.918223806999947,
+          16.855092228000046
+        ],
+        [
+          -22.889974995999978,
+          16.83452191400005
+        ],
+        [
+          -22.88964394599998,
+          16.83423321600003
+        ],
+        [
+          -22.889476583999965,
+          16.834074138000062
+        ],
+        [
+          -22.889453825999965,
+          16.83404090600004
+        ],
+        [
+          -22.657561993999934,
+          16.153126334000035
+        ],
+        [
+          -22.66477084899998,
+          16.084924500000056
+        ],
+        [
+          -22.664785325999958,
+          16.084892315000047
+        ],
+        [
+          -23.088237189999973,
+          15.167610216000071
+        ],
+        [
+          -23.08832015799993,
+          15.167493923000052
+        ],
+        [
+          -23.099956694999946,
+          15.151367987000071
+        ],
+        [
+          -23.10010926299998,
+          15.151215222000076
+        ],
+        [
+          -23.10022879199994,
+          15.151106153000057
+        ],
+        [
+          -23.11583849899995,
+          15.138680687000033
+        ],
+        [
+          -23.481791976999943,
+          14.905869357000029
+        ],
+        [
+          -23.481805572999974,
+          14.90586204400006
+        ],
+        [
+          -23.481823695999935,
+          14.905854731000034
+        ],
+        [
+          -23.48192639299998,
+          14.90581377500007
+        ],
+        [
+          -23.50888464199994,
+          14.900031399000056
+        ],
+        [
+          -23.50895209099997,
+          14.900016993000065
+        ],
+        [
+          -23.510572090999972,
+          14.899809004000076
+        ],
+        [
+          -24.36852499099996,
+          14.812308658000063
+        ],
+        [
+          -24.701640822999934,
+          14.80261733900005
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -25.36118768999995,
+    14.80261733900005,
+    -22.657561993999934,
+    17.205161074000046
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "pt"
+    ],
+    "languages_admin_all": [
+      "pt"
+    ],
+    "iso3": "CPV",
+    "iso2": "CV",
+    "name": "Cabo Verde",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/CPV_pcode/FeatureServer",
+    "itos_update": "2024-06-11",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-cpv",
+    "hdx_date": "2017-12-27",
+    "hdx_update": "2024-07-03",
+    "hdx_source_1": "Second Administrative Level Boundaries (SALB) Project",
+    "hdx_source_2": "OCHA West and Central Africa (ROWCA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The Island P-codes (CV0 to 10) are unofficial.\r\n\r\nPrevious versions incorrectly P-coded administrative level 2 feature 'Sao Joao Baptista' [CV1002] as [CV1003].\r\n\r\nThe administrative level 1 name attribute of the administrative level 2 feature CV2201 was corrected from 'Tarrafal de Sao Nicolau' to 'Tarrafal De Sao Nicolau' for consistency on 2018 05 10.",
+    "start_datetime": "2022-09-30T00:00:00Z",
+    "end_datetime": "2024-06-07T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2024-06-07T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/cpv_adm0/cpv_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/cpv_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cpv/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cpv/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cpv/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cpv/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cpv/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cpv/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/cpv/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/cpv_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/cpv_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/cpv_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

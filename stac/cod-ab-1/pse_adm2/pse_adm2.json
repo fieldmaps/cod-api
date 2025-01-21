@@ -1,0 +1,396 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "pse_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.26756542700008,
+          31.219972015000053
+        ],
+        [
+          34.21877333400005,
+          31.32373782800005
+        ],
+        [
+          35.07248623400005,
+          32.458902445000035
+        ],
+        [
+          35.075028469000074,
+          32.461843841000075
+        ],
+        [
+          35.075186150000036,
+          32.46197786600004
+        ],
+        [
+          35.08191875000006,
+          32.46761803100003
+        ],
+        [
+          35.091158724000024,
+          32.475248074000035
+        ],
+        [
+          35.092042648000074,
+          32.47589889000005
+        ],
+        [
+          35.09217717100006,
+          32.47598454400003
+        ],
+        [
+          35.092486423000025,
+          32.47617575500004
+        ],
+        [
+          35.21620365900003,
+          32.54800685500004
+        ],
+        [
+          35.21961788800007,
+          32.54983738300007
+        ],
+        [
+          35.21975114700007,
+          32.54990852900005
+        ],
+        [
+          35.22358394200006,
+          32.55193448700004
+        ],
+        [
+          35.22449866000005,
+          32.55239443200003
+        ],
+        [
+          35.36571003900008,
+          32.51705246600005
+        ],
+        [
+          35.36588540100007,
+          32.51700561400003
+        ],
+        [
+          35.36728230600005,
+          32.516531609000026
+        ],
+        [
+          35.36893007000003,
+          32.51592313800006
+        ],
+        [
+          35.369853231000036,
+          32.51557776800007
+        ],
+        [
+          35.37026419000006,
+          32.515414375000034
+        ],
+        [
+          35.40243803000004,
+          32.50155936500005
+        ],
+        [
+          35.40279179100003,
+          32.501374534000036
+        ],
+        [
+          35.40291315600007,
+          32.50129009300008
+        ],
+        [
+          35.56247065400004,
+          32.38520412300005
+        ],
+        [
+          35.56263313100004,
+          32.38505164000003
+        ],
+        [
+          35.56265695400003,
+          32.38489954500005
+        ],
+        [
+          35.56415330900006,
+          32.373609384000076
+        ],
+        [
+          35.573059595000075,
+          32.21923544800006
+        ],
+        [
+          35.57307122900005,
+          32.21899136900004
+        ],
+        [
+          35.57319301800004,
+          32.20929399900007
+        ],
+        [
+          35.55498756700007,
+          31.77188645500007
+        ],
+        [
+          35.55435752400007,
+          31.767063532000066
+        ],
+        [
+          35.55433707800006,
+          31.766930564000063
+        ],
+        [
+          35.554280052000024,
+          31.766718429000036
+        ],
+        [
+          35.55382050700007,
+          31.765230833000032
+        ],
+        [
+          35.553772983000044,
+          31.76509004600007
+        ],
+        [
+          35.55369267300006,
+          31.764869521000037
+        ],
+        [
+          35.55362575700008,
+          31.764702717000034
+        ],
+        [
+          35.55348199400004,
+          31.76436061000004
+        ],
+        [
+          35.553140721000034,
+          31.763589597000077
+        ],
+        [
+          35.55285840400006,
+          31.76297328800007
+        ],
+        [
+          35.55269479300006,
+          31.762658006000038
+        ],
+        [
+          35.551689674000045,
+          31.76076923200003
+        ],
+        [
+          35.55168939400005,
+          31.76076870600008
+        ],
+        [
+          35.39517528500005,
+          31.49021608100003
+        ],
+        [
+          35.384463975000074,
+          31.48161045100005
+        ],
+        [
+          35.38425812600008,
+          31.48144570900007
+        ],
+        [
+          35.23124792700003,
+          31.375067305000073
+        ],
+        [
+          35.230870915000025,
+          31.37480686400005
+        ],
+        [
+          35.23060348300004,
+          31.374650618000032
+        ],
+        [
+          35.23019018100007,
+          31.374421394000024
+        ],
+        [
+          35.22981335800006,
+          31.374254733000043
+        ],
+        [
+          35.22808977300008,
+          31.373671745000024
+        ],
+        [
+          35.22710061300006,
+          31.373382899000035
+        ],
+        [
+          35.226658599000075,
+          31.373255062000055
+        ],
+        [
+          35.22629395200005,
+          31.373160402000053
+        ],
+        [
+          35.223702839000055,
+          31.372500222000042
+        ],
+        [
+          35.22329943700004,
+          31.372410209000066
+        ],
+        [
+          35.13556724400007,
+          31.355233601000066
+        ],
+        [
+          34.26756542700008,
+          31.219972015000053
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    34.21877333400005,
+    31.219972015000053,
+    35.57319301800004,
+    32.55239443200003
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "PSE",
+    "iso2": "PS",
+    "name": "State of Palestine",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/PSE_pcode/FeatureServer",
+    "itos_update": "2023-10-23",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-pse",
+    "hdx_date": "1995-09-28",
+    "hdx_update": "2023-10-20",
+    "hdx_source_1": "Palestinian Authority Ministry of Planning",
+    "hdx_source_2": "OCHA occupied Palestinian territory (oPt)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2021-03-18T00:00:00Z",
+    "end_datetime": "2023-10-19T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-19T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/pse_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pse/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pse/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pse/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pse/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pse/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pse/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/pse/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/pse_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/pse_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/pse_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

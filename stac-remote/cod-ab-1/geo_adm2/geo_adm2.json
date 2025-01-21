@@ -1,0 +1,343 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "geo_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          46.49357696200008,
+          41.054552958000045
+        ],
+        [
+          43.748681599000065,
+          41.10794961400006
+        ],
+        [
+          43.47432373400005,
+          41.12041787000004
+        ],
+        [
+          41.82354753000004,
+          41.431464074000075
+        ],
+        [
+          41.82285471800003,
+          41.431602447000046
+        ],
+        [
+          41.63334155800004,
+          41.487257111000076
+        ],
+        [
+          41.54716741100003,
+          41.52042155000004
+        ],
+        [
+          40.00901065100004,
+          43.38646893600003
+        ],
+        [
+          40.00846667800005,
+          43.38848394400003
+        ],
+        [
+          40.008336675000066,
+          43.39050297500006
+        ],
+        [
+          40.00836964900003,
+          43.39104893700005
+        ],
+        [
+          40.01057566000003,
+          43.42434194000003
+        ],
+        [
+          40.010641658000054,
+          43.42453194500007
+        ],
+        [
+          40.09198772900004,
+          43.555236971000056
+        ],
+        [
+          40.09911673600004,
+          43.565551980000066
+        ],
+        [
+          40.09934669300003,
+          43.565865967000036
+        ],
+        [
+          40.09983871900005,
+          43.56610798600008
+        ],
+        [
+          40.104826710000054,
+          43.56799697400004
+        ],
+        [
+          40.110076691000074,
+          43.56952494700005
+        ],
+        [
+          40.11115970900005,
+          43.56979198400006
+        ],
+        [
+          40.243719773000066,
+          43.58644695000004
+        ],
+        [
+          40.244409776000055,
+          43.58649597600004
+        ],
+        [
+          40.261024758000076,
+          43.58576497800004
+        ],
+        [
+          40.66575390300005,
+          43.56404698000006
+        ],
+        [
+          42.439959990000034,
+          43.25249976900005
+        ],
+        [
+          42.859636729000044,
+          43.178683173000024
+        ],
+        [
+          44.969161996000025,
+          42.74894396900004
+        ],
+        [
+          45.15930199500008,
+          42.70809397000005
+        ],
+        [
+          45.77441246800004,
+          42.48871657300003
+        ],
+        [
+          46.400496995000026,
+          41.94042098700004
+        ],
+        [
+          46.426750979000076,
+          41.91264801400007
+        ],
+        [
+          46.72607667600005,
+          41.289133598000035
+        ],
+        [
+          46.72672440300005,
+          41.287541668000074
+        ],
+        [
+          46.726571292000074,
+          41.28609181600007
+        ],
+        [
+          46.66063109000004,
+          41.13124766800007
+        ],
+        [
+          46.66037588300003,
+          41.130703510000046
+        ],
+        [
+          46.65079393600007,
+          41.112027298000044
+        ],
+        [
+          46.65047471200006,
+          41.11152177500003
+        ],
+        [
+          46.650220750000074,
+          41.11117763200008
+        ],
+        [
+          46.649967608000054,
+          41.11085662600004
+        ],
+        [
+          46.649253986000076,
+          41.11051906500006
+        ],
+        [
+          46.64215074200007,
+          41.107189034000044
+        ],
+        [
+          46.616422003000025,
+          41.09753301600006
+        ],
+        [
+          46.498240975000044,
+          41.055803929000035
+        ],
+        [
+          46.49737096800004,
+          41.055536000000075
+        ],
+        [
+          46.49357696200008,
+          41.054552958000045
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    40.008336675000066,
+    41.054552958000045,
+    46.72672440300005,
+    43.58649597600004
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en",
+      "ka"
+    ],
+    "languages_admin_all": [
+      "en",
+      "ka"
+    ],
+    "iso3": "GEO",
+    "iso2": "GE",
+    "name": "Georgia",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/GEO_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-geo",
+    "hdx_date": "2019-08-28",
+    "hdx_update": "2023-11-17",
+    "hdx_source_1": "National Statistics Office of Georgia [Administraciuli erTeulebi] ",
+    "hdx_source_2": "OCHA Middle East and North Africa (ROMENA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The gazetteer defines administrative level 3 features, but level 3 polygons are unavailable.\r\n\r\nAdministrative level 2 features are unavailable for Tbilisi, the Autonomous Republic of Abkhazia, and for the area known as the Provisional Administration.",
+    "start_datetime": "2019-08-28T00:00:00Z",
+    "end_datetime": "2019-10-18T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2019-10-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/geo_adm2/geo_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/geo_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/geo/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/geo/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/geo/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/geo/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/geo/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/geo/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/geo/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/geo_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/geo_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/geo_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

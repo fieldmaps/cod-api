@@ -1,0 +1,376 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "vir_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.90054299955972,
+          17.67393100001567
+        ],
+        [
+          -64.90058299960572,
+          17.673940999577496
+        ],
+        [
+          -64.90067999958228,
+          17.67396799992332
+        ],
+        [
+          -64.9007449998818,
+          17.67399400022299
+        ],
+        [
+          -64.90081599955869,
+          17.674030000084485
+        ],
+        [
+          -64.90086700011193,
+          17.67406900008433
+        ],
+        [
+          -64.90091899981195,
+          17.674119999738252
+        ],
+        [
+          -64.90095299958125,
+          17.674167000107047
+        ],
+        [
+          -64.90272699955136,
+          17.676753999797313
+        ],
+        [
+          -64.90280999978165,
+          17.676878000119643
+        ],
+        [
+          -64.90283800017352,
+          17.676920000257837
+        ],
+        [
+          -64.90301100005757,
+          17.677255000417972
+        ],
+        [
+          -64.90306399980369,
+          17.67735899981801
+        ],
+        [
+          -64.90314700003398,
+          17.677522000140243
+        ],
+        [
+          -64.90326800021802,
+          17.67778799981636
+        ],
+        [
+          -64.90330300003336,
+          17.677866999862204
+        ],
+        [
+          -64.9033900004481,
+          17.67807200032263
+        ],
+        [
+          -64.90349299980204,
+          17.678314999837426
+        ],
+        [
+          -64.90352100019396,
+          17.678382000229192
+        ],
+        [
+          -64.90362200035497,
+          17.678645999813114
+        ],
+        [
+          -65.1013329996182,
+          18.28332700044075
+        ],
+        [
+          -65.10132500014862,
+          18.283357000025603
+        ],
+        [
+          -65.08541100011752,
+          18.33691899961218
+        ],
+        [
+          -65.08471899968202,
+          18.338984000411358
+        ],
+        [
+          -65.06250699969826,
+          18.404301999837458
+        ],
+        [
+          -65.06247399997505,
+          18.404372000367573
+        ],
+        [
+          -65.06227099960688,
+          18.404595999905496
+        ],
+        [
+          -65.06224800034488,
+          18.404612999790174
+        ],
+        [
+          -65.06118800002616,
+          18.40527899992594
+        ],
+        [
+          -65.05932100026394,
+          18.406206000406655
+        ],
+        [
+          -65.05926500037941,
+          18.406232999853103
+        ],
+        [
+          -65.05006899988439,
+          18.409381000232997
+        ],
+        [
+          -65.0499970001614,
+          18.40940000020987
+        ],
+        [
+          -64.90910300040309,
+          18.415381999979388
+        ],
+        [
+          -64.71161899991688,
+          18.367143000349245
+        ],
+        [
+          -64.6938349999852,
+          18.3620599997692
+        ],
+        [
+          -64.69098699995004,
+          18.361241999818503
+        ],
+        [
+          -64.66238899955266,
+          18.34501999997309
+        ],
+        [
+          -64.66074099999713,
+          18.343594999909385
+        ],
+        [
+          -64.66064900025111,
+          18.343511999679095
+        ],
+        [
+          -64.6486609996054,
+          18.328155000153174
+        ],
+        [
+          -64.64864299967468,
+          18.328048999761563
+        ],
+        [
+          -64.56519299955727,
+          17.755138000118677
+        ],
+        [
+          -64.56523199955711,
+          17.755079000095805
+        ],
+        [
+          -64.56798100042278,
+          17.751400000409717
+        ],
+        [
+          -64.56805500023802,
+          17.751328999833504
+        ],
+        [
+          -64.5757309998857,
+          17.74640000006002
+        ],
+        [
+          -64.57581099997765,
+          17.746349999552876
+        ],
+        [
+          -64.57749600034009,
+          17.745623000201363
+        ],
+        [
+          -64.57757300029368,
+          17.745590999624994
+        ],
+        [
+          -64.57761599957865,
+          17.745573999740373
+        ],
+        [
+          -64.60993299970812,
+          17.732834000388834
+        ],
+        [
+          -64.63782199978544,
+          17.722081000038145
+        ],
+        [
+          -64.74037000017535,
+          17.6877149998474
+        ],
+        [
+          -64.76132499974892,
+          17.682359000167764
+        ],
+        [
+          -64.90054299955972,
+          17.67393100001567
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -65.1013329996182,
+    17.67393100001567,
+    -64.56519299955727,
+    18.415381999979388
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "VIR",
+    "iso2": "VI",
+    "name": "United States Virgin Islands",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/VIR_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-vir",
+    "hdx_date": "2017-09-09",
+    "hdx_update": "2019-11-04",
+    "hdx_source_1": "GADM",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2019-11-04T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/vir_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vir/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vir/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vir/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vir/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vir/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vir/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/vir/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/vir_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/vir_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/vir_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

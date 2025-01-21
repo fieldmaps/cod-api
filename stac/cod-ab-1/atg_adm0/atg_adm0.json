@@ -1,0 +1,300 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "atg_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -62.34513854950444,
+          16.93152809104862
+        ],
+        [
+          -62.34736251806572,
+          16.93180465685947
+        ],
+        [
+          -62.34791564968742,
+          16.932083130132412
+        ],
+        [
+          -62.348194122061045,
+          16.932361602505978
+        ],
+        [
+          -62.34847259533399,
+          16.93291664158977
+        ],
+        [
+          -62.349029540980496,
+          16.939027786703036
+        ],
+        [
+          -62.349029540980496,
+          16.941528320175905
+        ],
+        [
+          -62.348194122061045,
+          16.94458389273251
+        ],
+        [
+          -61.886249542482346,
+          17.697639465588907
+        ],
+        [
+          -61.87069320642627,
+          17.715414046920785
+        ],
+        [
+          -61.85374832162768,
+          17.726804733151937
+        ],
+        [
+          -61.85319519000598,
+          17.72708320642488
+        ],
+        [
+          -61.851806640364146,
+          17.727638244609352
+        ],
+        [
+          -61.848751067807484,
+          17.728750228440333
+        ],
+        [
+          -61.84791564978735,
+          17.729028701713275
+        ],
+        [
+          -61.84569549525088,
+          17.72958373989775
+        ],
+        [
+          -61.844581603957806,
+          17.72958373989775
+        ],
+        [
+          -61.84347152668954,
+          17.729028701713275
+        ],
+        [
+          -61.79486083995573,
+          17.7009716030571
+        ],
+        [
+          -61.794582366682846,
+          17.700693130683476
+        ],
+        [
+          -61.748748779232756,
+          17.652082443050347
+        ],
+        [
+          -61.744583130307205,
+          17.64569473302555
+        ],
+        [
+          -61.743194579766,
+          17.643472671926304
+        ],
+        [
+          -61.74069595375522,
+          17.638750076454926
+        ],
+        [
+          -61.74041748048228,
+          17.63819694483317
+        ],
+        [
+          -61.738193511921,
+          17.63152694661136
+        ],
+        [
+          -61.7306938171659,
+          17.59847259503431
+        ],
+        [
+          -61.65652847271082,
+          17.069305420109117
+        ],
+        [
+          -61.65652847271082,
+          17.067638397194344
+        ],
+        [
+          -61.66708374002252,
+          17.052637100222057
+        ],
+        [
+          -61.673194885135786,
+          17.045692443651376
+        ],
+        [
+          -61.685138702089375,
+          17.032917022702463
+        ],
+        [
+          -61.68541717536232,
+          17.032638549429578
+        ],
+        [
+          -61.733749389722504,
+          17.001806258951717
+        ],
+        [
+          -61.74597167994904,
+          16.99763870256413
+        ],
+        [
+          -62.344581603857876,
+          16.93152809104862
+        ],
+        [
+          -62.34513854950444,
+          16.93152809104862
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -62.349029540980496,
+    16.93152809104862,
+    -61.65652847271082,
+    17.72958373989775
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "ATG",
+    "iso2": "AG",
+    "name": "Antigua and Barbuda",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/ATG_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 1.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": null,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-atg",
+    "hdx_date": "2017-09-07",
+    "hdx_update": "2024-07-09",
+    "hdx_source_1": "www.gadm.org",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2019-11-28T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/atg_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/atg/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/atg/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/atg/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/atg/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/atg/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/atg/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/atg/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/atg_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/atg_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/atg_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

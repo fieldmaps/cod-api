@@ -1,0 +1,392 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "kir_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -151.81145499994827,
+          -11.44604999990753
+        ],
+        [
+          -151.81157400004005,
+          -11.446030999930656
+        ],
+        [
+          -151.81173200013168,
+          -11.44599800020751
+        ],
+        [
+          -174.4956409996324,
+          -4.696289000137199
+        ],
+        [
+          -174.49650399985967,
+          -4.695990999884714
+        ],
+        [
+          -174.5324209996294,
+          -4.683272999749079
+        ],
+        [
+          -174.53319000001846,
+          -4.682956999565818
+        ],
+        [
+          -174.53563300026272,
+          -4.68179099975481
+        ],
+        [
+          -174.5359650002845,
+          -4.6816270002858005
+        ],
+        [
+          -174.53612200033,
+          -4.681507000147917
+        ],
+        [
+          -174.5376230003012,
+          -4.679923999992582
+        ],
+        [
+          -174.53776699974722,
+          -4.67973500027
+        ],
+        [
+          -174.54137899994086,
+          -4.674436999667762
+        ],
+        [
+          -174.5414949998943,
+          -4.674264999829859
+        ],
+        [
+          -174.5419910002844,
+          -4.673502999763571
+        ],
+        [
+          -174.5421129996152,
+          -4.673307999764347
+        ],
+        [
+          -174.54222200014516,
+          -4.673055999834503
+        ],
+        [
+          -174.54232500039842,
+          -4.672809000135203
+        ],
+        [
+          -174.54297899998085,
+          -4.660795000089138
+        ],
+        [
+          -174.54294200007323,
+          -4.660534999790343
+        ],
+        [
+          -174.54278299993547,
+          -4.659444999886773
+        ],
+        [
+          -174.54271500039692,
+          -4.658989000441977
+        ],
+        [
+          -174.54240599963714,
+          -4.6573549997334
+        ],
+        [
+          -174.12649100035935,
+          -3.5931689996495493
+        ],
+        [
+          -174.12639999976017,
+          -3.5929430000193747
+        ],
+        [
+          -174.12620699985314,
+          -3.592679000435453
+        ],
+        [
+          -174.125708000224,
+          -3.592300000044929
+        ],
+        [
+          -174.12564600006283,
+          -3.592252999676134
+        ],
+        [
+          -160.40698299956574,
+          4.696325000198669
+        ],
+        [
+          -160.40625099998363,
+          4.696759000427562
+        ],
+        [
+          -160.40208999965373,
+          4.698675999797615
+        ],
+        [
+          -160.40166699993208,
+          4.698853999912217
+        ],
+        [
+          -160.40138799965644,
+          4.698937000142507
+        ],
+        [
+          -160.4008740002349,
+          4.699080999588489
+        ],
+        [
+          -160.39987299993896,
+          4.6991599996343325
+        ],
+        [
+          173.00703500036502,
+          3.3947300002893144
+        ],
+        [
+          173.0072300003643,
+          3.3947209998742665
+        ],
+        [
+          173.00732999957984,
+          3.394692000335567
+        ],
+        [
+          173.00747499997135,
+          3.3946169995749074
+        ],
+        [
+          173.00759199997094,
+          3.394513000174868
+        ],
+        [
+          173.0078320002467,
+          3.3942539999222276
+        ],
+        [
+          173.0079530004307,
+          3.3941080003839375
+        ],
+        [
+          173.00933899959523,
+          3.3923389997451068
+        ],
+        [
+          176.4496239997478,
+          -1.3245810004127634
+        ],
+        [
+          176.45001199965418,
+          -1.3251260003646053
+        ],
+        [
+          176.4890710004264,
+          -1.3865760003820924
+        ],
+        [
+          176.4906379998439,
+          -1.3895069997481642
+        ],
+        [
+          176.49129200032564,
+          -1.391056000134256
+        ],
+        [
+          176.49184299965475,
+          -1.3927489999663294
+        ],
+        [
+          176.4931299996498,
+          -1.397034999765367
+        ],
+        [
+          176.4945139996214,
+          -1.4016719995630638
+        ],
+        [
+          176.84798599985413,
+          -2.6683419995835607
+        ],
+        [
+          176.84799600031522,
+          -2.6691269998111693
+        ],
+        [
+          176.84797700033835,
+          -2.6700669999920024
+        ],
+        [
+          176.8477859996243,
+          -2.6713839995719013
+        ],
+        [
+          176.84758000001705,
+          -2.671865000169589
+        ],
+        [
+          176.84743699971784,
+          -2.6721000002148116
+        ],
+        [
+          176.84716199962668,
+          -2.672207999799298
+        ],
+        [
+          176.84636199960664,
+          -2.6723140001909087
+        ],
+        [
+          -151.81145499994827,
+          -11.44604999990753
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -174.54297899998085,
+    -11.44604999990753,
+    176.84799600031522,
+    4.6991599996343325
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "KIR",
+    "iso2": "KI",
+    "name": "Kiribati",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_NO_GEOM_CHECK/KIR_pcode/FeatureServer",
+    "itos_update": "2023-09-26",
+    "itos_service": "COD_NO_GEOM_CHECK",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-kir",
+    "hdx_date": "2020-01-13",
+    "hdx_update": "2020-01-13",
+    "hdx_source_1": "Secretariat of the Pacific Community, Statistics for Development Division (kiribati.popgis.spc.int)",
+    "hdx_source_2": "OCHA Office of the Pacific Islands",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Because the archipelago nature of the Kiribati it would not be useful to provide EMF files unless requested.\r\n\r\nThe archapeoligo nature of the geography causes every feature in the lines file to have 'AdmLevel' 99 (shoreline).\r\n\r\nP-codes created by OCHA as two-digit ISO country code, one-digit GID and two-digit IID.",
+    "start_datetime": "2020-01-13T00:00:00Z",
+    "end_datetime": "2023-10-03T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/kir_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kir/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kir/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kir/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kir/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kir/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kir/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/kir/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/kir_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/kir_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/kir_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

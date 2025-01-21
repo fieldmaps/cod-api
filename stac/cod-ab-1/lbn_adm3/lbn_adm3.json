@@ -1,0 +1,298 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "lbn_adm3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          35.37808622500006,
+          33.05499678600006
+        ],
+        [
+          35.35989005700003,
+          33.05684688200006
+        ],
+        [
+          35.15537064000006,
+          33.08591508000006
+        ],
+        [
+          35.10377918200004,
+          33.09408335300003
+        ],
+        [
+          35.103487366000024,
+          33.094471146000046
+        ],
+        [
+          35.10350944400005,
+          33.09471013900003
+        ],
+        [
+          35.103607648000036,
+          33.09528460900003
+        ],
+        [
+          35.10572625100008,
+          33.102028930000074
+        ],
+        [
+          35.10593848700006,
+          33.10258171000004
+        ],
+        [
+          35.46843085900008,
+          33.89994083500005
+        ],
+        [
+          35.651198273000034,
+          34.281541065000056
+        ],
+        [
+          35.651232366000045,
+          34.281593119000036
+        ],
+        [
+          35.98040793500007,
+          34.649507226000026
+        ],
+        [
+          35.98055185000004,
+          34.649653691000026
+        ],
+        [
+          35.98073276200006,
+          34.64976928300007
+        ],
+        [
+          35.98094088000005,
+          34.64984769500006
+        ],
+        [
+          35.98116502800008,
+          34.649884292000024
+        ],
+        [
+          36.33527989400005,
+          34.69206915400002
+        ],
+        [
+          36.33873830500005,
+          34.692022863000034
+        ],
+        [
+          36.33916708300006,
+          34.69190378500008
+        ],
+        [
+          36.33922819000003,
+          34.69188681400004
+        ],
+        [
+          36.464474245000076,
+          34.63626294100004
+        ],
+        [
+          36.46491122700007,
+          34.63598312900007
+        ],
+        [
+          36.46491895200006,
+          34.63597811200003
+        ],
+        [
+          36.555533937000064,
+          34.417565300000035
+        ],
+        [
+          36.59901754800006,
+          34.28934598700005
+        ],
+        [
+          36.62275849500003,
+          34.200088021000056
+        ],
+        [
+          36.62290260700007,
+          34.199358662000066
+        ],
+        [
+          36.62291533500007,
+          34.19586551500004
+        ],
+        [
+          36.622868141000026,
+          34.195335546000024
+        ],
+        [
+          36.39471051600003,
+          33.83345402800006
+        ],
+        [
+          36.394107087000066,
+          33.83251646100007
+        ],
+        [
+          36.39260708300003,
+          33.83120225400006
+        ],
+        [
+          35.50355675000003,
+          33.089433048000046
+        ],
+        [
+          35.43101061700003,
+          33.065513158000044
+        ],
+        [
+          35.37808622500006,
+          33.05499678600006
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    35.103487366000024,
+    33.05499678600006,
+    36.62291533500007,
+    34.69206915400002
+  ],
+  "properties": {
+    "admin_level": "3",
+    "languages_admin_self": [
+      "en",
+      "ar"
+    ],
+    "languages_admin_all": [
+      "en",
+      "ar"
+    ],
+    "iso3": "LBN",
+    "iso2": "LB",
+    "name": "Lebanon",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/LBN_pcode/FeatureServer",
+    "itos_update": "2024-11-19",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-lbn",
+    "hdx_date": "2014-05-02",
+    "hdx_update": "2024-11-13",
+    "hdx_source_1": "Council for Development and Reconstruction (CDR)",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The Lebanon administrative level 1 P-codes are based on the post-2014 structure of eight features, including \"Akkar\" [LB7] and \"Baalbek-Hermel\" [LB8] governorates.  The administrative level 2 P-codes are based on the previous six-feature structure, thus maintaining a P-code nesting conflict.\r\n\r\nFurthermore the administrative level 3 features have purely numeric P-codes which follow the administrative level 1 P-code squence but with different numeric values.\r\n\r\n\r\n",
+    "start_datetime": "2017-06-20T00:00:00Z",
+    "end_datetime": "2024-11-13T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2024-11-13T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/lbn_adm3.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lbn/3?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lbn/3?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lbn/3?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lbn/3?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lbn/3?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lbn/3?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lbn/3?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/lbn_adm3.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/lbn_adm3.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/lbn_adm3.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

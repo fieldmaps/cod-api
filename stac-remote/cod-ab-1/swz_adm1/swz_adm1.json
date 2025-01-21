@@ -1,0 +1,321 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "swz_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.97876102400005,
+          -27.317416458999958
+        ],
+        [
+          31.90211905800004,
+          -27.31719426099994
+        ],
+        [
+          31.854510934000075,
+          -27.317053559999977
+        ],
+        [
+          31.732797748000053,
+          -27.31654699799998
+        ],
+        [
+          31.674150574000066,
+          -27.31626429099998
+        ],
+        [
+          31.50810993600004,
+          -27.315360685999963
+        ],
+        [
+          31.50054767000006,
+          -27.31531494799998
+        ],
+        [
+          31.499407920000067,
+          -27.315304685999934
+        ],
+        [
+          31.493291887000055,
+          -27.31524946299993
+        ],
+        [
+          31.49033087600003,
+          -27.314321914999937
+        ],
+        [
+          31.40879898000003,
+          -27.287451620999946
+        ],
+        [
+          31.366748548000032,
+          -27.27353373899996
+        ],
+        [
+          31.200931791000073,
+          -27.218552563999936
+        ],
+        [
+          31.157315408000045,
+          -27.204017788999977
+        ],
+        [
+          31.150501980000058,
+          -27.20173781699998
+        ],
+        [
+          30.98495169000006,
+          -27.036680144999934
+        ],
+        [
+          30.81317159500003,
+          -26.844396083999982
+        ],
+        [
+          30.810991611000077,
+          -26.84036120099995
+        ],
+        [
+          30.808447500000057,
+          -26.835587721999957
+        ],
+        [
+          30.80280643100008,
+          -26.824919488999967
+        ],
+        [
+          30.802720082000064,
+          -26.82474143999997
+        ],
+        [
+          30.802159993000032,
+          -26.82028744799993
+        ],
+        [
+          30.79089648000007,
+          -26.71510299299996
+        ],
+        [
+          30.79113724800004,
+          -26.66760125199994
+        ],
+        [
+          30.791233189000025,
+          -26.65016967899993
+        ],
+        [
+          30.791750216000025,
+          -26.569112390999976
+        ],
+        [
+          30.801913718000037,
+          -26.490861250999956
+        ],
+        [
+          30.80502797200006,
+          -26.467071353999984
+        ],
+        [
+          30.805591443000026,
+          -26.46568326499994
+        ],
+        [
+          30.80683298300005,
+          -26.462987580999936
+        ],
+        [
+          30.81000681900008,
+          -26.456185280999932
+        ],
+        [
+          30.83108796500005,
+          -26.411109005999947
+        ],
+        [
+          31.12657549200003,
+          -25.921294608999972
+        ],
+        [
+          31.315511152000056,
+          -25.743097364999983
+        ],
+        [
+          31.415230622000024,
+          -25.71801385499998
+        ],
+        [
+          31.97496699000004,
+          -25.95355142799997
+        ],
+        [
+          32.08629802200005,
+          -26.00918590899994
+        ],
+        [
+          32.10430443800004,
+          -26.160720372999947
+        ],
+        [
+          32.13408496200003,
+          -26.527521126999943
+        ],
+        [
+          32.133808491000025,
+          -26.840116661999957
+        ],
+        [
+          31.97876102400005,
+          -27.317416458999958
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    30.79089648000007,
+    -27.317416458999958,
+    32.13408496200003,
+    -25.71801385499998
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "en"
+    ],
+    "languages_admin_all": [
+      "en"
+    ],
+    "iso3": "SWZ",
+    "iso2": "SZ",
+    "name": "Eswatini",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/SWZ_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-swz",
+    "hdx_date": "2020-05-13",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Central Statistics Office",
+    "hdx_source_2": "OCHA Regional Office for Southern and Eastern Africa (ROSEA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": null,
+    "start_datetime": "2020-05-13T00:00:00Z",
+    "end_datetime": "2021-01-27T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2021-01-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/swz_adm1/swz_adm1.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/swz_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/swz/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/swz/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/swz/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/swz/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/swz/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/swz/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/swz/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/swz_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/swz_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/swz_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

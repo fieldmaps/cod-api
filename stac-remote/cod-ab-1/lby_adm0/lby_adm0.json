@@ -1,0 +1,263 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "lby_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          24.000000000000057,
+          19.508045193000044
+        ],
+        [
+          14.189321518000042,
+          22.64448165600004
+        ],
+        [
+          11.999999998000021,
+          23.515169144000026
+        ],
+        [
+          11.99795688000006,
+          23.516023784000026
+        ],
+        [
+          10.42222166700003,
+          24.478055832000052
+        ],
+        [
+          10.252222499000027,
+          24.605832500000076
+        ],
+        [
+          10.054444166000053,
+          24.838055277000024
+        ],
+        [
+          9.396545109000044,
+          26.202211540000064
+        ],
+        [
+          9.389968186000033,
+          30.165668844000038
+        ],
+        [
+          10.14062000000007,
+          31.493300000000033
+        ],
+        [
+          10.291160000000048,
+          31.690120000000036
+        ],
+        [
+          11.564358177000031,
+          33.16519604600006
+        ],
+        [
+          11.564563625000062,
+          33.16519841100006
+        ],
+        [
+          22.14939498900003,
+          32.93376159700006
+        ],
+        [
+          22.166059494000024,
+          32.930713653000055
+        ],
+        [
+          22.394821167000032,
+          32.86362838800005
+        ],
+        [
+          23.08185768100003,
+          32.646442413000045
+        ],
+        [
+          24.982603073000064,
+          31.966745377000052
+        ],
+        [
+          25.001577378000036,
+          31.95854759200006
+        ],
+        [
+          25.033243179000067,
+          31.935338974000047
+        ],
+        [
+          25.04037284900005,
+          31.92610931400003
+        ],
+        [
+          25.126361847000055,
+          31.72140693700004
+        ],
+        [
+          25.147815705000028,
+          31.666206360000047
+        ],
+        [
+          25.150619507000044,
+          31.656326294000053
+        ],
+        [
+          24.99999998900006,
+          20.000000000000057
+        ],
+        [
+          24.000000000000057,
+          19.508045193000044
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    9.389968186000033,
+    19.508045193000044,
+    25.150619507000044,
+    33.16519841100006
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en",
+      "ar"
+    ],
+    "languages_admin_all": [
+      "en",
+      "ar"
+    ],
+    "iso3": "LBY",
+    "iso2": "LY",
+    "name": "Libya",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/LBY_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 1.0,
+    "itos_index_1": 2.0,
+    "itos_index_2": 3.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-lby",
+    "hdx_date": "2018-11-13",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "UNITAR-UNOSAT, Libyan Bureau of Statistics, WFP,  and Global Logistics Cluster, International Organisation for Migration (IOM)",
+    "hdx_source_2": "OCHA Middle East and North Africa (ROMENA)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Boundaries for administrative level 3 (baladiya) are anticipated to be prepared in late 2019.",
+    "start_datetime": "2016-11-30T00:00:00Z",
+    "end_datetime": "2018-05-07T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2018-05-07T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/lby_adm0/lby_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/lby_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lby/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lby/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lby/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lby/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lby/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lby/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/lby/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/lby_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/lby_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/lby_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

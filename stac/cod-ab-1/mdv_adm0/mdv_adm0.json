@@ -1,0 +1,462 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "mdv_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          73.15576447100005,
+          -0.7036689139999339
+        ],
+        [
+          73.15443263900005,
+          -0.7035179509999807
+        ],
+        [
+          73.13547386500005,
+          -0.6917508779999366
+        ],
+        [
+          73.13050424800008,
+          -0.6878186529999653
+        ],
+        [
+          73.12349532400003,
+          -0.6800533049999444
+        ],
+        [
+          73.12338099200008,
+          -0.6798780579999288
+        ],
+        [
+          73.11124825200005,
+          -0.6597099179999759
+        ],
+        [
+          73.08955979300003,
+          -0.6188013639999781
+        ],
+        [
+          73.08030485600005,
+          -0.5996149269999478
+        ],
+        [
+          73.07602522100007,
+          -0.5904888619999724
+        ],
+        [
+          72.71119698000007,
+          3.6189513150000607
+        ],
+        [
+          72.70724364000006,
+          3.703711229000021
+        ],
+        [
+          72.63850399400008,
+          6.316020597000033
+        ],
+        [
+          72.63850409200006,
+          6.316028665000033
+        ],
+        [
+          72.63850415100006,
+          6.316033503000028
+        ],
+        [
+          72.64431811700007,
+          6.409344048000037
+        ],
+        [
+          72.64431946000008,
+          6.409359695000035
+        ],
+        [
+          72.80884737100007,
+          7.071440968000047
+        ],
+        [
+          72.80885865400006,
+          7.071485027000051
+        ],
+        [
+          72.80886904000005,
+          7.0715166460000205
+        ],
+        [
+          72.80888607800006,
+          7.071558821000053
+        ],
+        [
+          72.80928807100008,
+          7.072418854000034
+        ],
+        [
+          72.80941900200008,
+          7.072678731000053
+        ],
+        [
+          72.80947025900008,
+          7.072775597000032
+        ],
+        [
+          72.81001203100004,
+          7.073643941000057
+        ],
+        [
+          72.81302491300005,
+          7.078400446000046
+        ],
+        [
+          72.81307063700007,
+          7.078452321000043
+        ],
+        [
+          72.81318704700004,
+          7.078542798000058
+        ],
+        [
+          72.89537697000003,
+          7.105618598000035
+        ],
+        [
+          72.89544157400007,
+          7.105628937000063
+        ],
+        [
+          72.89545449600007,
+          7.1056304310000655
+        ],
+        [
+          72.89554927000006,
+          7.1056409070000655
+        ],
+        [
+          72.90082738400008,
+          7.106208787000071
+        ],
+        [
+          72.90088699800003,
+          7.10621049100007
+        ],
+        [
+          72.90261065500005,
+          7.106245521000062
+        ],
+        [
+          72.90263651400005,
+          7.106245641000044
+        ],
+        [
+          72.90277614300004,
+          7.106185996000022
+        ],
+        [
+          73.21592221500003,
+          6.965262748000043
+        ],
+        [
+          73.21622689500003,
+          6.965098830000045
+        ],
+        [
+          73.21654119600004,
+          6.964922986000033
+        ],
+        [
+          73.21731637400006,
+          6.96443070600003
+        ],
+        [
+          73.21787559000006,
+          6.964066795000065
+        ],
+        [
+          73.21792840500007,
+          6.964028717000076
+        ],
+        [
+          73.21824295900007,
+          6.963785890000054
+        ],
+        [
+          73.21861769900005,
+          6.963454773000024
+        ],
+        [
+          73.21873544400006,
+          6.963340387000073
+        ],
+        [
+          73.21884603400008,
+          6.9632187970000246
+        ],
+        [
+          73.21893502300003,
+          6.9631114790000765
+        ],
+        [
+          73.21957054000006,
+          6.962195232000056
+        ],
+        [
+          73.22010020500005,
+          6.961412554000049
+        ],
+        [
+          73.22072632800007,
+          6.960446034000029
+        ],
+        [
+          73.22103257200007,
+          6.959865857000068
+        ],
+        [
+          73.22133464800004,
+          6.959120597000037
+        ],
+        [
+          73.22153282100004,
+          6.958628530000055
+        ],
+        [
+          73.22160544500008,
+          6.958415889000037
+        ],
+        [
+          73.23387961300006,
+          6.922370683000054
+        ],
+        [
+          73.23412114700005,
+          6.9214895750000665
+        ],
+        [
+          73.64952168700006,
+          5.402089047000061
+        ],
+        [
+          73.65743179600008,
+          5.366277862000061
+        ],
+        [
+          73.65755144700006,
+          5.365577588000065
+        ],
+        [
+          73.65855090800005,
+          5.357177314000069
+        ],
+        [
+          73.65855264400005,
+          5.357154267000055
+        ],
+        [
+          73.71891835700006,
+          4.4547455640000635
+        ],
+        [
+          73.75960733500006,
+          3.453776952000055
+        ],
+        [
+          73.75968514700008,
+          3.4503363930000432
+        ],
+        [
+          73.57338289500007,
+          0.4130513830000382
+        ],
+        [
+          73.57337997200005,
+          0.4130104470000333
+        ],
+        [
+          73.44041805100005,
+          -0.31065048799996475
+        ],
+        [
+          73.21748774500003,
+          -0.6601289999999267
+        ],
+        [
+          73.21740584600008,
+          -0.6602192919999652
+        ],
+        [
+          73.18819708700005,
+          -0.6889569339999753
+        ],
+        [
+          73.18814016100004,
+          -0.6890033459999358
+        ],
+        [
+          73.18748284000003,
+          -0.6895224169999778
+        ],
+        [
+          73.18295845400007,
+          -0.6928927439999484
+        ],
+        [
+          73.18291093200008,
+          -0.6929121029999692
+        ],
+        [
+          73.16386718300004,
+          -0.7005127609999704
+        ],
+        [
+          73.15576447100005,
+          -0.7036689139999339
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    72.63850399400008,
+    -0.7036689139999339,
+    73.75968514700008,
+    7.106245641000044
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en",
+      "dv"
+    ],
+    "languages_admin_all": [
+      "en",
+      "dv"
+    ],
+    "iso3": "MDV",
+    "iso2": "MV",
+    "name": "Maldives",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/MDV_pcode/FeatureServer",
+    "itos_update": "2024-10-24",
+    "itos_service": "COD_External",
+    "itos_level": 2.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-mdv",
+    "hdx_date": "2024-01-01",
+    "hdx_update": "2024-10-23",
+    "hdx_source_1": "Government of the republic of Maldives",
+    "hdx_source_2": "OCHA Regional Office for Asia and the Pacific (ROAP)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "18 administrative level 2 islands have duplicate names within their administrative level 1 atoll.\r\n\r\nWithin administrative level 1 atoll “Gaafu Dhaalu” [MV017] these are:  two administrative level 2 islands called “Aakirahuttaa” [MV017014] and [MV017015], three islands called “Bodehuttaa” [MV017021], [MV017022], and [MV017023], three called “Dhoonirehaa” [MV017009], [MV017038] and [MV017039], two called “Haveyyerataa” [MV017067] and [MV017068], and two called “Maarehaa” [MV017141] and [MV017142].\r\n\r\nWithin atoll “Laamu” [MV015] these are two called “Bodufinolhu” [MV015018] and [MV015019] and two called “Boduhuraa” [MV015020] and [MV015021].\r\n\r\nFinally, within atoll “Gaafu Alifu” [MV016] there are two called “Maadhigavara” [MV016083] and [MV016084].\r\n",
+    "start_datetime": "2024-10-10T00:00:00Z",
+    "end_datetime": "2024-10-22T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2024-10-22T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mdv_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mdv/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mdv/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mdv/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mdv/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mdv/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mdv/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/mdv/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/mdv_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mdv_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/mdv_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

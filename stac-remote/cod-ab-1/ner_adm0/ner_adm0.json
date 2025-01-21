@@ -1,0 +1,233 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "ner_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.6050739290000706,
+          11.696969986000056
+        ],
+        [
+          2.4053947930000277,
+          11.90161228200003
+        ],
+        [
+          0.9939356120000298,
+          13.103389271000026
+        ],
+        [
+          0.3987863060000336,
+          14.027870178000057
+        ],
+        [
+          0.17676919700005556,
+          14.492420197000058
+        ],
+        [
+          0.16799449900003083,
+          14.523349762000066
+        ],
+        [
+          0.16625049700002137,
+          14.533439636000026
+        ],
+        [
+          0.19088050700003123,
+          14.806710243000055
+        ],
+        [
+          0.22935126700002684,
+          14.989669800000058
+        ],
+        [
+          4.242887974000041,
+          19.136716843000045
+        ],
+        [
+          11.699870110000063,
+          23.36730957000003
+        ],
+        [
+          11.925707817000045,
+          23.495204926000042
+        ],
+        [
+          11.979550362000055,
+          23.525030136000055
+        ],
+        [
+          14.98552004100003,
+          23.003278691000048
+        ],
+        [
+          15.996980515000075,
+          20.330603435000057
+        ],
+        [
+          15.523347071000046,
+          16.697904873000027
+        ],
+        [
+          13.634550095000066,
+          13.710680008000054
+        ],
+        [
+          12.476724625000031,
+          13.062413216000039
+        ],
+        [
+          3.6050739290000706,
+          11.696969986000056
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    0.16625049700002137,
+    11.696969986000056,
+    15.996980515000075,
+    23.525030136000055
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "fr"
+    ],
+    "languages_admin_all": [
+      "fr"
+    ],
+    "iso3": "NER",
+    "iso2": "NE",
+    "name": "Niger",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/NER_pcode/FeatureServer",
+    "itos_update": "2024-01-03",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-ner",
+    "hdx_date": "2006-01-01",
+    "hdx_update": "2024-04-08",
+    "hdx_source_1": " IGNN",
+    "hdx_source_2": "OCHA Niger",
+    "hdx_license": "Other",
+    "hdx_caveats": "**Languages:** FR\r\n\r\nThe ITOS live services included in this dataset are for the previous versions of the administrative level 0, 1, and 2 boundary polygons.  These will be updated, and administrative level 3 added, as soon as possible.",
+    "start_datetime": "2023-06-21T00:00:00Z",
+    "end_datetime": "2023-07-25T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-07-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/ner_adm0/ner_adm0.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/ner_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ner/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ner/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ner/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ner/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ner/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ner/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/ner/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/ner_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/ner_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/ner_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

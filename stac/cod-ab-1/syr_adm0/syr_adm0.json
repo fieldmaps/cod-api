@@ -1,0 +1,258 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "syr_adm0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.83481025700007,
+          32.31644249000004
+        ],
+        [
+          36.70398140000003,
+          32.32682991000007
+        ],
+        [
+          36.50164985600003,
+          32.36038017300007
+        ],
+        [
+          36.40966224700003,
+          32.38220024100008
+        ],
+        [
+          35.644702352000024,
+          32.67781584200003
+        ],
+        [
+          35.63456694300004,
+          32.68636470100006
+        ],
+        [
+          35.61393928500007,
+          32.89521980300003
+        ],
+        [
+          35.62004280000008,
+          33.255220413000075
+        ],
+        [
+          35.620630264000056,
+          33.27008247400005
+        ],
+        [
+          35.72723579400008,
+          35.58429527200008
+        ],
+        [
+          35.80499839700008,
+          35.85355186500004
+        ],
+        [
+          36.67073249800006,
+          36.84272194000005
+        ],
+        [
+          36.675542832000076,
+          36.84560203500007
+        ],
+        [
+          42.22493934600004,
+          37.31913948000005
+        ],
+        [
+          42.22651687200005,
+          37.318753428000036
+        ],
+        [
+          42.23220252900006,
+          37.317361832000074
+        ],
+        [
+          42.29495048500007,
+          37.28093147300007
+        ],
+        [
+          42.349790573000064,
+          37.236471176000066
+        ],
+        [
+          42.355764785000076,
+          37.22946961100007
+        ],
+        [
+          42.357419968000045,
+          37.22752952600007
+        ],
+        [
+          42.385042191000025,
+          37.07412147500003
+        ],
+        [
+          42.384740830000055,
+          37.06718254100008
+        ],
+        [
+          41.23450279300005,
+          34.77724266100006
+        ],
+        [
+          41.03302955600003,
+          34.452112198000066
+        ],
+        [
+          41.012369156000034,
+          34.41987037700005
+        ],
+        [
+          36.83481025700007,
+          32.31644249000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    35.61393928500007,
+    32.31644249000004,
+    42.385042191000025,
+    37.31913948000005
+  ],
+  "properties": {
+    "admin_level": "0",
+    "languages_admin_self": [
+      "en",
+      "ar"
+    ],
+    "languages_admin_all": [
+      "en",
+      "ar"
+    ],
+    "iso3": "SYR",
+    "iso2": "SY",
+    "name": "Syrian Arab Republic",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/SYR_pcode/FeatureServer",
+    "itos_update": "2023-05-18",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 1.0,
+    "itos_index_1": 2.0,
+    "itos_index_2": 3.0,
+    "itos_index_3": 4.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-syr",
+    "hdx_date": "1960-01-01",
+    "hdx_update": "2024-09-26",
+    "hdx_source_1": "United Nations Cartographic Section (UNCS) and partners",
+    "hdx_source_2": "OCHA Syria",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "**Most Recent Changes: ** \r\n\r\n**11 July 2024**\r\nadded **257** New community.\r\nadded **3** Columns:\r\n**Admin 1 Capital**: Indicates whether the community is an Admin 1 capital (Yes/No).\r\n**Admin 3 Capital**: Indicates whether the community is an Admin 3 capital (Yes/No).\r\n**Hosting Individuals**: Contains a list of communities that host populations displaced from Quneitra in 1967. Although these populations reside in Dara, Damascus, and Rural Damascus governorates, many of them receive services from Quneitra Governorate. Therefore, it’s important for humanitarian partners to know which Governorate they need to coordinate with to reach these individuals.\r\n\r\n\r\n\r\n**24 January 2023 **\r\nadded **100** Communities.\r\n\r\nGlide: EQ-2023-000015-TUR\r\n\r\n12 January 2021\r\nITOS GeoServices, shapefiles, and geodatabase added.\r\nEMF files added.\r\nITOS gazetteer added.\r\n\r\n\r\n**18-August-2020** \r\nadded **327** Communities.\r\n\r\n**21-March-2019** \r\nadded **14** Communities.\r\n\r\n**19-Dec-2018** \r\nUse the Neighborhood as point loaded in the same layer/ Excel file called as a humanitarian Location\r\nadded **11** Communities.\r\n\r\n**01-July-2018** \r\nadded **1528** Communities and some localities moved to their accurate locations\r\n\r\n**31-Jan-2018-** added 91 populated places and areas, some localities moved to their accurate locations, essential change in the admin boundary in Tartous Governorate at Admin 2 and Admin 3\r\n\r\n\r\n**1-June-2017-** added 24 populated places and areas\r\n\r\n**22-Feb-2017-** added three populated places and fixed some typos in admin4 and neighborhoods\r\n\r\n**04-Oct-2016 - ** Added two populated places \r\n\r\n**20-Sept-2016 - ** Built-up polygonal layer  was created so that for each populated place there is a corresponding built-up poplygon; Added  populated places based on feedback from humanitarian partners ; Neighborhood layer now includes 11 main cities with new p-codes ; column names follow global standard;  reference names  are unique both in English and Arabic\r\n\r\n**12-Jan-2014 - **Shape file version posted. UTF-8 has been used to enable the correct display of Arabic characters.\r\n\r\n**19-May-2013** - New features added to Admin4 ; English Names edited to be consistent in all Admin levels; locations of few communities adjusted\r\n\r\n**07-Jan-2013** - Column with Capitals of Administrative Units (1 - 3) added to Populated Places (Admin 4). No changes.\r\n\r\n**19-Dec-2012** - Minor change: erroneous Admin 1 p-code for the populated place Arab Elmalik Jerkes (p-code = C3571) corrected (from SY010 to SY10).\r\n\r\n**12-Dec-2012 - **Added  neighborhoods , currently Damascus only.  Added \"C\" as leading character of pcodes at level 4 (populated places) to ensure uniqueness.  The digits remain the same from earlier versions. \r\n\r\n**24-Sep-2012 - **Consolidated spelling between all 4 levels for all admin levels.  Pcodes added. \r\n\r\n**24-Aug-2012** - Shapefile versions added.  Exported from the geodatabase version of 30-June-2011.\r\n\r\n**30-Jun-2012** - Topology cleaned, underscores removed from admin names.\r\n\r\n \r\n\r\n\r\n\r\n**Languages:** EN AR\r\n",
+    "start_datetime": "2017-06-01T00:00:00Z",
+    "end_datetime": "2020-12-17T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2020-12-17T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/syr_adm0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/syr/0?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/syr/0?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/syr/0?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/syr/0?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/syr/0?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/syr/0?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/syr/0?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/syr_adm0.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/syr_adm0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/syr_adm0.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

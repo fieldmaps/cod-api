@@ -1,0 +1,457 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "bfa_adm2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -2.7687279999999532,
+          9.415337000000022
+        ],
+        [
+          -4.3770679999999516,
+          9.591642000000036
+        ],
+        [
+          -4.377418999999975,
+          9.591698000000065
+        ],
+        [
+          -4.377777999999978,
+          9.591770000000054
+        ],
+        [
+          -4.378231999999969,
+          9.591867000000036
+        ],
+        [
+          -4.687888999999927,
+          9.67755900000003
+        ],
+        [
+          -4.689018999999973,
+          9.677886000000058
+        ],
+        [
+          -4.690326999999968,
+          9.678421000000071
+        ],
+        [
+          -4.7757049999999595,
+          9.737424000000033
+        ],
+        [
+          -4.776008999999931,
+          9.737652000000026
+        ],
+        [
+          -4.777931999999964,
+          9.739099000000067
+        ],
+        [
+          -4.966600999999969,
+          9.891815000000065
+        ],
+        [
+          -5.437338999999952,
+          10.321743000000026
+        ],
+        [
+          -5.461219999999969,
+          10.346486000000027
+        ],
+        [
+          -5.462048999999979,
+          10.347591000000023
+        ],
+        [
+          -5.48300699999993,
+          10.37799300000006
+        ],
+        [
+          -5.50904799999995,
+          10.423088000000064
+        ],
+        [
+          -5.511224999999968,
+          10.430481000000043
+        ],
+        [
+          -5.511254999999949,
+          10.430723000000057
+        ],
+        [
+          -5.488962999999956,
+          11.081262000000038
+        ],
+        [
+          -5.402809999999931,
+          11.826547000000062
+        ],
+        [
+          -5.401555999999971,
+          11.828847000000053
+        ],
+        [
+          -4.34019399999994,
+          13.141460000000052
+        ],
+        [
+          -4.2593369999999595,
+          13.233952000000045
+        ],
+        [
+          -4.09398299999998,
+          13.393745000000024
+        ],
+        [
+          -4.093630999999959,
+          13.39408000000003
+        ],
+        [
+          -4.093274999999949,
+          13.394409000000053
+        ],
+        [
+          -4.092913999999951,
+          13.39473300000003
+        ],
+        [
+          -4.092547999999965,
+          13.395052000000021
+        ],
+        [
+          -3.9708949999999277,
+          13.499384000000077
+        ],
+        [
+          -3.9658269999999334,
+          13.503540000000044
+        ],
+        [
+          -3.964753999999971,
+          13.504419000000041
+        ],
+        [
+          -2.4741259999999556,
+          14.298003000000051
+        ],
+        [
+          -0.7252269999999612,
+          15.082806000000062
+        ],
+        [
+          -0.7167549999999778,
+          15.082896000000062
+        ],
+        [
+          -0.6322069999999371,
+          15.083105000000046
+        ],
+        [
+          -0.44369399999993675,
+          15.082787000000053
+        ],
+        [
+          -0.2462139999999522,
+          15.077772000000039
+        ],
+        [
+          -0.20230399999996962,
+          15.063024000000041
+        ],
+        [
+          -0.15839499999992768,
+          15.048269000000062
+        ],
+        [
+          -0.1144929999999249,
+          15.033505000000048
+        ],
+        [
+          -0.07059899999995878,
+          15.01873500000005
+        ],
+        [
+          -0.026711999999974978,
+          15.003958000000068
+        ],
+        [
+          -0.0012629999999376196,
+          14.99538300000006
+        ],
+        [
+          0.017168000000026495,
+          14.989172000000053
+        ],
+        [
+          0.025943000000040684,
+          14.986214000000075
+        ],
+        [
+          0.03471800000005487,
+          14.98325600000004
+        ],
+        [
+          0.06104100000004564,
+          14.97438100000005
+        ],
+        [
+          0.08617600000002312,
+          14.965900000000033
+        ],
+        [
+          0.10490400000003319,
+          14.959580000000074
+        ],
+        [
+          0.1487610000000359,
+          14.944774000000052
+        ],
+        [
+          0.16791000000006306,
+          14.93830500000007
+        ],
+        [
+          0.17879900000002635,
+          14.934626000000037
+        ],
+        [
+          0.19261100000005626,
+          14.929959000000053
+        ],
+        [
+          0.1940550000000485,
+          14.929471000000035
+        ],
+        [
+          0.19807800000006637,
+          14.928111000000058
+        ],
+        [
+          0.22689300000007506,
+          14.918369000000041
+        ],
+        [
+          0.24342900000004875,
+          14.91277800000006
+        ],
+        [
+          2.1620000000000346,
+          12.68597200000005
+        ],
+        [
+          2.227108000000044,
+          12.585558000000049
+        ],
+        [
+          2.2742220000000657,
+          12.464639000000034
+        ],
+        [
+          2.407427000000041,
+          11.898873000000037
+        ],
+        [
+          2.4041330000000585,
+          11.874814000000072
+        ],
+        [
+          2.404091000000051,
+          11.874629000000027
+        ],
+        [
+          2.375808000000063,
+          11.791438000000028
+        ],
+        [
+          2.3755370000000653,
+          11.79093800000004
+        ],
+        [
+          2.3118860000000723,
+          11.681003000000032
+        ],
+        [
+          2.303487000000075,
+          11.672612000000072
+        ],
+        [
+          2.023605000000032,
+          11.432648000000029
+        ],
+        [
+          2.0204070000000343,
+          11.430535000000077
+        ],
+        [
+          2.000000000000057,
+          11.418360000000064
+        ],
+        [
+          0.9356410000000324,
+          10.897822000000076
+        ],
+        [
+          -2.761255999999946,
+          9.415956000000051
+        ],
+        [
+          -2.7634609999999498,
+          9.415773000000058
+        ],
+        [
+          -2.7687279999999532,
+          9.415337000000022
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -5.511254999999949,
+    9.415337000000022,
+    2.407427000000041,
+    15.083105000000046
+  ],
+  "properties": {
+    "admin_level": "2",
+    "languages_admin_self": [
+      "fr"
+    ],
+    "languages_admin_all": [
+      "fr"
+    ],
+    "iso3": "BFA",
+    "iso2": "BF",
+    "name": "Burkina Faso",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/BFA_pcode/FeatureServer",
+    "itos_update": "2023-05-17",
+    "itos_service": "COD_External",
+    "itos_level": 3.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": 2.0,
+    "itos_index_3": 3.0,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-bfa",
+    "hdx_date": "2012-02-02",
+    "hdx_update": "2023-04-04",
+    "hdx_source_1": "Institut Géographique du Burkina",
+    "hdx_source_2": "OCHA Burkina Faso",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "The significant characters of administrative level 2 feature Kadiogo [BF1300], which includes Ouagadougou, are ‘00’.",
+    "start_datetime": "2020-03-18T00:00:00Z",
+    "end_datetime": "2020-03-23T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2020-03-23T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://cod-data.fieldmaps.io/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://cod-data.fieldmaps.io/stac/cod-ab-1/bfa_adm2/bfa_adm2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bfa_adm2.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bfa/2?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bfa/2?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bfa/2?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bfa/2?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bfa/2?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bfa/2?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/bfa/2?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/bfa_adm2.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bfa_adm2.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/bfa_adm2.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}

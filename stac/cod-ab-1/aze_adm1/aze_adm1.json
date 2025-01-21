@@ -1,0 +1,274 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "aze_adm1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          48.66819000300006,
+          38.39704513600003
+        ],
+        [
+          48.65358352700008,
+          38.39767456100003
+        ],
+        [
+          48.647422791000054,
+          38.398372650000056
+        ],
+        [
+          46.00000000000006,
+          38.82019424400005
+        ],
+        [
+          45.53657913200004,
+          38.958648682000046
+        ],
+        [
+          45.46604156500007,
+          38.98144149800004
+        ],
+        [
+          45.45996093800005,
+          38.98383712800006
+        ],
+        [
+          45.45326233000003,
+          38.986476898000035
+        ],
+        [
+          45.44402313300003,
+          38.99178314200003
+        ],
+        [
+          45.16512298600003,
+          39.207427979000045
+        ],
+        [
+          44.97120666500007,
+          39.427558899000076
+        ],
+        [
+          44.82022094800004,
+          39.62520980800008
+        ],
+        [
+          44.77411651700004,
+          39.70476913500005
+        ],
+        [
+          44.77260208200005,
+          39.71364975000006
+        ],
+        [
+          45.004089355000076,
+          41.301513672000056
+        ],
+        [
+          45.17218017600004,
+          41.40502548200004
+        ],
+        [
+          45.260578156000065,
+          41.45903778100006
+        ],
+        [
+          46.41800308300003,
+          41.90562439000007
+        ],
+        [
+          48.53380966200007,
+          41.88502502400007
+        ],
+        [
+          48.54887771600005,
+          41.87549209600007
+        ],
+        [
+          48.66060257000004,
+          41.79349899300007
+        ],
+        [
+          50.586120605000076,
+          40.34747314500004
+        ],
+        [
+          50.60668945300006,
+          40.33007812500006
+        ],
+        [
+          50.60791015600006,
+          40.31671142600004
+        ],
+        [
+          50.605529785000044,
+          40.31188964800003
+        ],
+        [
+          48.87938690200008,
+          38.43700027500006
+        ],
+        [
+          48.73265457200006,
+          38.40669250500008
+        ],
+        [
+          48.685920716000055,
+          38.39789962800006
+        ],
+        [
+          48.67809295700005,
+          38.39716720600006
+        ],
+        [
+          48.66819000300006,
+          38.39704513600003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    44.77260208200005,
+    38.39704513600003,
+    50.60791015600006,
+    41.90562439000007
+  ],
+  "properties": {
+    "admin_level": "1",
+    "languages_admin_self": [
+      "en",
+      "az"
+    ],
+    "languages_admin_all": [
+      "en",
+      "az"
+    ],
+    "iso3": "AZE",
+    "iso2": "AZ",
+    "name": "Azerbaijan",
+    "itos_url": "https://codgis.itos.uga.edu/arcgis/rest/services/COD_External/AZE_pcode/FeatureServer",
+    "itos_update": "2023-10-18",
+    "itos_service": "COD_External",
+    "itos_level": 1.0,
+    "itos_index_0": 0.0,
+    "itos_index_1": 1.0,
+    "itos_index_2": null,
+    "itos_index_3": null,
+    "itos_index_4": null,
+    "itos_index_5": null,
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-aze",
+    "hdx_date": "2020-11-24",
+    "hdx_update": "2023-10-17",
+    "hdx_source_1": "www.gadm.org and Open Street Map",
+    "hdx_source_2": "OCHA Field Information Services Section (FISS)",
+    "hdx_license": "Creative Commons Attribution for Intergovernmental Organisations",
+    "hdx_caveats": "Although general topology and feature attributes etc. are valid the www.gadm.org source data is of particularly poor quality that does not withstand close comparison to features in other sources.  ",
+    "start_datetime": "2020-11-24T00:00:00Z",
+    "end_datetime": "2023-10-17T00:00:00Z",
+    "proj:epsg": 4326,
+    "datetime": "2023-10-17T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "parquet": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/aze_adm1.parquet",
+      "type": "application/vnd.apache.parquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "geojson": {
+      "href": "https://cod-api.fieldmaps.io/features/1/aze/1?f=geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg": {
+      "href": "https://cod-api.fieldmaps.io/features/1/aze/1?f=gpkg",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "gpkg.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/aze/1?f=gpkg.zip",
+      "type": "application/geopackage+sqlite3",
+      "roles": [
+        "data"
+      ]
+    },
+    "kml": {
+      "href": "https://cod-api.fieldmaps.io/features/1/aze/1?f=kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "roles": [
+        "data"
+      ]
+    },
+    "fgb": {
+      "href": "https://cod-api.fieldmaps.io/features/1/aze/1?f=fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    },
+    "shp.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/aze/1?f=shp.zip",
+      "type": "application/x-shapefile",
+      "roles": [
+        "data"
+      ]
+    },
+    "gdb.zip": {
+      "href": "https://cod-api.fieldmaps.io/features/1/aze/1?f=gdb.zip",
+      "type": "application/x-filegdb",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilejson": {
+      "href": "https://cod-tiles.fieldmaps.io/assets/level-1/aze_adm1.json",
+      "type": "application/json",
+      "roles": [
+        "data"
+      ]
+    },
+    "pmtiles": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/aze_adm1.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "roles": [
+        "data"
+      ]
+    },
+    "webp": {
+      "href": "https://cod-data.fieldmaps.io/assets/level-1/aze_adm1.webp",
+      "type": "image/webp",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    }
+  },
+  "collection": "cod-ab-1"
+}
