@@ -1,116 +1,153 @@
 from asyncio import create_subprocess_exec
 from os import getenv
 from pathlib import Path
-from shutil import make_archive
 from tempfile import TemporaryDirectory
-from typing import Annotated
+from uuid import uuid4
 
-from fastapi import APIRouter, HTTPException, Query, status
+# from typing import Annotated
+# from fastapi import APIRouter, HTTPException, Query, status
+from fastapi import APIRouter, HTTPException, status
 from fastapi.responses import RedirectResponse
 from httpx import AsyncClient, codes
 
 S3_ASSETS_URL = getenv("S3_ASSETS_URL", "")
 S3_CACHE_URL = getenv("S3_CACHE_URL", "")
+S3_ASSETS_BUCKET = getenv("S3_ASSETS_BUCKET", "")
 S3_CACHE_BUCKET = getenv("S3_CACHE_BUCKET", "")
 S3_CHUNK_SIZE = getenv("S3_CHUNK_SIZE", "")
 
 router = APIRouter()
 
 
-def get_options(output_format: str) -> list[str]:
+def get_recommended_options(local_format: str) -> list[str]:
     """Get recommended options for output formats.
 
     Args:
-        output_format: suffix of the output file
+        local_format: suffix of the output file
 
     Returns:
         List of layer creation options for each file type
     """
-    match output_format:
+    match local_format:
         case "shp.zip":
             return ["-lco", "ENCODING=UTF-8"]
         case _:
             return []
 
 
-def get_format(output_format: str) -> str:
+def get_local_format(local_format: str) -> str:
+    """Remove .zip from formats outputing to directory and add .zip to shapefiles.
+
+    Args:
+        local_format: suffix of the input file
+
+    Returns:
+        Cleaned suffix
+    """
+    if local_format == "gdb.zip":
+        return local_format.rstrip(".zip")
+    if local_format == "shp":
+        return f"{local_format}.zip"
+    return local_format
+
+
+def get_remote_format(remote_format: str) -> str:
     """Add .zip to formats outputing to directory.
 
     Args:
-        output_format: suffix of the output file
+        remote_format: suffix of the output file
 
     Returns:
-        List of layer creation options for each file type
+        Cleaned suffix
     """
-    if output_format in ["shp", "gdb"]:
-        return f"{output_format}.zip"
-    return output_format
+    if remote_format in ["shp", "gdb"]:
+        return f"{remote_format}.zip"
+    return remote_format
 
 
 @router.get(
-    "/{processing_level}/{iso3}/{admin_level}/features",
+    "/features/{processing_level}/{iso3}/{admin_level}",
     description="Get vector in any GDAL/OGR supported format",
     tags=["vectors"],
     response_class=RedirectResponse,
     status_code=status.HTTP_308_PERMANENT_REDIRECT,
 )
-async def features(  # noqa: PLR0913
+async def features(
     processing_level: int,
     iso3: str,
     admin_level: int,
     f: str = "geojson",
-    simplify: str | None = None,
-    lco: Annotated[list[str] | None, Query()] = None,
+    # simplify: str | None = None,
+    # lco: Annotated[list[str] | None, Query()] = None,
 ) -> str:
     """Convert features to other file format.
 
     Returns:
         Converted File.
     """
-    f = f.lower()
+    f = f.lower().lstrip(".")
     layer = f"{iso3}_adm{admin_level}".lower()
-    asset_url = f"{S3_ASSETS_URL}/level-{processing_level}/{layer}.parquet"
+    assets_url = f"{S3_ASSETS_URL}/level-{processing_level}/{layer}.parquet"
+    assets_bucket = f"{S3_ASSETS_BUCKET}/level-{processing_level}/{layer}.parquet"
     if f == "parquet":
-        return asset_url
-    cache_url = f"{S3_CACHE_URL}/level-{processing_level}/{layer}.{get_format(f)}"
-    cache_bucket = f"{S3_CACHE_BUCKET}/level-{processing_level}/{layer}.{get_format(f)}"
+        return assets_url
+    local_format = get_local_format(f)
+    remote_format = get_remote_format(f)
+    cache_url = f"{S3_CACHE_URL}/level-{processing_level}/{layer}.{remote_format}"
+    cache_bucket = f"{S3_CACHE_BUCKET}/level-{processing_level}/{layer}.{remote_format}"
     async with AsyncClient() as client:
-        response = await client.head(cache_url)
+        response = await client.head(cache_url + f"?v={uuid4()}")
     if response.status_code == codes.OK:
         return cache_url
-    of = f if f != "shp" else "shp.zip"
-    options = get_options(of)
-    lco_options = [("-lco", x) for x in lco] if lco is not None else []
-    simplify_options = ["-simplify", simplify] if simplify is not None else []
+    recommended_options = get_recommended_options(local_format)
+    # lco_options = [("-lco", x) for x in lco] if lco is not None else []
+    # simplify_options = ["-simplify", simplify] if simplify is not None else []
     with TemporaryDirectory() as tmp:
-        output = Path(tmp) / f"{layer}.{of}"
+        input_path = Path(tmp) / f"{layer}.parquet"
+        output_path = Path(tmp) / f"{layer}.{local_format}"
+        rclone_download = await create_subprocess_exec(
+            "rclone",
+            "copyto",
+            *["--s3-chunk-size", S3_CHUNK_SIZE],
+            assets_bucket,
+            input_path,
+        )
+        await rclone_download.wait()
         ogr2ogr = await create_subprocess_exec(
             "ogr2ogr",
             "-overwrite",
             *["--config", "GDAL_NUM_THREADS", "ALL_CPUS"],
             *["--config", "OGR_GEOJSON_MAX_OBJ_SIZE", "0"],
+            *["--config", "OGR_ORGANIZE_POLYGONS", "ONLY_CCW"],
             *["-nln", layer],
-            *simplify_options,
-            *[x for y in lco_options for x in y],
-            *options,
-            output,
-            asset_url,
+            # *simplify_options,
+            # *[x for y in lco_options for x in y],
+            *recommended_options,
+            output_path,
+            assets_url,
         )
         await ogr2ogr.wait()
-        if output.stat().st_size == 0:
+        if output_path.stat().st_size == 0:
             raise HTTPException(
                 status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
                 detail="Unprocessable Content",
             )
-        if output.is_dir():
-            make_archive(str(output), "zip", output)
-            output = output.with_suffix(f".{f}.zip")
-        rclone = await create_subprocess_exec(
+        if output_path.is_dir():
+            output_zip = output_path.with_suffix(f".{f}.zip")
+            sozip = await create_subprocess_exec(
+                "sozip",
+                "-r",
+                output_zip,
+                output_path,
+            )
+            await sozip.wait()
+            output_path = output_zip
+        rclone_upload = await create_subprocess_exec(
             "rclone",
             "copyto",
             *["--s3-chunk-size", S3_CHUNK_SIZE],
-            output,
+            output_path,
             cache_bucket,
         )
-        await rclone.wait()
-    return cache_url
+        await rclone_upload.wait()
+    return cache_url + f"?v={uuid4()}"

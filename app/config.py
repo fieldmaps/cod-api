@@ -6,6 +6,7 @@ from pandas import read_csv
 cwd = Path(__file__).parent
 inputs = cwd / "../inputs"
 outputs = cwd / "../outputs"
+stac = cwd / "../stac"
 
 ADMIN_LEVEL_MAX = 5
 WGS84 = 4326

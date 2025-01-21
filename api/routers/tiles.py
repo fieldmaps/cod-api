@@ -7,7 +7,7 @@ router = APIRouter()
 
 
 @router.get(
-    "/{processing_level}/{iso3}/{admin_level}/tiles",
+    "/tiles/{processing_level}/{iso3}/{admin_level}",
     description="Tiles",
     tags=["vectors"],
 )
