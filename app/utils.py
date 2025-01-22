@@ -95,7 +95,7 @@ def get_adm0_name(iso3: str, lang: str):
     return False
 
 
-def get_metadata() -> dict:
+def get_metadata() -> list[dict]:
     """Load the metadata table and create a list with every COD admin layer to download.
 
     For example, returns entries for AFG_ADM0, AFG_ADM1, AFG_ADM2, AGO_ADM0, etc.
@@ -105,8 +105,4 @@ def get_metadata() -> dict:
         admin level, URL and layer index of the COD on the ArcGIS server.
     """
     metadata = read_csv(inputs / "metadata.csv")
-    records = metadata.to_dict("records")
-    result = {}
-    for record in records:
-        result[record["iso3"]] = record
-    return result
+    return metadata.to_dict("records")

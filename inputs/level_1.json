@@ -219,6 +219,15 @@
       }
     }
   },
+  "MDG": {
+    "rename": {
+      "ADM0_EN": "ADM0_FR",
+      "ADM1_EN": "ADM1_FR",
+      "ADM2_EN": "ADM2_FR",
+      "ADM3_EN": "ADM3_FR",
+      "ADM4_EN": "ADM4_FR"
+    }
+  },
   "MHL": {
     "date": "2018-07-18",
     "update": "2024-11-19"
@@ -255,6 +264,12 @@
   },
   "MNG": {
     "title": ["ADM0_MN"]
+  },
+  "MOZ": {
+    "drop": ["ADM0_EN"],
+    "duplicate": {
+      "ADM0_EN": "ADM0_PT"
+    }
   },
   "MRT": {
     "rename": {
