@@ -3,38 +3,20 @@ name = "cod-api"
 version = "0.1.0"
 description = "API for COD-AB"
 readme = "README.md"
-requires-python = "==3.13.*"
-dependencies = [
-    "fastapi[standard]",
-    "geopandas",
-    "kaleido==0.2.1",
-    "plotly",
-    "pyarrow",
-    "pycountry",
-    "pystac",
-    "stac-fastapi-api",
-    "stac-fastapi-extensions",
-    "stac-fastapi-pgstac",
-    "stac-fastapi-types",
-    "stactools[validate]",
-    "tqdm",
-]
+requires-python = ">=3.13"
+dependencies = ["fastapi", "fastapi-cli", "httpx"]
 
 [dependency-groups]
 dev = ["ruff", "taskipy"]
 
 [tool.taskipy.tasks]
-api = "fastapi dev api"
-export = "uv export -o requirements.txt --no-hashes"
-pipeline = "python -m app"
+api = "fastapi dev app"
+export = "uv sync -q && uv export -q -o requirements.txt --no-dev --no-hashes"
 ruff = "ruff format && ruff check && ruff format"
-make_stac = "stac copy --catalog-type ABSOLUTE_PUBLISHED --publish-location ${CATALOG_URL} stac/catalog.json stac-remote"
-upload_assets = 'rclone sync --exclude=".*" --progress --s3-no-check-bucket --s3-chunk-size=100M --transfers=10 outputs r2://fieldmaps-data-cod/assets'
-upload_stac = 'rclone sync --exclude=".*" --progress --s3-no-check-bucket --s3-chunk-size=100M --transfers=10 stac-remote r2://fieldmaps-data-cod/stac'
 
 [tool.ruff]
 fix = true
-target-version = "py312"
+target-version = "py313"
 
 [tool.ruff.format]
 docstring-code-format = true

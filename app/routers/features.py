@@ -20,14 +20,7 @@ router = APIRouter()
 
 
 def get_recommended_options(local_format: str) -> list[str]:
-    """Get recommended options for output formats.
-
-    Args:
-        local_format: suffix of the output file
-
-    Returns:
-        List of layer creation options for each file type
-    """
+    """Get recommended options for output formats."""
     match local_format:
         case "shp.zip":
             return ["-lco", "ENCODING=UTF-8"]
@@ -36,14 +29,7 @@ def get_recommended_options(local_format: str) -> list[str]:
 
 
 def get_local_format(local_format: str) -> str:
-    """Remove .zip from formats outputing to directory and add .zip to shapefiles.
-
-    Args:
-        local_format: suffix of the input file
-
-    Returns:
-        Cleaned suffix
-    """
+    """Remove .zip from formats outputing to directory and add .zip to shapefiles."""
     if local_format == "gdb.zip":
         return local_format.rstrip(".zip")
     if local_format == "shp":
@@ -52,14 +38,7 @@ def get_local_format(local_format: str) -> str:
 
 
 def get_remote_format(remote_format: str) -> str:
-    """Add .zip to formats outputing to directory.
-
-    Args:
-        remote_format: suffix of the output file
-
-    Returns:
-        Cleaned suffix
-    """
+    """Add .zip to formats outputing to directory."""
     if remote_format in ["shp", "gdb"]:
         return f"{remote_format}.zip"
     return remote_format
@@ -73,7 +52,7 @@ def get_remote_format(remote_format: str) -> str:
     status_code=status.HTTP_308_PERMANENT_REDIRECT,
 )
 async def features(
-    processing_level: int,
+    processing_level: str,
     iso3: str,
     admin_level: int,
     f: str = "geojson",
@@ -86,6 +65,7 @@ async def features(
         Converted File.
     """
     f = f.lower().lstrip(".")
+    processing_level = processing_level.lower()
     layer = f"{iso3}_adm{admin_level}".lower()
     assets_url = f"{S3_ASSETS_URL}/level-{processing_level}/{layer}.parquet"
     assets_bucket = f"{S3_ASSETS_BUCKET}/level-{processing_level}/{layer}.parquet"

@@ -14,12 +14,13 @@ router = APIRouter()
     description="Tiles",
     tags=["vectors"],
 )
-async def tiles(processing_level: int, iso3: str, admin_level: int) -> RedirectResponse:
+async def tiles(processing_level: str, iso3: str, admin_level: int) -> RedirectResponse:
     """Convert features to other file format.
 
     Returns:
         Converted File.
     """
+    processing_level = processing_level.lower()
     layer = f"{iso3}_adm{admin_level}".lower()
     asset_url = f"{TILES_URL}/level-{processing_level}/{layer}.json"
     return RedirectResponse(asset_url)
