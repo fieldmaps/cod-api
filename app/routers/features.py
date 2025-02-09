@@ -1,8 +1,6 @@
 from os import getenv
 from uuid import uuid4
 
-# from typing import Annotated
-# from fastapi import APIRouter, HTTPException, Query, status
 from fastapi import APIRouter, HTTPException, status
 from fastapi.responses import RedirectResponse
 from httpx import AsyncClient, codes
@@ -33,14 +31,8 @@ async def features(
     iso3: str,
     admin_level: int,
     f: str = "geojson",
-    # simplify: str | None = None,
-    # lco: Annotated[list[str] | None, Query()] = None,
 ) -> str:
-    """Convert features to other file format.
-
-    Returns:
-        Converted File.
-    """
+    """Convert features to other file format."""
     f = f.lower().lstrip(".")
     processing_level = processing_level.lower()
     layer = f"{iso3}_adm{admin_level}".lower()
@@ -53,8 +45,6 @@ async def features(
         r1 = await client.head(cache_url + f"?v={uuid4()}")
     if r1.status_code == codes.OK:
         return cache_url
-    # lco_options = [("-lco", x) for x in lco] if lco is not None else []
-    # simplify_options = ["-simplify", simplify] if simplify is not None else []
     async with AsyncClient() as client:
         r2 = await client.get(
             f"{GDAL_URL}/ogr2ogr/{processing_level}/{iso3}/{admin_level}?f={f}",
