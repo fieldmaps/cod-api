@@ -1,4 +1,5 @@
 from os import getenv
+from uuid import uuid4
 
 # from typing import Annotated
 # from fastapi import APIRouter, HTTPException, Query, status
@@ -49,7 +50,7 @@ async def features(
     remote_format = get_remote_format(f)
     cache_url = f"{S3_CACHE_URL}/level-{processing_level}/{layer}.{remote_format}"
     async with AsyncClient() as client:
-        r1 = await client.head(cache_url)
+        r1 = await client.head(cache_url + f"?v={uuid4()}")
     if r1.status_code == codes.OK:
         return cache_url
     # lco_options = [("-lco", x) for x in lco] if lco is not None else []
