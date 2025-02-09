@@ -48,6 +48,7 @@ async def features(
     async with AsyncClient() as client:
         r2 = await client.get(
             f"{GDAL_URL}/ogr2ogr/{processing_level}/{iso3}/{admin_level}?f={f}",
+            timeout=300,
         )
     if r2.status_code == codes.OK:
         return cache_url
