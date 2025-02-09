@@ -10,7 +10,7 @@ dependencies = ["fastapi", "fastapi-cli", "httpx"]
 dev = ["ruff", "taskipy"]
 
 [tool.taskipy.tasks]
-api = "fastapi dev app"
+app = "fastapi dev app"
 export = "uv sync -q && uv export -q -o requirements.txt --no-dev --no-hashes"
 ruff = "ruff format && ruff check && ruff format"
 
